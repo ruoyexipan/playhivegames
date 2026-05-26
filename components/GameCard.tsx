@@ -11,20 +11,23 @@ interface Game {
 
 interface GameCardProps {
   game: Game
+  featured?: boolean
 }
 
-export default function GameCard({ game }: GameCardProps) {
+export default function GameCard({ game, featured = false }: GameCardProps) {
   // Generate consistent rating based on game id
   const rating = ((game.id * 7 + 3) % 20 + 70)
   const stars = Math.floor(rating / 20)
+  const categoryName = game.category[0]?.replace('-', ' ') || 'game'
   
   return (
-    <Link href={`/game?slug=${game.slug}`} className="block group">
+    <Link href={`/game?slug=${game.slug}`} className={`block group ${featured ? 'col-span-2 row-span-2' : ''}`}>
       <div className="relative overflow-hidden rounded-lg bg-slate-800">
-        <div className="aspect-[4/3]">
+        <div className={`${featured ? 'aspect-square' : 'aspect-[4/3]'}`}>
           <img
             src={game.thumbnail}
-            alt={game.title}
+            alt={`${game.title} - Free online ${categoryName} game | PlayHive Games`}
+            title={`Play ${game.title} online for free`}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
             onError={(e) => {
