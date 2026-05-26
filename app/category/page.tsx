@@ -1,14 +1,12 @@
 'use client'
 
 import { useState } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import GameCard from '@/components/GameCard'
 import gamesData from '@/data/games.json'
-
-export const runtime = 'edge'
 
 const categoryNames: Record<string, string> = {
   '3d': '3D Games',
@@ -35,53 +33,34 @@ const categoryNames: Record<string, string> = {
   'stunt': 'Stunt Games',
 }
 
-interface CategoryPageProps {
-  params: {
-    slug: string
-  }
-}
+export default function CategoryPage() {
+  const searchParams = useSearchParams()
+  const slug = searchParams.get('slug') || ''
+  const [visibleCount, setVisibleCount] = useState(24)
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const { slug } = params
-  const [visibleCount, setVisibleCount] = useState(18)
-
-  if (!categoryNames[slug]) {
-    notFound()
-  }
-
-  const filteredGames = gamesData.games.filter((game) =>
-    game.category.includes(slug)
-  )
-
-  const loadMore = () => {
-    setVisibleCount((prev) => Math.min(prev + 12, filteredGames.length))
-  }
+  const categoryName = categoryNames[slug] || slug
+  const filteredGames = gamesData.games.filter((game) => game.category.includes(slug))
 
   return (
-    <main className="min-h-screen bg-slate-900">
+    <main className="min-h-screen">
       <Navbar />
-
       <div className="max-w-7xl mx-auto px-4 py-6">
-        {/* Category Header */}
-        <h1 className="text-xl font-bold mb-6">
-          {categoryNames[slug]}
-        </h1>
-
-        {/* Games Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+        <h1 className="text-xl font-bold mb-6 capitalize">{categoryName}</h1>
+        <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
           {filteredGames.slice(0, visibleCount).map((game) => (
             <GameCard key={game.id} game={game} />
           ))}
         </div>
-
         {visibleCount < filteredGames.length && (
-          <div className="flex justify-center mt-8">
-            <button onClick={loadMore} className="px-6 py-2 bg-indigo-600 rounded-full hover:bg-indigo-500 transition-colors">
+          <div className="flex justify-center mt-6">
+            <button
+              onClick={() => setVisibleCount(prev => Math.min(prev + 24, filteredGames.length))}
+              className="px-6 py-2 bg-indigo-600 rounded-full hover:bg-indigo-500 transition-colors text-sm"
+            >
               Load more games
             </button>
           </div>
         )}
-
         {filteredGames.length === 0 && (
           <div className="text-center py-12 text-slate-400">
             <p className="text-4xl mb-4">🎮</p>
@@ -89,7 +68,6 @@ export default function CategoryPage({ params }: CategoryPageProps) {
           </div>
         )}
       </div>
-
       <Footer />
     </main>
   )

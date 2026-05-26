@@ -20,7 +20,7 @@ export default function GameCard({ game, featured = false }: GameCardProps) {
   const stars = Math.floor(rating / 20)
   
   return (
-    <Link href={`/game/${game.slug}`} className={`block group ${featured ? 'col-span-2 row-span-2' : ''}`}>
+    <Link href={`/game?slug=${game.slug}`} className={`block group ${featured ? 'col-span-2 row-span-2' : ''}`}>
       <div className="relative overflow-hidden rounded-lg bg-slate-800">
         <div className={`${featured ? 'aspect-square' : 'aspect-[4/3]'}`}>
           <img
