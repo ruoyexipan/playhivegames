@@ -8,6 +8,8 @@ import Footer from '@/components/Footer'
 import GameCard from '@/components/GameCard'
 import gamesData from '@/data/games.json'
 
+export const runtime = 'edge'
+
 const categoryNames: Record<string, string> = {
   '3d': '3D Games',
   'action': 'Action Games',

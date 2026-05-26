@@ -7,6 +7,8 @@ import Footer from '@/components/Footer'
 import GameCard from '@/components/GameCard'
 import gamesData from '@/data/games.json'
 
+export const runtime = 'edge'
+
 interface GamePageProps {
   params: {
     slug: string
