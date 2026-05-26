@@ -11,18 +11,17 @@ interface Game {
 
 interface GameCardProps {
   game: Game
-  featured?: boolean
 }
 
-export default function GameCard({ game, featured = false }: GameCardProps) {
+export default function GameCard({ game }: GameCardProps) {
   // Generate consistent rating based on game id
   const rating = ((game.id * 7 + 3) % 20 + 70)
   const stars = Math.floor(rating / 20)
   
   return (
-    <Link href={`/game?slug=${game.slug}`} className={`block group ${featured ? 'col-span-2 row-span-2' : ''}`}>
+    <Link href={`/game?slug=${game.slug}`} className="block group">
       <div className="relative overflow-hidden rounded-lg bg-slate-800">
-        <div className={`${featured ? 'aspect-square' : 'aspect-[4/3]'}`}>
+        <div className="aspect-[4/3]">
           <img
             src={game.thumbnail}
             alt={game.title}

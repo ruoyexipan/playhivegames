@@ -21,16 +21,6 @@ export default function Home() {
   const popularGames = games.filter((g) => g.popular)
   const recommendedGames = games.filter((g) => !g.new && !g.popular)
 
-  // playhive.com NEW GAMES pattern + specific game adjustments
-  const isFeatured = (index: number, gameTitle: string) => {
-    // Draw Bridge: Brain Game 3D - large card
-    if (gameTitle.includes('Draw Bridge: Brain Game 3D')) return true
-    // CrowdGate - small card (explicitly exclude)
-    if (gameTitle.includes('CrowdGate')) return false
-    // Default pattern
-    return index === 0 || index === 9 || index === 17 || index === 26
-  }
-
   return (
     <main className="min-h-screen">
       <Navbar />
@@ -42,13 +32,9 @@ export default function Home() {
             <span>🔥</span>
             <span>Play Trending Games</span>
           </h2>
-          <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2 auto-rows-auto">
-            {trendingGames.slice(0, visibleTrending).map((game, index) => (
-              <GameCard 
-                key={game.id} 
-                game={game} 
-                featured={isFeatured(index, game.title)}
-              />
+          <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
+            {trendingGames.slice(0, visibleTrending).map((game) => (
+              <GameCard key={game.id} game={game} />
             ))}
           </div>
           {visibleTrending < trendingGames.length && (
