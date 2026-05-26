@@ -275,7 +275,7 @@
     {
       "id": 11,
       "title": "MR RACER - Car Racing",
-      "slug": "mr-racer---car-racing",
+      "slug": "mr-racer-car-racing",
       "category": [
         "racing"
       ],
@@ -339,7 +339,7 @@
     {
       "id": 15,
       "title": "Obby: +1 Jump per Click",
-      "slug": "obby-+1-jump-per-click",
+      "slug": "obby-1-jump-per-click",
       "category": [
         "3d,action,adventure,arcade"
       ],
@@ -371,7 +371,7 @@
     {
       "id": 17,
       "title": "Nuts & Bolts Game: Wood Puzzle",
-      "slug": "nuts-&-bolts-game-wood-puzzle",
+      "slug": "nuts-and-bolts-game-wood-puzzle",
       "category": [
         "3d,adventure,arcade,puzzle"
       ],
@@ -499,7 +499,7 @@
     {
       "id": 25,
       "title": "The Mystery of Jewels: Adventure - Match 3",
-      "slug": "the-mystery-of-jewels-adventure---match-3",
+      "slug": "the-mystery-of-jewels-adventure-match-3",
       "category": [
         "arcade"
       ],
@@ -803,7 +803,7 @@
     {
       "id": 44,
       "title": "Obby: +1 Speed Car Escape",
-      "slug": "obby-+1-speed-car-escape",
+      "slug": "obby-1-speed-car-escape",
       "category": [
         "action"
       ],
@@ -1139,7 +1139,7 @@
     {
       "id": 65,
       "title": "Find the Frog - Hidden Objects",
-      "slug": "find-the-frog---hidden-objects",
+      "slug": "find-the-frog-hidden-objects",
       "category": [
         "puzzle"
       ],
@@ -1331,7 +1331,7 @@
     {
       "id": 77,
       "title": "Fashion Princess - Dress Up for Girls",
-      "slug": "fashion-princess---dress-up-for-girls",
+      "slug": "fashion-princess-dress-up-for-girls",
       "category": [
         "3d"
       ],
@@ -1891,7 +1891,7 @@
     {
       "id": 112,
       "title": "Sprunki World Online RP - Play with Friends!",
-      "slug": "sprunki-world-online-rp---play-with-friends",
+      "slug": "sprunki-world-online-rp-play-with-friends",
       "category": [
         "3d"
       ],
@@ -1907,7 +1907,7 @@
     {
       "id": 113,
       "title": "Baby Brainrots - Multiplayer with Friends!",
-      "slug": "baby-brainrots---multiplayer-with-friends",
+      "slug": "baby-brainrots-multiplayer-with-friends",
       "category": [
         "adventure"
       ],
@@ -1987,7 +1987,7 @@
     {
       "id": 118,
       "title": "Bus out - Bus Away traffic jam",
-      "slug": "bus-out---bus-away-traffic-jam",
+      "slug": "bus-out-bus-away-traffic-jam",
       "category": [
         "puzzle"
       ],
@@ -2355,7 +2355,7 @@
     {
       "id": 141,
       "title": "Solitaire Emperor - Secrets of Fate",
-      "slug": "solitaire-emperor---secrets-of-fate",
+      "slug": "solitaire-emperor-secrets-of-fate",
       "category": [
         "adventure"
       ],
@@ -2371,7 +2371,7 @@
     {
       "id": 142,
       "title": "Home Design - Match 3",
-      "slug": "home-design---match-3",
+      "slug": "home-design-match-3",
       "category": [
         "puzzle"
       ],
@@ -3027,7 +3027,7 @@
     {
       "id": 183,
       "title": "+1 SPEED: Escape School",
-      "slug": "+1-speed-escape-school",
+      "slug": "1-speed-escape-school",
       "category": [
         "action"
       ],
@@ -3075,7 +3075,7 @@
     {
       "id": 186,
       "title": "Demolition Car - Rope and Hook",
-      "slug": "demolition-car---rope-and-hook",
+      "slug": "demolition-car-rope-and-hook",
       "category": [
         "action"
       ],
@@ -3091,7 +3091,7 @@
     {
       "id": 187,
       "title": "Pretty Tidy - ASMR Organizing",
-      "slug": "pretty-tidy---asmr-organizing",
+      "slug": "pretty-tidy-asmr-organizing",
       "category": [
         "puzzle"
       ],
@@ -3171,7 +3171,7 @@
     {
       "id": 192,
       "title": "Rat's House - Nonogram",
-      "slug": "rats-house---nonogram",
+      "slug": "rats-house-nonogram",
       "category": [
         "puzzle"
       ],
@@ -3411,7 +3411,7 @@
     {
       "id": 207,
       "title": "Warlock King - Castle Defense",
-      "slug": "warlock-king---castle-defense",
+      "slug": "warlock-king-castle-defense",
       "category": [
         "action"
       ],
@@ -3539,7 +3539,7 @@
     {
       "id": 215,
       "title": "Monster Slayer: Merge & Survive",
-      "slug": "monster-slayer-merge-&-survive",
+      "slug": "monster-slayer-merge-and-survive",
       "category": [
         "puzzle"
       ],
@@ -3571,7 +3571,7 @@
     {
       "id": 217,
       "title": "Archery Master - Castle Battle",
-      "slug": "archery-master---castle-battle",
+      "slug": "archery-master-castle-battle",
       "category": [
         "action"
       ],
@@ -4115,7 +4115,7 @@
     {
       "id": 251,
       "title": "Construction Set - 3D Builder",
-      "slug": "construction-set---3d-builder",
+      "slug": "construction-set-3d-builder",
       "category": [
         "3d"
       ],
@@ -4227,7 +4227,7 @@
     {
       "id": 258,
       "title": "Paint & Roll",
-      "slug": "paint-&-roll",
+      "slug": "paint-and-roll",
       "category": [
         "arcade"
       ],
@@ -4963,7 +4963,7 @@
     {
       "id": 304,
       "title": "Dungeon Master - Cult & Craft",
-      "slug": "dungeon-master---cult-&-craft",
+      "slug": "dungeon-master-cult-and-craft",
       "category": [
         "adventure"
       ],
@@ -4995,7 +4995,7 @@
     {
       "id": 306,
       "title": "Kingdom Defender - Tower Defense",
-      "slug": "kingdom-defender---tower-defense",
+      "slug": "kingdom-defender-tower-defense",
       "category": [
         "arcade"
       ],
@@ -5139,7 +5139,7 @@
     {
       "id": 315,
       "title": "Solitaire Klondike - Treasure Island",
-      "slug": "solitaire-klondike---treasure-island",
+      "slug": "solitaire-klondike-treasure-island",
       "category": [
         "adventure"
       ],
@@ -5363,7 +5363,7 @@
     {
       "id": 329,
       "title": "Melon Maker : Fruit Game",
-      "slug": "melon-maker--fruit-game",
+      "slug": "melon-maker-fruit-game",
       "category": [
         "puzzle"
       ],
@@ -5379,7 +5379,7 @@
     {
       "id": 330,
       "title": "Smash & Speed",
-      "slug": "smash-&-speed",
+      "slug": "smash-and-speed",
       "category": [
         "3d"
       ],
@@ -5395,7 +5395,7 @@
     {
       "id": 331,
       "title": "Magic Circus - Match 3",
-      "slug": "magic-circus---match-3",
+      "slug": "magic-circus-match-3",
       "category": [
         "puzzle"
       ],
@@ -5443,7 +5443,7 @@
     {
       "id": 334,
       "title": "Satisroom - Perfectly Organized",
-      "slug": "satisroom---perfectly-organized",
+      "slug": "satisroom-perfectly-organized",
       "category": [
         "arcade"
       ],
@@ -5523,7 +5523,7 @@
     {
       "id": 339,
       "title": "Constella - single line puzzle",
-      "slug": "constella---single-line-puzzle",
+      "slug": "constella-single-line-puzzle",
       "category": [
         "puzzle"
       ],
@@ -5731,7 +5731,7 @@
     {
       "id": 352,
       "title": "Rift of Hell - Demons War",
-      "slug": "rift-of-hell---demons-war",
+      "slug": "rift-of-hell-demons-war",
       "category": [
         "action"
       ],
@@ -5827,7 +5827,7 @@
     {
       "id": 358,
       "title": "Draw & Drop",
-      "slug": "draw-&-drop",
+      "slug": "draw-and-drop",
       "category": [
         "puzzle"
       ],
@@ -6067,7 +6067,7 @@
     {
       "id": 373,
       "title": "Obby: +1 to spaceflight altitude",
-      "slug": "obby-+1-to-spaceflight-altitude",
+      "slug": "obby-1-to-spaceflight-altitude",
       "category": [
         "adventure"
       ],
@@ -6259,7 +6259,7 @@
     {
       "id": 385,
       "title": "Stickman Escape - Plane and Ship",
-      "slug": "stickman-escape---plane-and-ship",
+      "slug": "stickman-escape-plane-and-ship",
       "category": [
         "adventure"
       ],
@@ -6355,7 +6355,7 @@
     {
       "id": 391,
       "title": "Boys - Battle for the District",
-      "slug": "boys---battle-for-the-district",
+      "slug": "boys-battle-for-the-district",
       "category": [
         "action"
       ],
@@ -6515,7 +6515,7 @@
     {
       "id": 401,
       "title": "Sky Ball  - Adventure 3D",
-      "slug": "sky-ball----adventure-3d",
+      "slug": "sky-ball-adventure-3d",
       "category": [
         "adventure"
       ],
@@ -6723,7 +6723,7 @@
     {
       "id": 414,
       "title": "Catoom! - Bomb Barrel",
-      "slug": "catoom---bomb-barrel",
+      "slug": "catoom-bomb-barrel",
       "category": [
         "action"
       ],
@@ -6787,7 +6787,7 @@
     {
       "id": 418,
       "title": "Smash & Merge Balls",
-      "slug": "smash-&-merge-balls",
+      "slug": "smash-and-merge-balls",
       "category": [
         "action"
       ],
@@ -6803,7 +6803,7 @@
     {
       "id": 419,
       "title": "Super Fruit Runner - Hyper Casual",
-      "slug": "super-fruit-runner---hyper-casual",
+      "slug": "super-fruit-runner-hyper-casual",
       "category": [
         "adventure"
       ],
@@ -7219,7 +7219,7 @@
     {
       "id": 445,
       "title": "Zombie Horde: Build & Survive",
-      "slug": "zombie-horde-build-&-survive",
+      "slug": "zombie-horde-build-and-survive",
       "category": [
         "arcade"
       ],
@@ -7411,7 +7411,7 @@
     {
       "id": 457,
       "title": "AOD - Art Of Defense",
-      "slug": "aod---art-of-defense",
+      "slug": "aod-art-of-defense",
       "category": [
         "arcade"
       ],
@@ -7491,7 +7491,7 @@
     {
       "id": 462,
       "title": "Mansion Design - Match 3",
-      "slug": "mansion-design---match-3",
+      "slug": "mansion-design-match-3",
       "category": [
         "puzzle"
       ],
@@ -7699,7 +7699,7 @@
     {
       "id": 475,
       "title": "Brainrots: Dress Up & Interior Design",
-      "slug": "brainrots-dress-up-&-interior-design",
+      "slug": "brainrots-dress-up-and-interior-design",
       "category": [
         "arcade"
       ],
@@ -7955,7 +7955,7 @@
     {
       "id": 491,
       "title": "Happy Glass - Draw to Fill",
-      "slug": "happy-glass---draw-to-fill",
+      "slug": "happy-glass-draw-to-fill",
       "category": [
         "puzzle"
       ],
@@ -8179,7 +8179,7 @@
     {
       "id": 505,
       "title": "Weaponsmith Evolution - Weapon Merge",
-      "slug": "weaponsmith-evolution---weapon-merge",
+      "slug": "weaponsmith-evolution-weapon-merge",
       "category": [
         "arcade"
       ],
@@ -8195,7 +8195,7 @@
     {
       "id": 506,
       "title": "Stick Box - Ragdoll Slowmo",
-      "slug": "stick-box---ragdoll-slowmo",
+      "slug": "stick-box-ragdoll-slowmo",
       "category": [
         "action"
       ],
@@ -8435,7 +8435,7 @@
     {
       "id": 521,
       "title": "Jigsaw Puzzle - Anime",
-      "slug": "jigsaw-puzzle---anime",
+      "slug": "jigsaw-puzzle-anime",
       "category": [
         "puzzle"
       ],
@@ -9411,7 +9411,7 @@
     {
       "id": 582,
       "title": "Doodle Halloween Momo Cat : Academy",
-      "slug": "doodle-halloween-momo-cat--academy",
+      "slug": "doodle-halloween-momo-cat-academy",
       "category": [
         "action"
       ],
@@ -9443,7 +9443,7 @@
     {
       "id": 584,
       "title": "GeoVex - Daily Geography Challenge",
-      "slug": "geovex---daily-geography-challenge",
+      "slug": "geovex-daily-geography-challenge",
       "category": [
         "arcade"
       ],
@@ -9475,7 +9475,7 @@
     {
       "id": 586,
       "title": "Click & Idle - Slimes!",
-      "slug": "click-&-idle---slimes",
+      "slug": "click-and-idle-slimes",
       "category": [
         "arcade"
       ],
@@ -9619,7 +9619,7 @@
     {
       "id": 595,
       "title": "Planes Dodge & Go",
-      "slug": "planes-dodge-&-go",
+      "slug": "planes-dodge-and-go",
       "category": [
         "action"
       ],
@@ -9747,7 +9747,7 @@
     {
       "id": 603,
       "title": "TetraDice\u2013Merge & Blast Blocks",
-      "slug": "tetradice\u2013merge-&-blast-blocks",
+      "slug": "tetradice\u2013merge-and-blast-blocks",
       "category": [
         "puzzle"
       ],
@@ -9763,7 +9763,7 @@
     {
       "id": 604,
       "title": "Spill & Knock Down",
-      "slug": "spill-&-knock-down",
+      "slug": "spill-and-knock-down",
       "category": [
         "puzzle"
       ],
@@ -10739,7 +10739,7 @@
     {
       "id": 665,
       "title": "Block Battle - Noob vs Pro",
-      "slug": "block-battle---noob-vs-pro",
+      "slug": "block-battle-noob-vs-pro",
       "category": [
         "action"
       ],
@@ -10867,7 +10867,7 @@
     {
       "id": 673,
       "title": "Kind Shelter - Animal Care and Treatment",
-      "slug": "kind-shelter---animal-care-and-treatment",
+      "slug": "kind-shelter-animal-care-and-treatment",
       "category": [
         "arcade"
       ],
@@ -10883,7 +10883,7 @@
     {
       "id": 674,
       "title": "Draw Bridge - Brain Game",
-      "slug": "draw-bridge---brain-game",
+      "slug": "draw-bridge-brain-game",
       "category": [
         "puzzle"
       ],
@@ -10963,7 +10963,7 @@
     {
       "id": 679,
       "title": "MR RACER  Stunt Mania",
-      "slug": "mr-racer--stunt-mania",
+      "slug": "mr-racer-stunt-mania",
       "category": [
         "action"
       ],
@@ -11075,7 +11075,7 @@
     {
       "id": 686,
       "title": "Word Search & Quiz",
-      "slug": "word-search-&-quiz",
+      "slug": "word-search-and-quiz",
       "category": [
         "puzzle"
       ],
@@ -11235,7 +11235,7 @@
     {
       "id": 696,
       "title": "Obby +1 Power!",
-      "slug": "obby-+1-power",
+      "slug": "obby-1-power",
       "category": [
         "arcade"
       ],
@@ -11443,7 +11443,7 @@
     {
       "id": 709,
       "title": "Mike Lost In Desert - Hidden Object",
-      "slug": "mike-lost-in-desert---hidden-object",
+      "slug": "mike-lost-in-desert-hidden-object",
       "category": [
         "puzzle"
       ],
@@ -11667,7 +11667,7 @@
     {
       "id": 723,
       "title": "99 Nights In The Forest - Survival Simulator",
-      "slug": "99-nights-in-the-forest---survival-simulator",
+      "slug": "99-nights-in-the-forest-survival-simulator",
       "category": [
         "action"
       ],
@@ -11891,7 +11891,7 @@
     {
       "id": 737,
       "title": "Airplane Factory - Tycoon",
-      "slug": "airplane-factory---tycoon",
+      "slug": "airplane-factory-tycoon",
       "category": [
         "arcade"
       ],
@@ -11907,7 +11907,7 @@
     {
       "id": 738,
       "title": "Ball Sort Puzzle - Color Game",
-      "slug": "ball-sort-puzzle---color-game",
+      "slug": "ball-sort-puzzle-color-game",
       "category": [
         "puzzle"
       ],
@@ -12131,7 +12131,7 @@
     {
       "id": 752,
       "title": "Bark & Blast",
-      "slug": "bark-&-blast",
+      "slug": "bark-and-blast",
       "category": [
         "action"
       ],
@@ -12179,7 +12179,7 @@
     {
       "id": 755,
       "title": "Shape Ascent - Roguelite",
-      "slug": "shape-ascent---roguelite",
+      "slug": "shape-ascent-roguelite",
       "category": [
         "puzzle"
       ],
@@ -12659,7 +12659,7 @@
     {
       "id": 785,
       "title": "Fun With Flags - Ultimate Quiz Game",
-      "slug": "fun-with-flags---ultimate-quiz-game",
+      "slug": "fun-with-flags-ultimate-quiz-game",
       "category": [
         "arcade"
       ],
@@ -12707,7 +12707,7 @@
     {
       "id": 788,
       "title": "Dig & Flow - Save Water",
-      "slug": "dig-&-flow---save-water",
+      "slug": "dig-and-flow-save-water",
       "category": [
         "puzzle"
       ],
@@ -12947,7 +12947,7 @@
     {
       "id": 803,
       "title": "Shadow Stick - Lightning Ninja",
-      "slug": "shadow-stick---lightning-ninja",
+      "slug": "shadow-stick-lightning-ninja",
       "category": [
         "action"
       ],
@@ -13011,7 +13011,7 @@
     {
       "id": 807,
       "title": "Revoxel 3D - Voxel RPG Shooter",
-      "slug": "revoxel-3d---voxel-rpg-shooter",
+      "slug": "revoxel-3d-voxel-rpg-shooter",
       "category": [
         "action"
       ],
@@ -13075,7 +13075,7 @@
     {
       "id": 811,
       "title": "Doodle Halloween Momo Cat : Sea Magic",
-      "slug": "doodle-halloween-momo-cat--sea-magic",
+      "slug": "doodle-halloween-momo-cat-sea-magic",
       "category": [
         "adventure"
       ],
@@ -13395,7 +13395,7 @@
     {
       "id": 831,
       "title": "Cool Tuning - Paint the Car",
-      "slug": "cool-tuning---paint-the-car",
+      "slug": "cool-tuning-paint-the-car",
       "category": [
         "driving"
       ],
@@ -13763,7 +13763,7 @@
     {
       "id": 854,
       "title": "Moving Balls - Going Sphere",
-      "slug": "moving-balls---going-sphere",
+      "slug": "moving-balls-going-sphere",
       "category": [
         "action"
       ],
@@ -13827,7 +13827,7 @@
     {
       "id": 858,
       "title": "Mega Sweet Fruits - Popper",
-      "slug": "mega-sweet-fruits---popper",
+      "slug": "mega-sweet-fruits-popper",
       "category": [
         "puzzle"
       ],
@@ -14019,7 +14019,7 @@
     {
       "id": 870,
       "title": "Hit & Knock Down",
-      "slug": "hit-&-knock-down",
+      "slug": "hit-and-knock-down",
       "category": [
         "action"
       ],
@@ -14083,7 +14083,7 @@
     {
       "id": 874,
       "title": "Graveyard Wars - Two player",
-      "slug": "graveyard-wars---two-player",
+      "slug": "graveyard-wars-two-player",
       "category": [
         "action"
       ],
@@ -14435,7 +14435,7 @@
     {
       "id": 896,
       "title": "Colors&Forms",
-      "slug": "colors&forms",
+      "slug": "colorsandforms",
       "category": [
         "puzzle"
       ],
@@ -14515,7 +14515,7 @@
     {
       "id": 901,
       "title": "Loot Island - Treasure Digger",
-      "slug": "loot-island---treasure-digger",
+      "slug": "loot-island-treasure-digger",
       "category": [
         "puzzle"
       ],
@@ -14595,7 +14595,7 @@
     {
       "id": 906,
       "title": "Flag Merging Game - Puzzle Game",
-      "slug": "flag-merging-game---puzzle-game",
+      "slug": "flag-merging-game-puzzle-game",
       "category": [
         "puzzle"
       ],
@@ -14643,7 +14643,7 @@
     {
       "id": 909,
       "title": "Drone Dash - Time Challenges!",
-      "slug": "drone-dash---time-challenges",
+      "slug": "drone-dash-time-challenges",
       "category": [
         "action"
       ],
@@ -14787,7 +14787,7 @@
     {
       "id": 918,
       "title": "99 Nights In The Forest - Battle Squads",
-      "slug": "99-nights-in-the-forest---battle-squads",
+      "slug": "99-nights-in-the-forest-battle-squads",
       "category": [
         "action"
       ],
@@ -15315,7 +15315,7 @@
     {
       "id": 951,
       "title": "Car Smash Simulator: Crash & Tune",
-      "slug": "car-smash-simulator-crash-&-tune",
+      "slug": "car-smash-simulator-crash-and-tune",
       "category": [
         "action"
       ],
@@ -15667,7 +15667,7 @@
     {
       "id": 973,
       "title": "Paper Princess - Doll Dress Up",
-      "slug": "paper-princess---doll-dress-up",
+      "slug": "paper-princess-doll-dress-up",
       "category": [
         "arcade"
       ],
@@ -15891,7 +15891,7 @@
     {
       "id": 987,
       "title": "+1 Speed per Step | Obby Mode",
-      "slug": "+1-speed-per-step-|-obby-mode",
+      "slug": "1-speed-per-step-|-obby-mode",
       "category": [
         "action"
       ],
@@ -15987,7 +15987,7 @@
     {
       "id": 993,
       "title": "Sworded io - Spin and Rub",
-      "slug": "sworded-io---spin-and-rub",
+      "slug": "sworded-io-spin-and-rub",
       "category": [
         "action"
       ],
@@ -16435,7 +16435,7 @@
     {
       "id": 1021,
       "title": "Blade & Bedlam",
-      "slug": "blade-&-bedlam",
+      "slug": "blade-and-bedlam",
       "category": [
         "action"
       ],
@@ -16547,7 +16547,7 @@
     {
       "id": 1028,
       "title": "Onet Puzzle - Tile Match Game",
-      "slug": "onet-puzzle---tile-match-game",
+      "slug": "onet-puzzle-tile-match-game",
       "category": [
         "puzzle"
       ],
@@ -16579,7 +16579,7 @@
     {
       "id": 1030,
       "title": "Locked in Grandma\u2019s Basement 2: Revenge - Horror Escape",
-      "slug": "locked-in-grandma\u2019s-basement-2-revenge---horror-escape",
+      "slug": "locked-in-grandma\u2019s-basement-2-revenge-horror-escape",
       "category": [
         "adventure"
       ],
@@ -16723,7 +16723,7 @@
     {
       "id": 1039,
       "title": "Frost Land - Snow Survival",
-      "slug": "frost-land---snow-survival",
+      "slug": "frost-land-snow-survival",
       "category": [
         "action"
       ],
@@ -17235,7 +17235,7 @@
     {
       "id": 1071,
       "title": "Primal Druid - Kingdom of Animals",
-      "slug": "primal-druid---kingdom-of-animals",
+      "slug": "primal-druid-kingdom-of-animals",
       "category": [
         "adventure"
       ],
@@ -17539,7 +17539,7 @@
     {
       "id": 1090,
       "title": "Sudoku - Number Games",
-      "slug": "sudoku---number-games",
+      "slug": "sudoku-number-games",
       "category": [
         "puzzle"
       ],
@@ -18211,7 +18211,7 @@
     {
       "id": 1132,
       "title": "Shoot & Sprint: Warfare",
-      "slug": "shoot-&-sprint-warfare",
+      "slug": "shoot-and-sprint-warfare",
       "category": [
         "action"
       ],
@@ -18515,7 +18515,7 @@
     {
       "id": 1151,
       "title": "Crocodile Online - Draw and Guess",
-      "slug": "crocodile-online---draw-and-guess",
+      "slug": "crocodile-online-draw-and-guess",
       "category": [
         "arcade"
       ],
@@ -18787,7 +18787,7 @@
     {
       "id": 1168,
       "title": "Match Story : Animals",
-      "slug": "match-story--animals",
+      "slug": "match-story-animals",
       "category": [
         "puzzle"
       ],
@@ -18883,7 +18883,7 @@
     {
       "id": 1174,
       "title": "Blocky Set - 3d brick constructions",
-      "slug": "blocky-set---3d-brick-constructions",
+      "slug": "blocky-set-3d-brick-constructions",
       "category": [
         "puzzle"
       ],
@@ -18931,7 +18931,7 @@
     {
       "id": 1177,
       "title": "Color Dash - Chameleon Runner",
-      "slug": "color-dash---chameleon-runner",
+      "slug": "color-dash-chameleon-runner",
       "category": [
         "adventure"
       ],
@@ -18995,7 +18995,7 @@
     {
       "id": 1181,
       "title": "Sea Legends - Match 3",
-      "slug": "sea-legends---match-3",
+      "slug": "sea-legends-match-3",
       "category": [
         "puzzle"
       ],
@@ -19235,7 +19235,7 @@
     {
       "id": 1196,
       "title": "Labubu Unboxing & Match 3D",
-      "slug": "labubu-unboxing-&-match-3d",
+      "slug": "labubu-unboxing-and-match-3d",
       "category": [
         "puzzle"
       ],
@@ -19651,7 +19651,7 @@
     {
       "id": 1222,
       "title": "Jurassic Digging - Tycoon",
-      "slug": "jurassic-digging---tycoon",
+      "slug": "jurassic-digging-tycoon",
       "category": [
         "arcade"
       ],
@@ -19715,7 +19715,7 @@
     {
       "id": 1226,
       "title": "Piece of Cake: Merge & Bake",
-      "slug": "piece-of-cake-merge-&-bake",
+      "slug": "piece-of-cake-merge-and-bake",
       "category": [
         "puzzle"
       ],
@@ -19811,7 +19811,7 @@
     {
       "id": 1232,
       "title": "Bubble Shooter: Tap & Pop",
-      "slug": "bubble-shooter-tap-&-pop",
+      "slug": "bubble-shooter-tap-and-pop",
       "category": [
         "shooting"
       ],
@@ -19971,7 +19971,7 @@
     {
       "id": 1242,
       "title": "Sprunki Craft - Sandbox 3D",
-      "slug": "sprunki-craft---sandbox-3d",
+      "slug": "sprunki-craft-sandbox-3d",
       "category": [
         "action"
       ],
@@ -20211,7 +20211,7 @@
     {
       "id": 1257,
       "title": "Screw & Pin: Puzzle Levels",
-      "slug": "screw-&-pin-puzzle-levels",
+      "slug": "screw-and-pin-puzzle-levels",
       "category": [
         "puzzle"
       ],
@@ -20355,7 +20355,7 @@
     {
       "id": 1266,
       "title": "Nullify - Merge Math",
-      "slug": "nullify---merge-math",
+      "slug": "nullify-merge-math",
       "category": [
         "puzzle"
       ],
@@ -20643,7 +20643,7 @@
     {
       "id": 1284,
       "title": "Gas Station - Stick Simulator",
-      "slug": "gas-station---stick-simulator",
+      "slug": "gas-station-stick-simulator",
       "category": [
         "arcade"
       ],
@@ -20755,7 +20755,7 @@
     {
       "id": 1291,
       "title": "Highway Car Shooting 3D  Action Game 2025",
-      "slug": "highway-car-shooting-3d--action-game-2025",
+      "slug": "highway-car-shooting-3d-action-game-2025",
       "category": [
         "action"
       ],
@@ -20867,7 +20867,7 @@
     {
       "id": 1298,
       "title": "Mafia GO - Dice Master",
-      "slug": "mafia-go---dice-master",
+      "slug": "mafia-go-dice-master",
       "category": [
         "arcade"
       ],
@@ -21043,7 +21043,7 @@
     {
       "id": 1309,
       "title": "Your Majesty - Build & Conquer",
-      "slug": "your-majesty---build-&-conquer",
+      "slug": "your-majesty-build-and-conquer",
       "category": [
         "arcade"
       ],
@@ -21251,7 +21251,7 @@
     {
       "id": 1322,
       "title": "Sticker Jam: Peel Off & Match",
-      "slug": "sticker-jam-peel-off-&-match",
+      "slug": "sticker-jam-peel-off-and-match",
       "category": [
         "puzzle"
       ],
@@ -22099,7 +22099,7 @@
     {
       "id": 1375,
       "title": "Time Travel: Tower Rush - TD",
-      "slug": "time-travel-tower-rush---td",
+      "slug": "time-travel-tower-rush-td",
       "category": [
         "action"
       ],
@@ -22291,7 +22291,7 @@
     {
       "id": 1387,
       "title": "Bubble Stars boxes: Sirius & Najia",
-      "slug": "bubble-stars-boxes-sirius-&-najia",
+      "slug": "bubble-stars-boxes-sirius-and-najia",
       "category": [
         "action"
       ],
@@ -22515,7 +22515,7 @@
     {
       "id": 1401,
       "title": "Slice & Soar",
-      "slug": "slice-&-soar",
+      "slug": "slice-and-soar",
       "category": [
         "action"
       ],
@@ -22563,7 +22563,7 @@
     {
       "id": 1404,
       "title": "Money Factory - Earn a Billion",
-      "slug": "money-factory---earn-a-billion",
+      "slug": "money-factory-earn-a-billion",
       "category": [
         "puzzle"
       ],
@@ -22579,7 +22579,7 @@
     {
       "id": 1405,
       "title": "Cooking Letters - Word Search",
-      "slug": "cooking-letters---word-search",
+      "slug": "cooking-letters-word-search",
       "category": [
         "puzzle"
       ],
@@ -22611,7 +22611,7 @@
     {
       "id": 1407,
       "title": "Yoga Master - Flex Running",
-      "slug": "yoga-master---flex-running",
+      "slug": "yoga-master-flex-running",
       "category": [
         "arcade"
       ],
@@ -22643,7 +22643,7 @@
     {
       "id": 1409,
       "title": "OrbaDrone - Robot Escape",
-      "slug": "orbadrone---robot-escape",
+      "slug": "orbadrone-robot-escape",
       "category": [
         "action"
       ],
@@ -22883,7 +22883,7 @@
     {
       "id": 1424,
       "title": "Capyballra - Capybara Ball Collector!",
-      "slug": "capyballra---capybara-ball-collector",
+      "slug": "capyballra-capybara-ball-collector",
       "category": [
         "arcade"
       ],
@@ -23011,7 +23011,7 @@
     {
       "id": 1432,
       "title": "Tilt & Tumble",
-      "slug": "tilt-&-tumble",
+      "slug": "tilt-and-tumble",
       "category": [
         "arcade"
       ],
@@ -23059,7 +23059,7 @@
     {
       "id": 1435,
       "title": "Find Visitors - 99 Nights",
-      "slug": "find-visitors---99-nights",
+      "slug": "find-visitors-99-nights",
       "category": [
         "driving"
       ],
@@ -23107,7 +23107,7 @@
     {
       "id": 1438,
       "title": "Color Pixels - Coloring by Numbers",
-      "slug": "color-pixels---coloring-by-numbers",
+      "slug": "color-pixels-coloring-by-numbers",
       "category": [
         "arcade"
       ],

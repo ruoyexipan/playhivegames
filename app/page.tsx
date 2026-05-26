@@ -42,7 +42,7 @@ export default function Home() {
             <span>🔥</span>
             <span>Play Trending Games</span>
           </h2>
-          <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
+          <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2 auto-rows-auto">
             {trendingGames.slice(0, visibleTrending).map((game, index) => (
               <GameCard 
                 key={game.id} 
