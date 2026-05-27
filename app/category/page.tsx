@@ -35,7 +35,20 @@ const categoryNames: Record<string, string> = {
 
 export default function CategoryPage() {
   const searchParams = useSearchParams()
-  const slug = searchParams.get('slug') || ''
+  // Support both ?slug=arcade and ?arcade formats
+  let slug = searchParams.get('slug') || ''
+  if (!slug && typeof window !== 'undefined') {
+    // Check if the URL has a direct category parameter
+    const search = window.location.search.substring(1)
+    const params = search.split('&')
+    for (const param of params) {
+      const key = param.split('=')[0] || param
+      if (categoryNames[key]) {
+        slug = key
+        break
+      }
+    }
+  }
   const [visibleCount, setVisibleCount] = useState(24)
 
   const categoryName = categoryNames[slug] || slug
