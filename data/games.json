@@ -117,7 +117,10 @@
       "title": "Deadly Descent 3D",
       "slug": "deadly-descent-3d",
       "category": [
-        "3d,adventure,arcade,racing"
+        "arcade",
+        "racing",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/deadly-descent-3d_2.",
       "iframe": "https://playgama.com/export/game/deadly-descent?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -133,7 +136,11 @@
       "title": "Build a plane and fly 3D",
       "slug": "build-a-plane-and-fly-3d",
       "category": [
-        "3d,action,adventure,arcade"
+        "3d",
+        "arcade",
+        "simulation",
+        "action",
+        "adventure"
       ],
       "thumbnail": "https://static.playhop.com/images/c1fbf_11374519_bb52f/dd40d3d96/2a0000019377a254_1624e94/77744156f5881874adec_b27480/pjpg256x256",
       "iframe": "https://playgama.com/export/game/build-a-rollercoaster-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -149,7 +156,8 @@
       "title": "Hazmob FPS",
       "slug": "hazmob-fps",
       "category": [
-        "action,shooting"
+        "shooting",
+        "action"
       ],
       "thumbnail": "https://static.playhop.com/images/c304d_6238841_6cfa5/739c004dd/2a00000194fe8869_f632299/39daa780f79acdd4a550_8ce155/pjpg256x256",
       "iframe": "https://playgama.com/export/game/hazmob-fps-online-shooter?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -165,7 +173,10 @@
       "title": "Draw Bridge: Brain Game 3D",
       "slug": "draw-bridge-brain-game-3d",
       "category": [
-        "3d,adventure,arcade,puzzle"
+        "arcade",
+        "3d",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://static.playhop.com/images/2415c_1881371_58548/b692802ef/2a00000190fccd0b_79f8f0b/68ed7d3f1689c31f2c90_bf4738/pjpg256x256",
       "iframe": "https://playgama.com/export/game/brain-draw-line?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -181,7 +192,10 @@
       "title": "CrowdGate",
       "slug": "crowdgate",
       "category": [
-        "3d,adventure,arcade,boys"
+        "arcade",
+        "boys",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/crowdgate_2.",
       "iframe": "https://playgama.com/export/game/crowdgate?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -213,6 +227,7 @@
       "title": "Bridge Builder 3D",
       "slug": "bridge-builder-3d",
       "category": [
+        "simulation",
         "puzzle"
       ],
       "thumbnail": "https://static.playhop.com/images/e0da1_1881364_c56a2/467f2a802/2a0000018fddd4f9_f4de3eb/bfecf4ef022e6050f8c7_870254/pjpg256x256",
@@ -229,7 +244,8 @@
       "title": "Bubble Shooter: Standart",
       "slug": "bubble-shooter-standart",
       "category": [
-        "bubble shooter"
+        "bubble shooter",
+        "shooting"
       ],
       "thumbnail": "https://static.playhop.com/images/8ec5f_13012056_04599/616ccd26f/2a0000019600c053_fa1e569/a270050cc1b6fd19753b_78cf9a/pjpg256x256",
       "iframe": "https://playgama.com/export/game/bubble-shooter-tap--pop?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -245,7 +261,10 @@
       "title": "Grand Shift Auto",
       "slug": "grand-shift-auto",
       "category": [
-        "3d,action,adventure,arcade"
+        "arcade",
+        "action",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/grand-shift-auto_2.",
       "iframe": "https://playgama.com/export/game/grand-shift-auto?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -261,7 +280,10 @@
       "title": "Block Blast Master",
       "slug": "block-blast-master",
       "category": [
-        "3d,adventure,arcade,puzzle"
+        "arcade",
+        "3d",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://playgama.com/cdn-cgi/imagedelivery/LN2S-4p3-GgZvEx3IPaKUA/3186cda7-4f16-4dc5-7d89-87c17aefdd00/enlarged",
       "iframe": "https://playgama.com/export/game/block-blast-master?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -277,7 +299,8 @@
       "title": "MR RACER - Car Racing",
       "slug": "mr-racer-car-racing",
       "category": [
-        "racing"
+        "racing",
+        "boys"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mr-racer-car-racing_2.",
       "iframe": "https://playgama.com/export/game/mr-racer-car-racing?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -309,7 +332,12 @@
       "title": "Adventure Crazy Ramp Bike Stunt Game",
       "slug": "adventure-crazy-ramp-bike-stunt-game",
       "category": [
-        "3d,adventure,arcade,racing,stunt"
+        "boys",
+        "3d",
+        "stunt",
+        "arcade",
+        "adventure",
+        "racing"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/adventure-crazy-ramp-bike-stunt-game_2.",
       "iframe": "https://playgama.com/export/game/adventure-crazy-ramp-bike-stunt-game?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -325,7 +353,10 @@
       "title": "Deadly Descent 2",
       "slug": "deadly-descent-2",
       "category": [
-        "action,adventure,arcade,stunt"
+        "arcade",
+        "action",
+        "stunt",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/deadly-descent-2_2.",
       "iframe": "https://playgama.com/export/game/deadly-descent?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -341,7 +372,11 @@
       "title": "Obby: +1 Jump per Click",
       "slug": "obby-1-jump-per-click",
       "category": [
-        "3d,action,adventure,arcade"
+        "3d",
+        "arcade",
+        "clicker",
+        "action",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-1-jump-per-click_2.",
       "iframe": "https://playgama.com/export/game/obby-1-jump-per-click?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -357,7 +392,11 @@
       "title": "Hazmob FPS: Online Shooter",
       "slug": "hazmob-fps-online-shooter",
       "category": [
-        "3d,action,fighting,shooting"
+        "shooting",
+        "3d",
+        "fighting",
+        "action",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hazmob-fps-online-shooter_2.",
       "iframe": "https://playgama.com/export/game/hazmob-fps-online-shooter?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -373,7 +412,10 @@
       "title": "Nuts & Bolts Game: Wood Puzzle",
       "slug": "nuts-and-bolts-game-wood-puzzle",
       "category": [
-        "3d,adventure,arcade,puzzle"
+        "arcade",
+        "3d",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/nuts-bolts-game-wood-puzzle_2.",
       "iframe": "https://playgama.com/export/game/nuts-bolts-wood-puzzle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -389,7 +431,10 @@
       "title": "Pool Shoot Tournament",
       "slug": "pool-shoot-tournament",
       "category": [
-        "3d,adventure,arcade"
+        "arcade",
+        "shooting",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pool-shoot-tournament_2.",
       "iframe": "https://playgama.com/export/game/pool-shoot-tournament-ac06-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -421,7 +466,11 @@
       "title": "Italian Brainrot Hunting 3D",
       "slug": "italian-brainrot-hunting-3d",
       "category": [
-        "3d,action,adventure,shooting"
+        "shooting",
+        "3d",
+        "puzzle",
+        "action",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/italian-brainrot-hunting-3d_2.",
       "iframe": "https://playgama.com/export/game/Italian-brainrot-hunting-3D?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -437,7 +486,13 @@
       "title": "Online Car Destruction Simulator 3D",
       "slug": "online-car-destruction-simulator-3d",
       "category": [
-        "3d,adventure,stunt"
+        "boys",
+        "3d",
+        "stunt",
+        "simulation",
+        "adventure",
+        "racing",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/online-car-destruction-simulator-3d_2.",
       "iframe": "https://playgama.com/export/game/online-car-destruction?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -453,7 +508,10 @@
       "title": "Crazy Bus Station!",
       "slug": "crazy-bus-station",
       "category": [
-        "3d,adventure,arcade"
+        "arcade",
+        "3d",
+        "multiplayer",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/crazy-bus-station_2.",
       "iframe": "https://playgama.com/export/game/crazy-bus-station?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -469,7 +527,10 @@
       "title": "Parkour Runner 3D",
       "slug": "parkour-runner-3d",
       "category": [
-        "3d,adventure,arcade,boys"
+        "arcade",
+        "boys",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/parkour-runner-3d_2.",
       "iframe": "https://playgama.com/export/game/parkour-runner-3d?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -485,7 +546,9 @@
       "title": "Steal A Brainrot Original 3D",
       "slug": "steal-a-brainrot-original-3d",
       "category": [
-        "3d,adventure"
+        "3d",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/steal-a-brainrot-original-3d_2.",
       "iframe": "https://playgama.com/export/game/steal-a-brainrot-original-3d?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -501,7 +564,9 @@
       "title": "The Mystery of Jewels: Adventure - Match 3",
       "slug": "the-mystery-of-jewels-adventure-match-3",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://static.playhop.com/images/81e47_6300668_8723c/cfc395427/2a00000196da6a6f_784254d/f38531aabcff1a4cfc18_b68238/pjpg256x256",
       "iframe": "https://playgama.com/export/game/heroes-of-the-dungeons-match3-rpg?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -517,7 +582,10 @@
       "title": "Good Sort Master: Triple Match",
       "slug": "good-sort-master-triple-match",
       "category": [
-        "3d,adventure,arcade"
+        "arcade",
+        "3d",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/good-sort-master-triple-match_2.",
       "iframe": "https://playgama.com/export/game/good-sort-master?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -549,7 +617,10 @@
       "title": "DD Bubble Shooter Up",
       "slug": "dd-bubble-shooter-up",
       "category": [
-        "3d,adventure,bubble shooter"
+        "bubble shooter",
+        "shooting",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/dd-bubble-shooter-up_2.",
       "iframe": "https://playgama.com/export/game/dd-bubble-up?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -565,7 +636,10 @@
       "title": "Obby: Climb and Slide 2",
       "slug": "obby-climb-and-slide-2",
       "category": [
-        "3d,action,adventure,arcade"
+        "arcade",
+        "action",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-climb-and-slide-2_2.",
       "iframe": "https://playgama.com/export/game/obby-climb-and-slide?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -581,7 +655,10 @@
       "title": "Gangsta Island: Crime City",
       "slug": "gangsta-island-crime-city",
       "category": [
-        "3d,action,adventure,arcade"
+        "arcade",
+        "action",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gangsta-island-crime-city_2.",
       "iframe": "https://playgama.com/export/game/gangster-island-crime-city?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -613,7 +690,9 @@
       "title": "Hidden Object: Clues and Mysteries",
       "slug": "hidden-object-clues-and-mysteries",
       "category": [
-        "3d,adventure,arcade"
+        "arcade",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hidden-object-clues-and-mysteries_2.",
       "iframe": "https://playgama.com/export/game/hidden-object-clues-and-mysteries?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -645,7 +724,9 @@
       "title": "Snake 2048",
       "slug": "snake-2048",
       "category": [
-        "3d,action,adventure"
+        "action",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/snake-2048_2.",
       "iframe": "https://playgama.com/export/game/snake-2048-64be-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -661,7 +742,11 @@
       "title": "Speed per Click: Obby",
       "slug": "speed-per-click-obby",
       "category": [
-        "3d,action,adventure"
+        "3d",
+        "clicker",
+        "action",
+        "adventure",
+        "racing"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/speed-per-click-obby_2.",
       "iframe": "https://playgama.com/export/game/speed-per-click-obby?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -677,7 +762,9 @@
       "title": "Vega Mix 2: Adventure 3D",
       "slug": "vega-mix-2-adventure-3d",
       "category": [
-        "3d,adventure,puzzle"
+        "3d",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://playgama.com/cdn-cgi/imagedelivery/LN2S-4p3-GgZvEx3IPaKUA/1e9bd51b-3b6d-40d3-490f-d44ab1a9d900/enlarged",
       "iframe": "https://playgama.com/export/game/vega-mix-2-adventure?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -693,7 +780,9 @@
       "title": "Playground Man! Ragdoll Show!",
       "slug": "playground-man-ragdoll-show",
       "category": [
-        "3d,action,adventure"
+        "action",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/playground-man-ragdoll-show_2.",
       "iframe": "https://playgama.com/export/game/playground-man-ragdoll-show?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -709,7 +798,9 @@
       "title": "Super Candy Jewels",
       "slug": "super-candy-jewels",
       "category": [
-        "3d,adventure,bubble shooter"
+        "bubble shooter",
+        "3d",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/super-candy-jewels_2.",
       "iframe": "https://playgama.com/export/game/super-candy-jewels?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -725,7 +816,10 @@
       "title": "Millionaire Life",
       "slug": "millionaire-life",
       "category": [
-        "3d,action,adventure"
+        "action",
+        "3d",
+        "multiplayer",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/millionaire-life_2.",
       "iframe": "https://playgama.com/export/game/millionaire-life?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -741,6 +835,7 @@
       "title": "Motorcycle Racer: Road Mayhem",
       "slug": "motorcycle-racer-road-mayhem",
       "category": [
+        "racing",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/motorcycle-racer-road-mayhem_2.",
@@ -805,6 +900,9 @@
       "title": "Obby: +1 Speed Car Escape",
       "slug": "obby-1-speed-car-escape",
       "category": [
+        "boys",
+        "adventure",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-1-speed-car-escape_2.",
@@ -853,7 +951,8 @@
       "title": "Master Chess",
       "slug": "master-chess",
       "category": [
-        "arcade"
+        "arcade",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/master-chess_2.",
       "iframe": "https://playgama.com/export/game/master-chess?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -885,7 +984,9 @@
       "title": "Chess Online Multiplayer",
       "slug": "chess-online-multiplayer",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/chess-online-multiplayer_2.",
       "iframe": "https://playgama.com/export/game/chess-online-multiplayer?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -933,6 +1034,7 @@
       "title": "Brawl Simulator 3D",
       "slug": "brawl-simulator-3d",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brawl-simulator-3d_2.",
@@ -949,6 +1051,9 @@
       "title": "Car Destruction King",
       "slug": "car-destruction-king",
       "category": [
+        "boys",
+        "racing",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-destruction-king_2.",
@@ -965,7 +1070,8 @@
       "title": "Animal Hair Salon",
       "slug": "animal-hair-salon",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/animal-hair-salon_2.",
       "iframe": "https://playgama.com/export/game/animal-hair-salon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1013,6 +1119,7 @@
       "title": "Imposter 3D online horror",
       "slug": "imposter-3d-online-horror",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/imposter-3d-online-horror_2.",
@@ -1029,6 +1136,7 @@
       "title": "Tap 3D Wood Block Away",
       "slug": "tap-3d-wood-block-away",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tap-3d-wood-block-away_2.",
@@ -1045,6 +1153,7 @@
       "title": "Rooftop Run",
       "slug": "rooftop-run",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/rooftop-run_2.",
@@ -1093,6 +1202,7 @@
       "title": "Obby: Click and Grow",
       "slug": "obby-click-and-grow",
       "category": [
+        "clicker",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-click-and-grow_2.",
@@ -1125,6 +1235,8 @@
       "title": "Fun Ragdoll Challenge! Mini Games Collection!",
       "slug": "fun-ragdoll-challenge-mini-games-collection",
       "category": [
+        "hypercasual",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fun-ragdoll-challenge-mini-games-collection_2.",
@@ -1157,7 +1269,10 @@
       "title": "Age of Tanks Warriors: TD War",
       "slug": "age-of-tanks-warriors-td-war",
       "category": [
-        "arcade"
+        "arcade",
+        "boys",
+        "shooting",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/age-of-tanks-warriors-td-war_2.",
       "iframe": "https://playgama.com/export/game/age-of-tanks-warriors-td-war?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1189,6 +1304,7 @@
       "title": "Obby Parkour: Sleeping Brainrots",
       "slug": "obby-parkour-sleeping-brainrots",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-parkour-sleeping-brainrots_2.",
@@ -1221,6 +1337,9 @@
       "title": "Mechanic Simulator: Car Repair",
       "slug": "mechanic-simulator-car-repair",
       "category": [
+        "simulation",
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mechanic-simulator-car-repair_2.",
@@ -1237,7 +1356,10 @@
       "title": "Drift King Racing Multiplayer",
       "slug": "drift-king-racing-multiplayer",
       "category": [
-        "3d"
+        "boys",
+        "racing",
+        "3d",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/drift-king-racing-multiplayer_2.",
       "iframe": "https://playgama.com/export/game/drift-king-racing-multiplayer?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1301,7 +1423,8 @@
       "title": "Sudoku",
       "slug": "sudoku",
       "category": [
-        "puzzle"
+        "puzzle",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sudoku_2.",
       "iframe": "https://playgama.com/export/game/sudoku?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1317,6 +1440,9 @@
       "title": "Beam Drive Car Crash Test Simulator",
       "slug": "beam-drive-car-crash-test-simulator",
       "category": [
+        "simulation",
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/beam-drive-car-crash-test-simulator_2.",
@@ -1333,7 +1459,9 @@
       "title": "Fashion Princess - Dress Up for Girls",
       "slug": "fashion-princess-dress-up-for-girls",
       "category": [
-        "3d"
+        "girls",
+        "3d",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fashion-princess-dress-up-for-girls_2.",
       "iframe": "https://playgama.com/export/game/fashion-princess--dress-up-for-girls-e00c-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1349,6 +1477,8 @@
       "title": "Carvivor Ops",
       "slug": "carvivor-ops",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/carvivor-ops_2.",
@@ -1365,7 +1495,9 @@
       "title": "Trend Family: Merge Arena",
       "slug": "trend-family-merge-arena",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/trend-family-merge-arena_2.",
       "iframe": "https://playgama.com/export/game/trend-family-merge-arena?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1381,7 +1513,10 @@
       "title": "Simulator GT Motorsport",
       "slug": "simulator-gt-motorsport",
       "category": [
-        "3d"
+        "racing",
+        "sports",
+        "3d",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/simulator-gt-motorsport_2.",
       "iframe": "https://playgama.com/export/game/simulator-gt-motorsport?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1397,7 +1532,8 @@
       "title": "Kitty Jewel Quest",
       "slug": "kitty-jewel-quest",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/kitty-jewel-quest_2.",
       "iframe": "https://playgama.com/export/game/kitty-jewel-quest?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1429,6 +1565,7 @@
       "title": "PVZ Fusion Cheats",
       "slug": "pvz-fusion-cheats",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pvz-fusion-cheats_2.",
@@ -1445,7 +1582,8 @@
       "title": "Paper Doll Diary: Dress Up DIY",
       "slug": "paper-doll-diary-dress-up-diy",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/paper-doll-diary-dress-up-diy_2.",
       "iframe": "https://playgama.com/export/game/paper-doll-diary-dress-up-diy?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1477,6 +1615,7 @@
       "title": "Grand Truck Simulator",
       "slug": "grand-truck-simulator",
       "category": [
+        "simulation",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/grand-truck-simulator_2.",
@@ -1541,6 +1680,7 @@
       "title": "Barry Prison: Parkour Escape!",
       "slug": "barry-prison-parkour-escape",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/barry-prison-parkour-escape_2.",
@@ -1573,6 +1713,7 @@
       "title": "Sniper Attack2",
       "slug": "sniper-attack2",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sniper-attack2_2.",
@@ -1669,6 +1810,7 @@
       "title": "Buggy Simulator Sandbox 3D",
       "slug": "buggy-simulator-sandbox-3d",
       "category": [
+        "simulation",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/buggy-simulator-sandbox-3d_2.",
@@ -1685,6 +1827,7 @@
       "title": "Burger Restaurant Simulator 3D",
       "slug": "burger-restaurant-simulator-3d",
       "category": [
+        "simulation",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/burger-restaurant-simulator-3d_2.",
@@ -1717,6 +1860,7 @@
       "title": "Police Chase Simulator",
       "slug": "police-chase-simulator",
       "category": [
+        "simulation",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/police-chase-simulator_2.",
@@ -1733,6 +1877,8 @@
       "title": "War Groups",
       "slug": "war-groups",
       "category": [
+        "boys",
+        "shooting",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/war-groups_2.",
@@ -1749,6 +1895,8 @@
       "title": "MFPS:Military Combat",
       "slug": "mfpsmilitary-combat",
       "category": [
+        "fighting",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mfps-military-combat_2.",
@@ -1765,6 +1913,7 @@
       "title": "Jigmerge Puzzles",
       "slug": "jigmerge-puzzles",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/jigmerge-puzzles_2.",
@@ -1781,6 +1930,8 @@
       "title": "Car And Truck Parking Game",
       "slug": "car-and-truck-parking-game",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-and-truck-parking-game_2.",
@@ -1797,7 +1948,9 @@
       "title": "Snake Slither.io Italian Brainrot",
       "slug": "snake-slither.io-italian-brainrot",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/snake-slither-io-italian-brainrot_2.",
       "iframe": "https://playgama.com/export/game/snake-slitherio-italian-brainrot?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1829,7 +1982,8 @@
       "title": "Survive Lava for Brainrots!",
       "slug": "survive-lava-for-brainrots",
       "category": [
-        "3d"
+        "3d",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/survive-lava-for-brainrots_2.",
       "iframe": "https://playgama.com/export/game/survive-lava-for-brainrots?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1845,6 +1999,8 @@
       "title": "Epic Sword Battle! Fight in the Ragdoll Arena!",
       "slug": "epic-sword-battle-fight-in-the-ragdoll-arena",
       "category": [
+        "fighting",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/epic-sword-battle-fight-in-the-ragdoll-arena_2.",
@@ -1861,6 +2017,8 @@
       "title": "Escape Tsunami for Brainrots",
       "slug": "escape-tsunami-for-brainrots",
       "category": [
+        "adventure",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-tsunami-for-brainrots_2.",
@@ -1877,6 +2035,8 @@
       "title": "Card Sort: Challenge",
       "slug": "card-sort-challenge",
       "category": [
+        "boys",
+        "racing",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/card-sort-challenge_2.",
@@ -1893,7 +2053,9 @@
       "title": "Sprunki World Online RP - Play with Friends!",
       "slug": "sprunki-world-online-rp-play-with-friends",
       "category": [
-        "3d"
+        "arcade",
+        "3d",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sprunki-world-online-rp-play-with-friends_2.",
       "iframe": "https://playgama.com/export/game/sprunki-world-online-rp--play-with-friends?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -1909,6 +2071,8 @@
       "title": "Baby Brainrots - Multiplayer with Friends!",
       "slug": "baby-brainrots-multiplayer-with-friends",
       "category": [
+        "puzzle",
+        "multiplayer",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/baby-brainrots-multiplayer-with-friends_2.",
@@ -1957,6 +2121,7 @@
       "title": "Jump to the Rhythm of Songs! Musical Ball!",
       "slug": "jump-to-the-rhythm-of-songs-musical-ball",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/jump-to-the-rhythm-of-songs-musical-ball_2.",
@@ -1973,6 +2138,8 @@
       "title": "Mega Ramp Car",
       "slug": "mega-ramp-car",
       "category": [
+        "boys",
+        "racing",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mega-ramp-car_2.",
@@ -2069,6 +2236,7 @@
       "title": "Shot a Brainrot!",
       "slug": "shot-a-brainrot",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/shot-a-brainrot_2.",
@@ -2085,6 +2253,8 @@
       "title": "Animal Evolution Simulator",
       "slug": "animal-evolution-simulator",
       "category": [
+        "simulation",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/animal-evolution-simulator_2.",
@@ -2101,7 +2271,8 @@
       "title": "Sorter: Ragdoll Playground Shooter",
       "slug": "sorter-ragdoll-playground-shooter",
       "category": [
-        "shooting"
+        "shooting",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sorter-ragdoll-playground-shooter_2.",
       "iframe": "https://playgama.com/export/game/sorter-ragdoll-playground-shooter?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2117,7 +2288,8 @@
       "title": "Epic Battle Simulator 2",
       "slug": "epic-battle-simulator-2",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/epic-battle-simulator-2_2.",
       "iframe": "https://playgama.com/export/game/epic-battle-simulator-2?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2261,7 +2433,9 @@
       "title": "Steve Evolution Mega Clicker",
       "slug": "steve-evolution-mega-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/steve-evolution-mega-clicker_2.",
       "iframe": "https://playgama.com/export/game/steve-evolution-mega-clicker-b66b-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2277,6 +2451,7 @@
       "title": "Pregnant Mother Simulator",
       "slug": "pregnant-mother-simulator",
       "category": [
+        "simulation",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pregnant-mother-simulator_2.",
@@ -2293,7 +2468,8 @@
       "title": "My Fast Brainrot",
       "slug": "my-fast-brainrot",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/my-fast-brainrot_2.",
       "iframe": "https://playgama.com/export/game/my-fast-brainrot?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2325,6 +2501,7 @@
       "title": "Build an Aquapark",
       "slug": "build-an-aquapark",
       "category": [
+        "simulation",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-an-aquapark_2.",
@@ -2389,7 +2566,9 @@
       "title": "Idle Airport Tycoon",
       "slug": "idle-airport-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-airport-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-airport-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2405,6 +2584,8 @@
       "title": "GT Cars Mega Ramps",
       "slug": "gt-cars-mega-ramps",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gt-cars-mega-ramps_2.",
@@ -2421,6 +2602,7 @@
       "title": "Escape Strange Girl\u2019s House 2",
       "slug": "escape-strange-girl\u2019s-house-2",
       "category": [
+        "girls",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-strange-girl-s-house-2_2.",
@@ -2453,6 +2635,8 @@
       "title": "The Warlock's Prisoner",
       "slug": "the-warlocks-prisoner",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/the-warlock-s-prisoner_2.",
@@ -2485,6 +2669,8 @@
       "title": "Car Parking 3D",
       "slug": "car-parking-3d",
       "category": [
+        "boys",
+        "racing",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-parking-3d_2.",
@@ -2501,6 +2687,8 @@
       "title": "Car Dealership",
       "slug": "car-dealership",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-dealership_2.",
@@ -2517,6 +2705,8 @@
       "title": "Drifting Car Master",
       "slug": "drifting-car-master",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/drifting-car-master_2.",
@@ -2533,7 +2723,8 @@
       "title": "Click Click Clicker",
       "slug": "click-click-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/click-click-clicker_2.",
       "iframe": "https://playgama.com/export/game/click-click-clicker-playgama?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2629,7 +2820,9 @@
       "title": "Summer Fashion Makeover",
       "slug": "summer-fashion-makeover",
       "category": [
-        "arcade"
+        "arcade",
+        "girls",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/summer-fashion-makeover_2.",
       "iframe": "https://playgama.com/export/game/summer-fashion-makeover?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2709,7 +2902,10 @@
       "title": "Merge Plane Tycoon",
       "slug": "merge-plane-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-plane-tycoon_2.",
       "iframe": "https://playgama.com/export/game/merge-plane-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2741,6 +2937,7 @@
       "title": "Little Big Fighters",
       "slug": "little-big-fighters",
       "category": [
+        "fighting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/little-big-fighters_2.",
@@ -2757,7 +2954,8 @@
       "title": "Cosplay Gamer Girls",
       "slug": "cosplay-gamer-girls",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cosplay-gamer-girls_2.",
       "iframe": "https://playgama.com/export/game/cosplay-gamer-girls?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2789,6 +2987,8 @@
       "title": "Soldiers Runner",
       "slug": "soldiers-runner",
       "category": [
+        "arcade",
+        "boys",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/soldiers-runner_2.",
@@ -2805,7 +3005,8 @@
       "title": "World Flags Quiz",
       "slug": "world-flags-quiz",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/world-flags-quiz_2.",
       "iframe": "https://playgama.com/export/game/world-flags-quiz?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -2933,6 +3134,9 @@
       "title": "Gym Simulator Online, Escape",
       "slug": "gym-simulator-online-escape",
       "category": [
+        "adventure",
+        "simulation",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gym-simulator-online-escape_2.",
@@ -2949,6 +3153,7 @@
       "title": "Fruit Merge: Juicy Drop Game",
       "slug": "fruit-merge-juicy-drop-game",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fruit-merge-juicy-drop-game_2.",
@@ -2965,6 +3170,7 @@
       "title": "Bridge Builder",
       "slug": "bridge-builder",
       "category": [
+        "simulation",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bridge-builder_2.",
@@ -2981,7 +3187,9 @@
       "title": "Gas Station Simulator",
       "slug": "gas-station-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gas-station-simulator_2.",
       "iframe": "https://playgama.com/export/game/gas-station-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -3013,7 +3221,9 @@
       "title": "Chess Online Playing",
       "slug": "chess-online-playing",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/chess-online-playing_2.",
       "iframe": "https://playgama.com/export/game/chess-online-playing?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -3029,6 +3239,8 @@
       "title": "+1 SPEED: Escape School",
       "slug": "1-speed-escape-school",
       "category": [
+        "racing",
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/1-speed-escape-school_2.",
@@ -3077,6 +3289,9 @@
       "title": "Demolition Car - Rope and Hook",
       "slug": "demolition-car-rope-and-hook",
       "category": [
+        "boys",
+        "racing",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/demolition-car-rope-and-hook_2.",
@@ -3125,6 +3340,8 @@
       "title": "Steal Car Duel",
       "slug": "steal-car-duel",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/steal-car-duel_2.",
@@ -3157,6 +3374,7 @@
       "title": "Street Racer 2D",
       "slug": "street-racer-2d",
       "category": [
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/street-racer-2d_2.",
@@ -3205,7 +3423,9 @@
       "title": "Gun Bounce Idle",
       "slug": "gun-bounce-idle",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "shooting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gun-bounce-idle_2.",
       "iframe": "https://playgama.com/export/game/gun-bounce-idle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -3237,6 +3457,7 @@
       "title": "Flip Gun 3D Ragdoll Shooter",
       "slug": "flip-gun-3d-ragdoll-shooter",
       "category": [
+        "shooting",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/flip-gun-3d-ragdoll-shooter_2.",
@@ -3253,6 +3474,7 @@
       "title": "Madness Online",
       "slug": "madness-online",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/madness-online_2.",
@@ -3285,6 +3507,9 @@
       "title": "Super Car Soccer Arena",
       "slug": "super-car-soccer-arena",
       "category": [
+        "boys",
+        "racing",
+        "sports",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/super-car-soccer-arena_2.",
@@ -3301,7 +3526,8 @@
       "title": "Supermarket Manager",
       "slug": "supermarket-manager",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/supermarket-manager_2.",
       "iframe": "https://playgama.com/export/game/supermarket-manager?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -3317,7 +3543,8 @@
       "title": "Sweet Supermarket Simulator",
       "slug": "sweet-supermarket-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sweet-supermarket-simulator_2.",
       "iframe": "https://playgama.com/export/game/sweet-supermarket-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -3397,6 +3624,8 @@
       "title": "Hero Merge",
       "slug": "hero-merge",
       "category": [
+        "clicker",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hero-merge_2.",
@@ -3413,6 +3642,8 @@
       "title": "Warlock King - Castle Defense",
       "slug": "warlock-king-castle-defense",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/warlock-king-castle-defense_2.",
@@ -3477,6 +3708,7 @@
       "title": "Precision Parking Pro",
       "slug": "precision-parking-pro",
       "category": [
+        "multiplayer",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/precision-parking-pro_2.",
@@ -3493,7 +3725,10 @@
       "title": "Mr.Reckless Car Chase Simulator",
       "slug": "mr.reckless-car-chase-simulator",
       "category": [
-        "action"
+        "boys",
+        "racing",
+        "action",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mr-reckless-car-chase-simulator_2.",
       "iframe": "https://playgama.com/export/game/mrreckless-car-chase-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -3541,7 +3776,9 @@
       "title": "Monster Slayer: Merge & Survive",
       "slug": "monster-slayer-merge-and-survive",
       "category": [
-        "puzzle"
+        "boys",
+        "puzzle",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/monster-slayer-merge-survive_2.",
       "iframe": "https://playgama.com/export/game/monster-slayer-merge--survive?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -3621,6 +3858,7 @@
       "title": "Strike Force: Action Platformer",
       "slug": "strike-force-action-platformer",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/strike-force-action-platformer_2.",
@@ -3637,6 +3875,9 @@
       "title": "Game of Warrior",
       "slug": "game-of-warrior",
       "category": [
+        "boys",
+        "shooting",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/game-of-warrior_2.",
@@ -3653,6 +3894,8 @@
       "title": "RIVALS FPS: Online Shooter",
       "slug": "rivals-fps-online-shooter",
       "category": [
+        "shooting",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/rivals-fps-online-shooter_2.",
@@ -3701,6 +3944,7 @@
       "title": "Schoolboy Runaway: room escape",
       "slug": "schoolboy-runaway-room-escape",
       "category": [
+        "arcade",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/schoolboy-runaway-room-escape_2.",
@@ -3829,6 +4073,7 @@
       "title": "RPG Idle Clicker",
       "slug": "rpg-idle-clicker",
       "category": [
+        "clicker",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/rpg-idle-clicker_2.",
@@ -3925,6 +4170,8 @@
       "title": "Mister Bullet: Arcade Shooter",
       "slug": "mister-bullet-arcade-shooter",
       "category": [
+        "arcade",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mister-bullet-arcade-shooter_2.",
@@ -3941,6 +4188,8 @@
       "title": "StreetRacer: Realistic Destruction",
       "slug": "streetracer-realistic-destruction",
       "category": [
+        "racing",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/streetracer-realistic-destruction_2.",
@@ -3957,6 +4206,7 @@
       "title": "Tap Gallery",
       "slug": "tap-gallery",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tap-gallery_2.",
@@ -3973,6 +4223,7 @@
       "title": "Red and Blue Snipers",
       "slug": "red-and-blue-snipers",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/red-and-blue-snipers_2.",
@@ -4117,7 +4368,9 @@
       "title": "Construction Set - 3D Builder",
       "slug": "construction-set-3d-builder",
       "category": [
-        "3d"
+        "simulation",
+        "3d",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/construction-set-3d-builder_2.",
       "iframe": "https://playgama.com/export/game/construction-set--3d-builder?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -4197,6 +4450,7 @@
       "title": "Jumping Bottle 3D",
       "slug": "jumping-bottle-3d",
       "category": [
+        "arcade",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/jumping-bottle-3d_2.",
@@ -4213,6 +4467,7 @@
       "title": "Flow Blast Shooter",
       "slug": "flow-blast-shooter",
       "category": [
+        "shooting",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/flow-blast-shooter_2.",
@@ -4261,6 +4516,7 @@
       "title": "Merge Mushroom",
       "slug": "merge-mushroom",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-mushroom_2.",
@@ -4277,7 +4533,8 @@
       "title": "Slime Clicker",
       "slug": "slime-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/slime-clicker_2.",
       "iframe": "https://playgama.com/export/game/slime-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -4405,6 +4662,8 @@
       "title": "Lift Defender Zombie Carnage",
       "slug": "lift-defender-zombie-carnage",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/lift-defender-zombie-carnage_2.",
@@ -4485,6 +4744,7 @@
       "title": "Build levels \u2013 earn money!",
       "slug": "build-levels-\u2013-earn-money",
       "category": [
+        "simulation",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-levels-earn-money_2.",
@@ -4501,6 +4761,7 @@
       "title": "Bullet Echo",
       "slug": "bullet-echo",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bullet-echo_2.",
@@ -4565,7 +4826,9 @@
       "title": "Furious GT Drift",
       "slug": "furious-gt-drift",
       "category": [
-        "3d"
+        "racing",
+        "3d",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/furious-gt-drift_2.",
       "iframe": "https://playgama.com/export/game/furious-gt-drift?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -4581,6 +4844,8 @@
       "title": "Echolocation Shooter",
       "slug": "echolocation-shooter",
       "category": [
+        "shooting",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/echolocation-shooter_2.",
@@ -4597,6 +4862,7 @@
       "title": "Axe Run",
       "slug": "axe-run",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/axe-run_2.",
@@ -4645,6 +4911,7 @@
       "title": "Catch a Brainrot From Bosses",
       "slug": "catch-a-brainrot-from-bosses",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/catch-a-brainrot-from-bosses_2.",
@@ -4693,6 +4960,7 @@
       "title": "Snake of Bullets: Collect and Shoot!",
       "slug": "snake-of-bullets-collect-and-shoot",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/snake-of-bullets-collect-and-shoot_2.",
@@ -4725,6 +4993,8 @@
       "title": "K-Pop Demon Hunter Fashion",
       "slug": "k-pop-demon-hunter-fashion",
       "category": [
+        "girls",
+        "multiplayer",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/k-pop-demon-hunter-fashion_2.",
@@ -4741,7 +5011,9 @@
       "title": "Idle Train Empire Tycoon",
       "slug": "idle-train-empire-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-train-empire-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-train-empire?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -4757,6 +5029,8 @@
       "title": "Mine Fight! Cut Mob Army!",
       "slug": "mine-fight-cut-mob-army",
       "category": [
+        "boys",
+        "fighting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mine-fight-cut-mob-army_2.",
@@ -4789,7 +5063,9 @@
       "title": "Merge World",
       "slug": "merge-world",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-world_2.",
       "iframe": "https://playgama.com/export/game/merge-world?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -4821,7 +5097,8 @@
       "title": "Back To School: Uniforms Edition",
       "slug": "back-to-school-uniforms-edition",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/back-to-school-uniforms-edition_2.",
       "iframe": "https://playgama.com/export/game/back-to-school-uniforms-edition?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -4853,7 +5130,8 @@
       "title": "Sort And Style: Back To School",
       "slug": "sort-and-style-back-to-school",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sort-and-style-back-to-school_2.",
       "iframe": "https://playgama.com/export/game/sort-and-style-back-to-school?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -4885,6 +5163,7 @@
       "title": "King Simulator",
       "slug": "king-simulator",
       "category": [
+        "simulation",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/king-simulator_2.",
@@ -4917,6 +5196,7 @@
       "title": "Fun fishing",
       "slug": "fun-fishing",
       "category": [
+        "hypercasual",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fun-fishing_2.",
@@ -4949,7 +5229,8 @@
       "title": "Knight Crown Idle",
       "slug": "knight-crown-idle",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/knight-crown-idle_2.",
       "iframe": "https://playgama.com/export/game/knight-crown-idle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5013,6 +5294,7 @@
       "title": "Fishing: Catch the Secret Brainrot",
       "slug": "fishing-catch-the-secret-brainrot",
       "category": [
+        "puzzle",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fishing-catch-the-secret-brainrot_2.",
@@ -5029,6 +5311,8 @@
       "title": "Race On Cars in Moscow",
       "slug": "race-on-cars-in-moscow",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/race-on-cars-in-moscow_2.",
@@ -5045,7 +5329,8 @@
       "title": "Clawler Fight",
       "slug": "clawler-fight",
       "category": [
-        "arcade"
+        "arcade",
+        "fighting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/clawler-fight_2.",
       "iframe": "https://playgama.com/export/game/clawler-fight?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5061,7 +5346,9 @@
       "title": "Idle Supermarket Tycoon",
       "slug": "idle-supermarket-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-supermarket-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-supermarket-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5093,7 +5380,11 @@
       "title": "Obby: Warriors of The Sword",
       "slug": "obby-warriors-of-the-sword",
       "category": [
-        "action"
+        "boys",
+        "shooting",
+        "puzzle",
+        "action",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-warriors-of-the-sword_2.",
       "iframe": "https://playgama.com/export/game/obby-warriors-of-the-sword?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5125,6 +5416,7 @@
       "title": "Build a Go-Kart",
       "slug": "build-a-go-kart",
       "category": [
+        "simulation",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-a-go-kart_2.",
@@ -5189,6 +5481,8 @@
       "title": "Eggy Car",
       "slug": "eggy-car",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/eggy-car_2.",
@@ -5205,7 +5499,11 @@
       "title": "Animal Care Tycoon",
       "slug": "animal-care-tycoon",
       "category": [
-        "arcade"
+        "boys",
+        "arcade",
+        "clicker",
+        "simulation",
+        "racing"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/animal-care-tycoon_2.",
       "iframe": "https://playgama.com/export/game/animal-care-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5253,7 +5551,8 @@
       "title": "Schoolboy: Escape from Parents!",
       "slug": "schoolboy-escape-from-parents",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/schoolboy-escape-from-parents_2.",
       "iframe": "https://playgama.com/export/game/schoolboy-escape-from-parents?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5317,7 +5616,8 @@
       "title": "Fisher Clicker",
       "slug": "fisher-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fisher-clicker_2.",
       "iframe": "https://playgama.com/export/game/fisher-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5349,7 +5649,8 @@
       "title": "Musketeers Gunpowder vs Steel",
       "slug": "musketeers-gunpowder-vs-steel",
       "category": [
-        "arcade"
+        "arcade",
+        "shooting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/musketeers-gunpowder-vs-steel_2.",
       "iframe": "https://playgama.com/export/game/musketeers-gunpowder-vs-steel?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5381,6 +5682,7 @@
       "title": "Smash & Speed",
       "slug": "smash-and-speed",
       "category": [
+        "racing",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/smash-speed_2.",
@@ -5413,6 +5715,7 @@
       "title": "Gun Clone",
       "slug": "gun-clone",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gun-clone_2.",
@@ -5461,6 +5764,8 @@
       "title": "Bobr turbo: craft cars",
       "slug": "bobr-turbo-craft-cars",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bobr-turbo-craft-cars_2.",
@@ -5621,6 +5926,8 @@
       "title": "War V: Path of the Survivor!",
       "slug": "war-v-path-of-the-survivor",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/war-v-path-of-the-survivor_2.",
@@ -5653,7 +5960,8 @@
       "title": "Arrows Idle",
       "slug": "arrows-idle",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/arrows-idle_2.",
       "iframe": "https://playgama.com/export/game/arrows-idle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5685,6 +5993,7 @@
       "title": "Ultimate Lawn Mowing Simulator: Mower Master",
       "slug": "ultimate-lawn-mowing-simulator-mower-master",
       "category": [
+        "simulation",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ultimate-lawn-mowing-simulator-mower-master_2.",
@@ -5733,6 +6042,8 @@
       "title": "Rift of Hell - Demons War",
       "slug": "rift-of-hell-demons-war",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/rift-of-hell-demons-war_2.",
@@ -5781,6 +6092,7 @@
       "title": "Ninja Survival Simulator",
       "slug": "ninja-survival-simulator",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ninja-survival-simulator_2.",
@@ -5845,7 +6157,8 @@
       "title": "Sudoku Block Puzzle",
       "slug": "sudoku-block-puzzle",
       "category": [
-        "puzzle"
+        "puzzle",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sudoku-block-puzzle_2.",
       "iframe": "https://playgama.com/export/game/sudoku-block-puzzle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5925,6 +6238,7 @@
       "title": "Santa Stunt Racer Christmas Delivery",
       "slug": "santa-stunt-racer-christmas-delivery",
       "category": [
+        "racing",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/santa-stunt-racer-christmas-delivery_2.",
@@ -5941,7 +6255,9 @@
       "title": "Eating Simulator The Italian Animals Brainrot",
       "slug": "eating-simulator-the-italian-animals-brainrot",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/eating-simulator-the-italian-animals-brainrot_2.",
       "iframe": "https://playgama.com/export/game/eating-simulator-italian-animal-brainrot?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -5989,6 +6305,7 @@
       "title": "Obby Upgrade Your Jump",
       "slug": "obby-upgrade-your-jump",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-upgrade-your-jump_2.",
@@ -6053,7 +6370,8 @@
       "title": "Maskinery Idle",
       "slug": "maskinery-idle",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/maskinery-idle_2.",
       "iframe": "https://playgama.com/export/game/maskinery-idle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6101,7 +6419,8 @@
       "title": "Pet Maze Escape",
       "slug": "pet-maze-escape",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pet-maze-escape_2.",
       "iframe": "https://playgama.com/export/game/pet-maze-escape?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6117,7 +6436,8 @@
       "title": "Good and Evil DressUp",
       "slug": "good-and-evil-dressup",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/good-and-evil-dressup_2.",
       "iframe": "https://playgama.com/export/game/good-and-evil-dressup-07d6-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6149,6 +6469,8 @@
       "title": "A deadly car crash",
       "slug": "a-deadly-car-crash",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/a-deadly-car-crash_2.",
@@ -6229,6 +6551,7 @@
       "title": "Obby Easy Grow!",
       "slug": "obby-easy-grow",
       "category": [
+        "hypercasual",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-easy-grow_2.",
@@ -6245,7 +6568,8 @@
       "title": "Paint Race",
       "slug": "paint-race",
       "category": [
-        "arcade"
+        "arcade",
+        "racing"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/paint-race_2.",
       "iframe": "https://playgama.com/export/game/paint-race?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6277,7 +6601,8 @@
       "title": "Obby: Mine, Build, Launch",
       "slug": "obby-mine-build-launch",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-mine-build-launch_2.",
       "iframe": "https://playgama.com/export/game/obby-mine-build-launch?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6341,6 +6666,7 @@
       "title": "USA Luxury 4x4 SUV Offroad Driving Simulator",
       "slug": "usa-luxury-4x4-suv-offroad-driving-simulator",
       "category": [
+        "simulation",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/usa-luxury-4x4-suv-offroad-driving-simulator_2.",
@@ -6373,6 +6699,7 @@
       "title": "RageRoll.io",
       "slug": "rageroll.io",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/rageroll-io_2.",
@@ -6485,7 +6812,9 @@
       "title": "Easter Funny Makeup",
       "slug": "easter-funny-makeup",
       "category": [
-        "arcade"
+        "arcade",
+        "girls",
+        "hypercasual"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/easter-funny-makeup_2.",
       "iframe": "https://playgama.com/export/game/easter-funny-makeup-bc23-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6501,6 +6830,7 @@
       "title": "Noob saves a girl: A Story",
       "slug": "noob-saves-a-girl-a-story",
       "category": [
+        "girls",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/noob-saves-a-girl-a-story_2.",
@@ -6533,7 +6863,8 @@
       "title": "Squid Game Evolution: All Characters!",
       "slug": "squid-game-evolution-all-characters",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/squid-game-evolution-all-characters_2.",
       "iframe": "https://playgama.com/export/game/squid-game-evolution-all-characters?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6565,6 +6896,7 @@
       "title": "Italian Brainrot: Popper Crazy",
       "slug": "italian-brainrot-popper-crazy",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/italian-brainrot-popper-crazy_2.",
@@ -6693,6 +7025,7 @@
       "title": "Connect: Monsters",
       "slug": "connect-monsters",
       "category": [
+        "boys",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/connect-monsters_2.",
@@ -6757,7 +7090,9 @@
       "title": "Monster Slayer. Idle Clicker",
       "slug": "monster-slayer.-idle-clicker",
       "category": [
-        "action"
+        "boys",
+        "action",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/monster-slayer-idle-clicker_2.",
       "iframe": "https://playgama.com/export/game/monster-slayer-idle-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -6773,6 +7108,7 @@
       "title": "PC Cafe Simulator 3D",
       "slug": "pc-cafe-simulator-3d",
       "category": [
+        "simulation",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pc-cafe-simulator-3d_2.",
@@ -6789,6 +7125,8 @@
       "title": "Smash & Merge Balls",
       "slug": "smash-and-merge-balls",
       "category": [
+        "clicker",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/smash-merge-balls_2.",
@@ -6805,6 +7143,8 @@
       "title": "Super Fruit Runner - Hyper Casual",
       "slug": "super-fruit-runner-hyper-casual",
       "category": [
+        "arcade",
+        "hypercasual",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/super-fruit-runner-hyper-casual_2.",
@@ -6949,6 +7289,7 @@
       "title": "Astro Shooter",
       "slug": "astro-shooter",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/astro-shooter_2.",
@@ -6981,6 +7322,8 @@
       "title": "Circle Car Crash 3D",
       "slug": "circle-car-crash-3d",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/circle-car-crash-3d_2.",
@@ -7013,6 +7356,7 @@
       "title": "One Man Army: Battle Game",
       "slug": "one-man-army-battle-game",
       "category": [
+        "boys",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/one-man-army-battle-game_2.",
@@ -7061,6 +7405,7 @@
       "title": "Fruit Fusion",
       "slug": "fruit-fusion",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fruit-fusion_2.",
@@ -7077,7 +7422,10 @@
       "title": "Car Escape Parking",
       "slug": "car-escape-parking",
       "category": [
-        "puzzle"
+        "boys",
+        "racing",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-escape-parking_2.",
       "iframe": "https://playgama.com/export/game/car-escape-parking?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7125,7 +7473,11 @@
       "title": "Pirates Merge: War Path",
       "slug": "pirates-merge-war-path",
       "category": [
-        "arcade"
+        "boys",
+        "shooting",
+        "puzzle",
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pirates-merge-war-path_2.",
       "iframe": "https://playgama.com/export/game/pirates-merge-war-path?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7189,7 +7541,8 @@
       "title": "Plants vs Zombies Fusion Mode",
       "slug": "plants-vs-zombies-fusion-mode",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/plants-vs-zombies-fusion-mode_2.",
       "iframe": "https://playgama.com/export/game/plants-vs-zombies-fusion-mode?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7221,7 +7574,8 @@
       "title": "Zombie Horde: Build & Survive",
       "slug": "zombie-horde-build-and-survive",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/zombie-horde-build-survive_2.",
       "iframe": "https://playgama.com/export/game/zombie-horde-build--survive?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7317,7 +7671,9 @@
       "title": "Idle Game Dev Simulator",
       "slug": "idle-game-dev-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-game-dev-simulator_2.",
       "iframe": "https://playgama.com/export/game/idle-game-dev-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7333,6 +7689,7 @@
       "title": "Cat Life Simulator: Devil Cat",
       "slug": "cat-life-simulator-devil-cat",
       "category": [
+        "simulation",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cat-life-simulator-devil-cat_2.",
@@ -7365,6 +7722,8 @@
       "title": "Sprunki Action Playground: Ragdoll Sandbox",
       "slug": "sprunki-action-playground-ragdoll-sandbox",
       "category": [
+        "arcade",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sprunki-action-playground-ragdoll-sandbox_2.",
@@ -7429,7 +7788,9 @@
       "title": "Brainrots Merge",
       "slug": "brainrots-merge",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brainrots-merge_2.",
       "iframe": "https://playgama.com/export/game/brainrots-merge?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7477,6 +7838,7 @@
       "title": "Draw Action",
       "slug": "draw-action",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/draw-action_2.",
@@ -7493,6 +7855,7 @@
       "title": "Mansion Design - Match 3",
       "slug": "mansion-design-match-3",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mansion-design-match-3_2.",
@@ -7541,6 +7904,7 @@
       "title": "Mahjong Sweet Connection Easter",
       "slug": "mahjong-sweet-connection-easter",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mahjong-sweet-connection-easter_2.",
@@ -7573,6 +7937,7 @@
       "title": "Obby Sprunki: Pet World",
       "slug": "obby-sprunki-pet-world",
       "category": [
+        "arcade",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-sprunki-pet-world_2.",
@@ -7605,6 +7970,7 @@
       "title": "Obby Pet Simulator X",
       "slug": "obby-pet-simulator-x",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-pet-simulator-x_2.",
@@ -7701,7 +8067,10 @@
       "title": "Brainrots: Dress Up & Interior Design",
       "slug": "brainrots-dress-up-and-interior-design",
       "category": [
-        "arcade"
+        "arcade",
+        "girls",
+        "multiplayer",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brainrots-dress-up-interior-design_2.",
       "iframe": "https://playgama.com/export/game/brainrots-dress-up-interior-design?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7733,6 +8102,7 @@
       "title": "Build Obby World",
       "slug": "build-obby-world",
       "category": [
+        "simulation",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-obby-world_2.",
@@ -7749,6 +8119,8 @@
       "title": "Schoolboy Escape: Runaway",
       "slug": "schoolboy-escape-runaway",
       "category": [
+        "arcade",
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/schoolboy-escape-runaway_2.",
@@ -7781,7 +8153,8 @@
       "title": "Snowy Adventures with Noob and Pro!",
       "slug": "snowy-adventures-with-noob-and-pro",
       "category": [
-        "arcade"
+        "arcade",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/snowy-adventures-with-noob-and-pro_2.",
       "iframe": "https://playgama.com/export/game/snowy-adventures-with-noob-and-pro?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7813,6 +8186,7 @@
       "title": "Crazy Motorcycle",
       "slug": "crazy-motorcycle",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/crazy-motorcycle_2.",
@@ -7829,6 +8203,7 @@
       "title": "Sprunk: Playtime a Poppy",
       "slug": "sprunk-playtime-a-poppy",
       "category": [
+        "arcade",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sprunk-playtime-a-poppy_2.",
@@ -7877,6 +8252,7 @@
       "title": "Pixel Color Flow",
       "slug": "pixel-color-flow",
       "category": [
+        "arcade",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pixel-color-flow_2.",
@@ -7893,7 +8269,8 @@
       "title": "Frogtastic Marble Adventure",
       "slug": "frogtastic-marble-adventure",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/frogtastic-marble-adventure_2.",
       "iframe": "https://playgama.com/export/game/frogtastic-marble-adventure?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7925,7 +8302,9 @@
       "title": "Snake 2077: Glitch War",
       "slug": "snake-2077-glitch-war",
       "category": [
-        "arcade"
+        "arcade",
+        "boys",
+        "shooting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/snake-2077-glitch-war_2.",
       "iframe": "https://playgama.com/export/game/snake-2077-glitch-war?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -7989,6 +8368,7 @@
       "title": "Connecting Flowers: Garden Merge",
       "slug": "connecting-flowers-garden-merge",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/connecting-flowers-garden-merge_2.",
@@ -8021,6 +8401,7 @@
       "title": "Find Capybara: Valley of Monsters",
       "slug": "find-capybara-valley-of-monsters",
       "category": [
+        "boys",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/find-capybara-valley-of-monsters_2.",
@@ -8037,7 +8418,8 @@
       "title": "K-Pop Halloween Dress Up",
       "slug": "k-pop-halloween-dress-up",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/k-pop-halloween-dress-up_2.",
       "iframe": "https://playgama.com/export/game/kpop-halloween-dress-up?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -8133,6 +8515,7 @@
       "title": "Runic Curse",
       "slug": "runic-curse",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/runic-curse_2.",
@@ -8149,6 +8532,7 @@
       "title": "Broomcraft Mystic Evasion",
       "slug": "broomcraft-mystic-evasion",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/broomcraft-mystic-evasion_2.",
@@ -8181,7 +8565,10 @@
       "title": "Weaponsmith Evolution - Weapon Merge",
       "slug": "weaponsmith-evolution-weapon-merge",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "multiplayer",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/weaponsmith-evolution-weapon-merge_2.",
       "iframe": "https://playgama.com/export/game/weaponsmith-evolution--weapon-merge-3573-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -8373,6 +8760,7 @@
       "title": "Robot Police Iron Panther",
       "slug": "robot-police-iron-panther",
       "category": [
+        "boys",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/robot-police-iron-panther_2.",
@@ -8389,7 +8777,8 @@
       "title": "Build a Road",
       "slug": "build-a-road",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-a-road_2.",
       "iframe": "https://playgama.com/export/game/build-a-road?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -8421,6 +8810,7 @@
       "title": "Word Associations: Can You Guess?",
       "slug": "word-associations-can-you-guess",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/word-associations-can-you-guess_2.",
@@ -8469,6 +8859,7 @@
       "title": "Hair Salon 3D",
       "slug": "hair-salon-3d",
       "category": [
+        "girls",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hair-salon-3d_2.",
@@ -8517,6 +8908,7 @@
       "title": "Jim's World: Adventure Games",
       "slug": "jims-world-adventure-games",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/jim-s-world-adventure-games_2.",
@@ -8613,6 +9005,7 @@
       "title": "Golf Invaders",
       "slug": "golf-invaders",
       "category": [
+        "sports",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/golf-invaders_2.",
@@ -8629,6 +9022,7 @@
       "title": "Pixel hero survivor",
       "slug": "pixel-hero-survivor",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pixel-hero-survivor_2.",
@@ -8645,6 +9039,7 @@
       "title": "Skebob Gun",
       "slug": "skebob-gun",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/skebob-gun_2.",
@@ -8661,6 +9056,7 @@
       "title": "Funny Cubes 2048",
       "slug": "funny-cubes-2048",
       "category": [
+        "hypercasual",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/funny-cubes-2048_2.",
@@ -8741,6 +9137,7 @@
       "title": "Easy Obby Parkour",
       "slug": "easy-obby-parkour",
       "category": [
+        "hypercasual",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/easy-obby-parkour_2.",
@@ -8757,7 +9154,8 @@
       "title": "Moon Chess",
       "slug": "moon-chess",
       "category": [
-        "puzzle"
+        "puzzle",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/moon-chess_2.",
       "iframe": "https://playgama.com/export/game/moon-chess?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -8821,6 +9219,8 @@
       "title": "Sword Play! Ninja Slice Runner",
       "slug": "sword-play-ninja-slice-runner",
       "category": [
+        "arcade",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sword-play-ninja-slice-runner_2.",
@@ -8869,6 +9269,8 @@
       "title": "Merge Balls Shooter 2048 Connect Fruits",
       "slug": "merge-balls-shooter-2048-connect-fruits",
       "category": [
+        "clicker",
+        "shooting",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-balls-shooter-2048-connect-fruits_2.",
@@ -8965,7 +9367,10 @@
       "title": "Mr. Drifter: Car Chase Simulator",
       "slug": "mr.-drifter-car-chase-simulator",
       "category": [
-        "action"
+        "boys",
+        "racing",
+        "action",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mr-drifter-car-chase-simulator_2.",
       "iframe": "https://playgama.com/export/game/mr-drifter-car-chase-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -9061,7 +9466,8 @@
       "title": "Word Search Adventure",
       "slug": "word-search-adventure",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/word-search-adventure_2.",
       "iframe": "https://playgama.com/export/game/word-search-adventure?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -9141,6 +9547,8 @@
       "title": "Brainrot Hide and Seek Classic",
       "slug": "brainrot-hide-and-seek-classic",
       "category": [
+        "arcade",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brainrot-hide-and-seek-classic_2.",
@@ -9157,7 +9565,8 @@
       "title": "Cubby Soccer League",
       "slug": "cubby-soccer-league",
       "category": [
-        "arcade"
+        "arcade",
+        "sports"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cubby-soccer-league_2.",
       "iframe": "https://playgama.com/export/game/cubby-soccer-league?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -9173,7 +9582,8 @@
       "title": "DashMash.io",
       "slug": "dashmash.io",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/dashmash-io_2.",
       "iframe": "https://playgama.com/export/game/dashmash-io?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -9253,7 +9663,10 @@
       "title": "Strategy of war: Tanks and helicopters",
       "slug": "strategy-of-war-tanks-and-helicopters",
       "category": [
-        "arcade"
+        "arcade",
+        "boys",
+        "shooting",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/strategy-of-war-tanks-and-helicopters_2.",
       "iframe": "https://playgama.com/export/game/strategy-of-war-tanks-and-helicopters?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -9269,6 +9682,7 @@
       "title": "Hide the Monster: Choose Pose",
       "slug": "hide-the-monster-choose-pose",
       "category": [
+        "boys",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hide-the-monster-choose-pose_2.",
@@ -9381,6 +9795,7 @@
       "title": "Ultimate Obby Parkour Adventure Online",
       "slug": "ultimate-obby-parkour-adventure-online",
       "category": [
+        "multiplayer",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ultimate-obby-parkour-adventure-online_2.",
@@ -9397,6 +9812,8 @@
       "title": "Micro GT Racing",
       "slug": "micro-gt-racing",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/micro-gt-racing_2.",
@@ -9461,6 +9878,7 @@
       "title": "Basketball Tap",
       "slug": "basketball-tap",
       "category": [
+        "clicker",
         "sports"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/basketball-tap_2.",
@@ -9477,7 +9895,8 @@
       "title": "Click & Idle - Slimes!",
       "slug": "click-and-idle-slimes",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/click-idle-slimes_2.",
       "iframe": "https://playgama.com/export/game/click--idle--slimes?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -9541,6 +9960,8 @@
       "title": "Build And Run",
       "slug": "build-and-run",
       "category": [
+        "arcade",
+        "simulation",
         "3d"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-and-run_2.",
@@ -9557,6 +9978,7 @@
       "title": "Russian Drift: Overtaking in the City",
       "slug": "russian-drift-overtaking-in-the-city",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/russian-drift-overtaking-in-the-city_2.",
@@ -9573,7 +9995,8 @@
       "title": "Obby Upgrade Your Speed!",
       "slug": "obby-upgrade-your-speed",
       "category": [
-        "arcade"
+        "arcade",
+        "racing"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-upgrade-your-speed_2.",
       "iframe": "https://playgama.com/export/game/obby-upgrade-your-speed?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -9637,6 +10060,8 @@
       "title": "SpeedMatch Competition",
       "slug": "speedmatch-competition",
       "category": [
+        "racing",
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/speedmatch-competition_2.",
@@ -9685,6 +10110,8 @@
       "title": "Geek Escape: Run for Survival",
       "slug": "geek-escape-run-for-survival",
       "category": [
+        "arcade",
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/geek-escape-run-for-survival_2.",
@@ -9701,6 +10128,7 @@
       "title": "Idle Pop Merge",
       "slug": "idle-pop-merge",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-pop-merge_2.",
@@ -9717,6 +10145,7 @@
       "title": "BuildemUp",
       "slug": "buildemup",
       "category": [
+        "simulation",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/buildemup_2.",
@@ -9749,6 +10178,7 @@
       "title": "TetraDice\u2013Merge & Blast Blocks",
       "slug": "tetradice\u2013merge-and-blast-blocks",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tetradice-merge-blast-blocks_2.",
@@ -9925,6 +10355,7 @@
       "title": "Head Jump",
       "slug": "head-jump",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/head-jump_2.",
@@ -9989,6 +10420,7 @@
       "title": "Tower Tap",
       "slug": "tower-tap",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tower-tap_2.",
@@ -10053,7 +10485,8 @@
       "title": "Nail Salon",
       "slug": "nail-salon",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/nail-salon_2.",
       "iframe": "https://playgama.com/export/game/nail-salon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10085,6 +10518,8 @@
       "title": "Card Quest: 10 Minute Adventure",
       "slug": "card-quest-10-minute-adventure",
       "category": [
+        "boys",
+        "racing",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/card-quest-10-minute-adventure_2.",
@@ -10117,6 +10552,8 @@
       "title": "Clash of Cars: Arena",
       "slug": "clash-of-cars-arena",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/clash-of-cars-arena_2.",
@@ -10133,6 +10570,7 @@
       "title": "Space Strike: Galaxy Shooter",
       "slug": "space-strike-galaxy-shooter",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/space-strike-galaxy-shooter_2.",
@@ -10325,6 +10763,7 @@
       "title": "Dino funny digging",
       "slug": "dino-funny-digging",
       "category": [
+        "hypercasual",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/dino-funny-digging_2.",
@@ -10373,6 +10812,7 @@
       "title": "Stickman Kombat 2D",
       "slug": "stickman-kombat-2d",
       "category": [
+        "fighting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/stickman-kombat-2d_2.",
@@ -10437,7 +10877,8 @@
       "title": "Idol Livestream: Doll Dress Up",
       "slug": "idol-livestream-doll-dress-up",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idol-livestream-doll-dress-up_2.",
       "iframe": "https://playgama.com/export/game/idol-livestream-doll-dress-up?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10453,7 +10894,9 @@
       "title": "Chicken Merge",
       "slug": "chicken-merge",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/chicken-merge_2.",
       "iframe": "https://playgama.com/export/game/chicken-merge?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10517,6 +10960,7 @@
       "title": "Escape School Duel",
       "slug": "escape-school-duel",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-school-duel_2.",
@@ -10533,6 +10977,7 @@
       "title": "Ladder to Brainhot: Climb Obby",
       "slug": "ladder-to-brainhot-climb-obby",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ladder-to-brainhot-climb-obby_2.",
@@ -10581,7 +11026,8 @@
       "title": "Vega Mix 2: Adventure",
       "slug": "vega-mix-2-adventure",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/vega-mix-2-adventure_2.",
       "iframe": "https://playgama.com/export/game/vega-mix-2-adventure?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10597,6 +11043,7 @@
       "title": "Escape Waves for Lucky Blocks",
       "slug": "escape-waves-for-lucky-blocks",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-waves-for-lucky-blocks_2.",
@@ -10629,6 +11076,7 @@
       "title": "Road Chase: Shooter Realistic Guns",
       "slug": "road-chase-shooter-realistic-guns",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/road-chase-shooter-realistic-guns_2.",
@@ -10693,7 +11141,10 @@
       "title": "Scary Rooms: Idle Horror",
       "slug": "scary-rooms-idle-horror",
       "category": [
-        "action"
+        "boys",
+        "racing",
+        "action",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/scary-rooms-idle-horror_2.",
       "iframe": "https://playgama.com/export/game/scary-rooms-idle-horror?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10709,7 +11160,8 @@
       "title": "English Checkers Online Multiplayer",
       "slug": "english-checkers-online-multiplayer",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/english-checkers-online-multiplayer_2.",
       "iframe": "https://playgama.com/export/game/english-checkers-online-multiplayer?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10725,6 +11177,7 @@
       "title": "Big Boom! Building Smash!",
       "slug": "big-boom-building-smash",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/big-boom-building-smash_2.",
@@ -10773,7 +11226,8 @@
       "title": "Obby: Escape from Lava and Survive",
       "slug": "obby-escape-from-lava-and-survive",
       "category": [
-        "arcade"
+        "arcade",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-escape-from-lava-and-survive_2.",
       "iframe": "https://playgama.com/export/game/obby-escape-from-lava-and-survive?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10821,6 +11275,7 @@
       "title": "Merge Fruit Characters",
       "slug": "merge-fruit-characters",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-fruit-characters_2.",
@@ -10837,6 +11292,7 @@
       "title": "Build Your Zombie Horde",
       "slug": "build-your-zombie-horde",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-your-zombie-horde_2.",
@@ -10853,6 +11309,7 @@
       "title": "Build a Rollercoaster: Simulator",
       "slug": "build-a-rollercoaster-simulator",
       "category": [
+        "simulation",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-a-rollercoaster-simulator_2.",
@@ -10869,7 +11326,9 @@
       "title": "Kind Shelter - Animal Care and Treatment",
       "slug": "kind-shelter-animal-care-and-treatment",
       "category": [
-        "arcade"
+        "arcade",
+        "boys",
+        "racing"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/kind-shelter-animal-care-and-treatment_2.",
       "iframe": "https://playgama.com/export/game/kind-shelter--animal-care-and-treatment?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10901,6 +11360,7 @@
       "title": "Mafia Wars",
       "slug": "mafia-wars",
       "category": [
+        "boys",
         "shooting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mafia-wars_2.",
@@ -10933,6 +11393,7 @@
       "title": "Shape Transforming: Shifting Run",
       "slug": "shape-transforming-shifting-run",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/shape-transforming-shifting-run_2.",
@@ -10949,7 +11410,8 @@
       "title": "Money cutter idle",
       "slug": "money-cutter-idle",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/money-cutter-idle_2.",
       "iframe": "https://playgama.com/export/game/money-cutter-idle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -10965,6 +11427,7 @@
       "title": "MR RACER  Stunt Mania",
       "slug": "mr-racer-stunt-mania",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mr-racer-stunt-mania_2.",
@@ -10981,6 +11444,8 @@
       "title": "Hyper Cars Ramp Crash",
       "slug": "hyper-cars-ramp-crash",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hyper-cars-ramp-crash_2.",
@@ -10997,6 +11462,7 @@
       "title": "Plants vs Brainrots 2D",
       "slug": "plants-vs-brainrots-2d",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/plants-vs-brainrots-2d_2.",
@@ -11029,7 +11495,8 @@
       "title": "BS Simulator",
       "slug": "bs-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bs-simulator_2.",
       "iframe": "https://playgama.com/export/game/bs-simulator-559a-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11061,7 +11528,9 @@
       "title": "Tom and Angela Insta Fashion",
       "slug": "tom-and-angela-insta-fashion",
       "category": [
-        "arcade"
+        "arcade",
+        "girls",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tom-and-angela-insta-fashion_2.",
       "iframe": "https://playgama.com/export/game/tom-and-angela-insta-fashion?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11093,6 +11562,8 @@
       "title": "Obby: Escape from Tsunami Brainrot",
       "slug": "obby-escape-from-tsunami-brainrot",
       "category": [
+        "adventure",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-escape-from-tsunami-brainrot_2.",
@@ -11109,7 +11580,8 @@
       "title": "Hotel Manager Simulator",
       "slug": "hotel-manager-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hotel-manager-simulator_2.",
       "iframe": "https://playgama.com/export/game/hotel-manager-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11141,7 +11613,9 @@
       "title": "Defender: Tanks Merge",
       "slug": "defender-tanks-merge",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/defender-tanks-merge_2.",
       "iframe": "https://playgama.com/export/game/defender-tanks-merge?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11157,6 +11631,7 @@
       "title": "School Escape Obby",
       "slug": "school-escape-obby",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/school-escape-obby_2.",
@@ -11189,6 +11664,7 @@
       "title": "Escape from the Portal",
       "slug": "escape-from-the-portal",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-from-the-portal_2.",
@@ -11253,7 +11729,9 @@
       "title": "Survival Tycoon: City of Zombie",
       "slug": "survival-tycoon-city-of-zombie",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/survival-tycoon-city-of-zombie_2.",
       "iframe": "https://playgama.com/export/game/survival-tycoon-city-of-zombie?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11349,7 +11827,8 @@
       "title": "Idle Tower Defense",
       "slug": "idle-tower-defense",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-tower-defense_2.",
       "iframe": "https://playgama.com/export/game/idle-tower-defense-be01-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11381,6 +11860,7 @@
       "title": "Fun Sorting Through The Shelves",
       "slug": "fun-sorting-through-the-shelves",
       "category": [
+        "hypercasual",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fun-sorting-through-the-shelves_2.",
@@ -11397,6 +11877,8 @@
       "title": "Escape Tsunami and save Brainrots",
       "slug": "escape-tsunami-and-save-brainrots",
       "category": [
+        "adventure",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-tsunami-and-save-brainrots_2.",
@@ -11429,6 +11911,7 @@
       "title": "Plants Vs Steal Brainrots",
       "slug": "plants-vs-steal-brainrots",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/plants-vs-steal-brainrots_2.",
@@ -11477,7 +11960,9 @@
       "title": "Money Factory: Tycoon Idle Game",
       "slug": "money-factory-tycoon-idle-game",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/money-factory-tycoon-idle-game_2.",
       "iframe": "https://playgama.com/export/game/money-factory-tycoon-idle-game?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11493,7 +11978,8 @@
       "title": "Arrows Escape",
       "slug": "arrows-escape",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/arrows-escape_2.",
       "iframe": "https://playgama.com/export/game/arrows-escape?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11509,7 +11995,8 @@
       "title": "Spinner Clicker 2D",
       "slug": "spinner-clicker-2d",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/spinner-clicker-2d_2.",
       "iframe": "https://playgama.com/export/game/spinner-clicker-2d?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11525,6 +12012,8 @@
       "title": "Far Island: Tactical Warfare",
       "slug": "far-island-tactical-warfare",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/far-island-tactical-warfare_2.",
@@ -11557,6 +12046,8 @@
       "title": "Drag Racing Club",
       "slug": "drag-racing-club",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/drag-racing-club_2.",
@@ -11621,6 +12112,7 @@
       "title": "Abandoned Mansion",
       "slug": "abandoned-mansion",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/abandoned-mansion_2.",
@@ -11637,7 +12129,8 @@
       "title": "Quizmania: Trivia game",
       "slug": "quizmania-trivia-game",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/quizmania-trivia-game_2.",
       "iframe": "https://playgama.com/export/game/quizmania-trivia-game?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11669,6 +12162,7 @@
       "title": "99 Nights In The Forest - Survival Simulator",
       "slug": "99-nights-in-the-forest-survival-simulator",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/99-nights-in-the-forest-survival-simulator_2.",
@@ -11781,7 +12275,8 @@
       "title": "Block Sort Puzzle",
       "slug": "block-sort-puzzle",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/block-sort-puzzle_2.",
       "iframe": "https://playgama.com/export/game/block-sort-puzzle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11797,7 +12292,8 @@
       "title": "Homo Evolution",
       "slug": "homo-evolution",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/homo-evolution_2.",
       "iframe": "https://playgama.com/export/game/homo-evolution?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11813,7 +12309,8 @@
       "title": "Trivia Millionaire",
       "slug": "trivia-millionaire",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/trivia-millionaire_2.",
       "iframe": "https://playgama.com/export/game/trivia-millionaire?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11861,6 +12358,8 @@
       "title": "Escape Police for Brainrots",
       "slug": "escape-police-for-brainrots",
       "category": [
+        "adventure",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-police-for-brainrots_2.",
@@ -11877,6 +12376,8 @@
       "title": "Car Battle",
       "slug": "car-battle",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-battle_2.",
@@ -11893,7 +12394,9 @@
       "title": "Airplane Factory - Tycoon",
       "slug": "airplane-factory-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/airplane-factory-tycoon_2.",
       "iframe": "https://playgama.com/export/game/airplane-factory--tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11925,7 +12428,9 @@
       "title": "Escape Strange Girl\u2019s House",
       "slug": "escape-strange-girl\u2019s-house",
       "category": [
-        "puzzle"
+        "girls",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-strange-girl-s-house_2.",
       "iframe": "https://playgama.com/export/game/escape-strange-girls-house?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11941,6 +12446,8 @@
       "title": "Cartoon cat: naughty kitten",
       "slug": "cartoon-cat-naughty-kitten",
       "category": [
+        "boys",
+        "racing",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cartoon-cat-naughty-kitten_2.",
@@ -11957,7 +12464,8 @@
       "title": "Funny Angela Haircut",
       "slug": "funny-angela-haircut",
       "category": [
-        "arcade"
+        "arcade",
+        "hypercasual"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/funny-angela-haircut_2.",
       "iframe": "https://playgama.com/export/game/funny-angela-haircut?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -11989,6 +12497,8 @@
       "title": "Break The Car Completely",
       "slug": "break-the-car-completely",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/break-the-car-completely_2.",
@@ -12053,7 +12563,10 @@
       "title": "Merge Items Build City",
       "slug": "merge-items-build-city",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-items-build-city_2.",
       "iframe": "https://playgama.com/export/game/merge-items-build-city?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -12085,6 +12598,7 @@
       "title": "Merge 2048",
       "slug": "merge-2048",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-2048_2.",
@@ -12101,6 +12615,7 @@
       "title": "Nubiks build a defense vs zombies",
       "slug": "nubiks-build-a-defense-vs-zombies",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/nubiks-build-a-defense-vs-zombies_2.",
@@ -12165,7 +12680,8 @@
       "title": "Pop Tap",
       "slug": "pop-tap",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pop-tap_2.",
       "iframe": "https://playgama.com/export/game/pop-tap?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -12197,6 +12713,7 @@
       "title": "Bouncy Motors",
       "slug": "bouncy-motors",
       "category": [
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bouncy-motors_2.",
@@ -12229,6 +12746,8 @@
       "title": "Transport Run",
       "slug": "transport-run",
       "category": [
+        "arcade",
+        "sports",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/transport-run_2.",
@@ -12261,7 +12780,9 @@
       "title": "Idle Crafting Empire Tycoon",
       "slug": "idle-crafting-empire-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-crafting-empire-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-crafting-empire-tycoon-3a99-1?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -12421,6 +12942,9 @@
       "title": "Car Parking Simulator",
       "slug": "car-parking-simulator",
       "category": [
+        "simulation",
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-parking-simulator_2.",
@@ -12517,7 +13041,8 @@
       "title": "Sigma Boy: Musical Clicker",
       "slug": "sigma-boy-musical-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sigma-boy-musical-clicker_2.",
       "iframe": "https://playgama.com/export/game/sigma-boy-musical-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -12613,6 +13138,7 @@
       "title": "Dark City. Multiplayer",
       "slug": "dark-city.-multiplayer",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/dark-city-multiplayer_2.",
@@ -12629,7 +13155,8 @@
       "title": "Draw and Guess Online",
       "slug": "draw-and-guess-online",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/draw-and-guess-online_2.",
       "iframe": "https://playgama.com/export/game/draw-and-guess-online?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -12661,7 +13188,9 @@
       "title": "Fun With Flags - Ultimate Quiz Game",
       "slug": "fun-with-flags-ultimate-quiz-game",
       "category": [
-        "arcade"
+        "arcade",
+        "hypercasual",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fun-with-flags-ultimate-quiz-game_2.",
       "iframe": "https://playgama.com/export/game/fun-with-flags--ultimate-quiz-game?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -12725,6 +13254,7 @@
       "title": "Tsunami Race",
       "slug": "tsunami-race",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tsunami-race_2.",
@@ -12741,6 +13271,7 @@
       "title": "Sky Golf",
       "slug": "sky-golf",
       "category": [
+        "sports",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sky-golf_2.",
@@ -12789,7 +13320,8 @@
       "title": "Dress Up Anime Girl",
       "slug": "dress-up-anime-girl",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/dress-up-anime-girl_2.",
       "iframe": "https://playgama.com/export/game/anime-dress-playgama?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -12837,6 +13369,7 @@
       "title": "Merge number up",
       "slug": "merge-number-up",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-number-up_2.",
@@ -12885,6 +13418,7 @@
       "title": "Escape From Squid Island",
       "slug": "escape-from-squid-island",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-from-squid-island_2.",
@@ -12901,6 +13435,8 @@
       "title": "Simple Words",
       "slug": "simple-words",
       "category": [
+        "hypercasual",
+        "simulation",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/simple-words_2.",
@@ -12917,6 +13453,7 @@
       "title": "Block Builder Jam",
       "slug": "block-builder-jam",
       "category": [
+        "simulation",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/block-builder-jam_2.",
@@ -12933,6 +13470,7 @@
       "title": "Guess Monster Voice",
       "slug": "guess-monster-voice",
       "category": [
+        "boys",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/guess-monster-voice_2.",
@@ -12981,6 +13519,7 @@
       "title": "Gunner Pursuit",
       "slug": "gunner-pursuit",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gunner-pursuit_2.",
@@ -13013,6 +13552,7 @@
       "title": "Revoxel 3D - Voxel RPG Shooter",
       "slug": "revoxel-3d-voxel-rpg-shooter",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/revoxel-3d-voxel-rpg-shooter_2.",
@@ -13141,6 +13681,7 @@
       "title": "Battle Arena Race to Win",
       "slug": "battle-arena-race-to-win",
       "category": [
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/battle-arena-race-to-win_2.",
@@ -13157,6 +13698,7 @@
       "title": "Brainrot Merge: Drop Puzzle",
       "slug": "brainrot-merge-drop-puzzle",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brainrot-merge-drop-puzzle_2.",
@@ -13189,6 +13731,7 @@
       "title": "Ancient Dragons Princess",
       "slug": "ancient-dragons-princess",
       "category": [
+        "girls",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ancient-dragons-princess_2.",
@@ -13205,7 +13748,9 @@
       "title": "Bubble Shooter Island Quest",
       "slug": "bubble-shooter-island-quest",
       "category": [
-        "puzzle"
+        "shooting",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bubble-shooter-island-quest_2.",
       "iframe": "https://playgama.com/export/game/bubble-shooter-island-quest?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -13221,6 +13766,7 @@
       "title": "Gun and Roll",
       "slug": "gun-and-roll",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gun-and-roll_2.",
@@ -13237,6 +13783,7 @@
       "title": "Tap tap Swing",
       "slug": "tap-tap-swing",
       "category": [
+        "clicker",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tap-tap-swing_2.",
@@ -13285,6 +13832,7 @@
       "title": "Escape from School 3D",
       "slug": "escape-from-school-3d",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-from-school-3d_2.",
@@ -13365,6 +13913,8 @@
       "title": "Brainrot Hunters: Shooter 3D",
       "slug": "brainrot-hunters-shooter-3d",
       "category": [
+        "shooting",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brainrot-hunters-shooter-3d_2.",
@@ -13381,7 +13931,9 @@
       "title": "Monster Merge: Legends Alive",
       "slug": "monster-merge-legends-alive",
       "category": [
-        "puzzle"
+        "boys",
+        "puzzle",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/monster-merge-legends-alive_2.",
       "iframe": "https://playgama.com/export/game/monster-merge-legends-alive?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -13397,6 +13949,8 @@
       "title": "Cool Tuning - Paint the Car",
       "slug": "cool-tuning-paint-the-car",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cool-tuning-paint-the-car_2.",
@@ -13413,6 +13967,7 @@
       "title": "Baby Sitter: Merge 2",
       "slug": "baby-sitter-merge-2",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/baby-sitter-merge-2_2.",
@@ -13477,7 +14032,8 @@
       "title": "Idle Pong",
       "slug": "idle-pong",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-pong_2.",
       "iframe": "https://playgama.com/export/game/idle-pong?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -13589,6 +14145,7 @@
       "title": "Run The Electricity",
       "slug": "run-the-electricity",
       "category": [
+        "arcade",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/run-the-electricity_2.",
@@ -13637,6 +14194,7 @@
       "title": "Number Merge 10",
       "slug": "number-merge-10",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/number-merge-10_2.",
@@ -13653,7 +14211,9 @@
       "title": "2048 3D: Merge Cubes",
       "slug": "2048-3d-merge-cubes",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/2048-3d-merge-cubes_2.",
       "iframe": "https://playgama.com/export/game/2048-3d-merge-cubes?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -13717,7 +14277,10 @@
       "title": "City Tuk Tuk Simulator: Racing Game 3D",
       "slug": "city-tuk-tuk-simulator-racing-game-3d",
       "category": [
-        "adventure"
+        "boys",
+        "racing",
+        "adventure",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/city-tuk-tuk-simulator-racing-game-3d_2.",
       "iframe": "https://playgama.com/export/game/city-tuk-tuk-simulator--racing-game-3d?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -13813,6 +14376,7 @@
       "title": "shrinkzone.io",
       "slug": "shrinkzone.io",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/shrinkzone-io_2.",
@@ -13845,7 +14409,8 @@
       "title": "Easy Coloring Labubu Time",
       "slug": "easy-coloring-labubu-time",
       "category": [
-        "arcade"
+        "arcade",
+        "hypercasual"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/easy-coloring-labubu-time_2.",
       "iframe": "https://playgama.com/export/game/easy-coloring-labubu-time?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -13861,6 +14426,8 @@
       "title": "Cards in Fool",
       "slug": "cards-in-fool",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cards-in-fool_2.",
@@ -13941,6 +14508,8 @@
       "title": "Cars Challenge",
       "slug": "cars-challenge",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cars-challenge_2.",
@@ -14005,7 +14574,8 @@
       "title": "Streamer Simulator: Phone Challenge!",
       "slug": "streamer-simulator-phone-challenge",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/streamer-simulator-phone-challenge_2.",
       "iframe": "https://playgama.com/export/game/streamer-simulator-phone-challenge?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -14085,6 +14655,8 @@
       "title": "Graveyard Wars - Two player",
       "slug": "graveyard-wars-two-player",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/graveyard-wars-two-player_2.",
@@ -14117,6 +14689,7 @@
       "title": "Bomber Quest",
       "slug": "bomber-quest",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bomber-quest_2.",
@@ -14133,6 +14706,7 @@
       "title": "Mr.Tung Shoot Zombie",
       "slug": "mr.tung-shoot-zombie",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mr-tung-shoot-zombie_2.",
@@ -14197,7 +14771,8 @@
       "title": "Click Kitty Idle",
       "slug": "click-kitty-idle",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/click-kitty-idle_2.",
       "iframe": "https://playgama.com/export/game/click-kitty-idle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -14277,6 +14852,7 @@
       "title": "Mage Adventure: Mighty Raid",
       "slug": "mage-adventure-mighty-raid",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mage-adventure-mighty-raid_2.",
@@ -14341,6 +14917,7 @@
       "title": "My Clearn Robot",
       "slug": "my-clearn-robot",
       "category": [
+        "boys",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/my-clearn-robot_2.",
@@ -14373,6 +14950,7 @@
       "title": "Fun Town Parking",
       "slug": "fun-town-parking",
       "category": [
+        "hypercasual",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fun-town-parking_2.",
@@ -14469,7 +15047,8 @@
       "title": "Winter Labubu Pacman Adventure",
       "slug": "winter-labubu-pacman-adventure",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/winter-labubu-pacman-adventure_2.",
       "iframe": "https://playgama.com/export/game/winter-labubu-pacman-adventure?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -14661,6 +15240,7 @@
       "title": "Magic Potion School For Witch",
       "slug": "magic-potion-school-for-witch",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/magic-potion-school-for-witch_2.",
@@ -14773,7 +15353,9 @@
       "title": "Toxic Arena: Biological Threat",
       "slug": "toxic-arena-biological-threat",
       "category": [
-        "action"
+        "multiplayer",
+        "action",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/toxic-arena-biological-threat_2.",
       "iframe": "https://playgama.com/export/game/toxic-arena-biological-threat?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -14869,7 +15451,8 @@
       "title": "Chess Royale",
       "slug": "chess-royale",
       "category": [
-        "puzzle"
+        "puzzle",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/chess-royale_2.",
       "iframe": "https://playgama.com/export/game/chess-royale?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15013,7 +15596,9 @@
       "title": "Idle Cookie Tycoon",
       "slug": "idle-cookie-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-cookie-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-cookie-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15045,6 +15630,7 @@
       "title": "Power ball soccer",
       "slug": "power-ball-soccer",
       "category": [
+        "sports",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/power-ball-soccer_2.",
@@ -15061,6 +15647,8 @@
       "title": "Pixel Conquest",
       "slug": "pixel-conquest",
       "category": [
+        "arcade",
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pixel-conquest_2.",
@@ -15093,6 +15681,9 @@
       "title": "Italian Brainrot GT Highway Racing",
       "slug": "italian-brainrot-gt-highway-racing",
       "category": [
+        "boys",
+        "racing",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/italian-brainrot-gt-highway-racing_2.",
@@ -15125,6 +15716,7 @@
       "title": "Daddy Escape",
       "slug": "daddy-escape",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/daddy-escape_2.",
@@ -15205,6 +15797,7 @@
       "title": "Cup Quest",
       "slug": "cup-quest",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cup-quest_2.",
@@ -15253,7 +15846,9 @@
       "title": "Idle Magic Academy Tycoon",
       "slug": "idle-magic-academy-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-magic-academy-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-magic-academy-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15269,7 +15864,8 @@
       "title": "ASMR Girl: Livestream Mukbang",
       "slug": "asmr-girl-livestream-mukbang",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/asmr-girl-livestream-mukbang_2.",
       "iframe": "https://playgama.com/export/game/asmr-girl-livestream-mukbang?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15317,7 +15913,10 @@
       "title": "Car Smash Simulator: Crash & Tune",
       "slug": "car-smash-simulator-crash-and-tune",
       "category": [
-        "action"
+        "boys",
+        "racing",
+        "action",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-smash-simulator-crash-tune_2.",
       "iframe": "https://playgama.com/export/game/car-smash-simulator-crash--tune?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15381,6 +15980,7 @@
       "title": "Coloring by Numbers. Pixel Room",
       "slug": "coloring-by-numbers.-pixel-room",
       "category": [
+        "arcade",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/coloring-by-numbers-pixel-room_2.",
@@ -15461,6 +16061,8 @@
       "title": "Escape from Wave for Brainrots",
       "slug": "escape-from-wave-for-brainrots",
       "category": [
+        "adventure",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/escape-from-wave-for-brainrots_2.",
@@ -15493,6 +16095,8 @@
       "title": "Ragdoll Racing: Extreme Downhill!",
       "slug": "ragdoll-racing-extreme-downhill",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ragdoll-racing-extreme-downhill_2.",
@@ -15509,6 +16113,8 @@
       "title": "Obby online with friends: Draw and Jump!",
       "slug": "obby-online-with-friends-draw-and-jump",
       "category": [
+        "arcade",
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-online-with-friends-draw-and-jump_2.",
@@ -15557,6 +16163,8 @@
       "title": "Squad Assembler: Merge",
       "slug": "squad-assembler-merge",
       "category": [
+        "clicker",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/squad-assembler-merge_2.",
@@ -15605,6 +16213,7 @@
       "title": "Container Auction",
       "slug": "container-auction",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/container-auction_2.",
@@ -15653,7 +16262,9 @@
       "title": "Fashion Week 2025",
       "slug": "fashion-week-2025",
       "category": [
-        "arcade"
+        "arcade",
+        "girls",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fashion-week-2025_2.",
       "iframe": "https://playgama.com/export/game/fashion-week-2025?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15669,7 +16280,8 @@
       "title": "Paper Princess - Doll Dress Up",
       "slug": "paper-princess-doll-dress-up",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/paper-princess-doll-dress-up_2.",
       "iframe": "https://playgama.com/export/game/paper-princess--doll-dress-up?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15685,7 +16297,8 @@
       "title": "Italian Brainrot Find the Difference",
       "slug": "italian-brainrot-find-the-difference",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/italian-brainrot-find-the-difference_2.",
       "iframe": "https://playgama.com/export/game/italian-brainrot-find-the-difference?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15701,6 +16314,8 @@
       "title": "Car Wash DIY",
       "slug": "car-wash-diy",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-wash-diy_2.",
@@ -15717,6 +16332,7 @@
       "title": "The Flowers Merge and Sell Bouquets",
       "slug": "the-flowers-merge-and-sell-bouquets",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/the-flowers-merge-and-sell-bouquets_2.",
@@ -15765,7 +16381,9 @@
       "title": "Idle Cinema Tycoon",
       "slug": "idle-cinema-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-cinema-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-cinema-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15813,6 +16431,8 @@
       "title": "Space Craft: Ship War",
       "slug": "space-craft-ship-war",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/space-craft-ship-war_2.",
@@ -15829,6 +16449,7 @@
       "title": "Sword Master: Slice Your Enemies!",
       "slug": "sword-master-slice-your-enemies",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sword-master-slice-your-enemies_2.",
@@ -15861,6 +16482,7 @@
       "title": "Ragdoll Gun Shooter! Cannon Spinner Playground",
       "slug": "ragdoll-gun-shooter-cannon-spinner-playground",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ragdoll-gun-shooter-cannon-spinner-playground_2.",
@@ -15877,6 +16499,7 @@
       "title": "Tap Hunters",
       "slug": "tap-hunters",
       "category": [
+        "clicker",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tap-hunters_2.",
@@ -15893,6 +16516,7 @@
       "title": "+1 Speed per Step | Obby Mode",
       "slug": "1-speed-per-step-|-obby-mode",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/1-speed-per-step-obby-mode_2.",
@@ -15909,7 +16533,10 @@
       "title": "Car Escape",
       "slug": "car-escape",
       "category": [
-        "puzzle"
+        "boys",
+        "racing",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-escape_2.",
       "iframe": "https://playgama.com/export/game/car-escape?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15925,7 +16552,9 @@
       "title": "Chef Tycoon",
       "slug": "chef-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/chef-tycoon_2.",
       "iframe": "https://playgama.com/export/game/chef-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -15989,6 +16618,8 @@
       "title": "Sworded io - Spin and Rub",
       "slug": "sworded-io-spin-and-rub",
       "category": [
+        "puzzle",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sworded-io-spin-and-rub_2.",
@@ -16069,7 +16700,8 @@
       "title": "Wiggle Escape: Snake Puzzle",
       "slug": "wiggle-escape-snake-puzzle",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/wiggle-escape-snake-puzzle_2.",
       "iframe": "https://playgama.com/export/game/wiggle-escape-snake-puzzle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -16085,6 +16717,7 @@
       "title": "Noob Legends Dungeon Adventures",
       "slug": "noob-legends-dungeon-adventures",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/noob-legends-dungeon-adventures_2.",
@@ -16165,7 +16798,9 @@
       "title": "Idle Hotel Empire Tycoon",
       "slug": "idle-hotel-empire-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-hotel-empire-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-hotel-empire-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -16229,6 +16864,7 @@
       "title": "Sniper Shooter-Save The Fish",
       "slug": "sniper-shooter-save-the-fish",
       "category": [
+        "shooting",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sniper-shooter-save-the-fish_2.",
@@ -16293,7 +16929,8 @@
       "title": "Black Friday Dress Up Selfie",
       "slug": "black-friday-dress-up-selfie",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/black-friday-dress-up-selfie_2.",
       "iframe": "https://playgama.com/export/game/black-friday-dress-up-selfie?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -16325,7 +16962,9 @@
       "title": "SCP-173: Foundation Escape",
       "slug": "scp-173-foundation-escape",
       "category": [
-        "puzzle"
+        "multiplayer",
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/scp-173-foundation-escape_2.",
       "iframe": "https://playgama.com/export/game/scp173-foundation-escape?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -16453,6 +17092,7 @@
       "title": "Agent Sniper City",
       "slug": "agent-sniper-city",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/agent-sniper-city_2.",
@@ -16469,7 +17109,8 @@
       "title": "Sheep Escape: Farm Sorting Challenge",
       "slug": "sheep-escape-farm-sorting-challenge",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sheep-escape-farm-sorting-challenge_2.",
       "iframe": "https://playgama.com/export/game/sheep-escape-farm-sorting-challenge?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -16501,6 +17142,7 @@
       "title": "Sword Play: Chop enemies to pieces!",
       "slug": "sword-play-chop-enemies-to-pieces",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sword-play-chop-enemies-to-pieces_2.",
@@ -16565,6 +17207,9 @@
       "title": "Legions: Way of War",
       "slug": "legions-way-of-war",
       "category": [
+        "boys",
+        "shooting",
+        "multiplayer",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/legions-way-of-war_2.",
@@ -16613,7 +17258,9 @@
       "title": "Mergetopia",
       "slug": "mergetopia",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mergetopia_2.",
       "iframe": "https://playgama.com/export/game/mergetopia?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -16677,6 +17324,7 @@
       "title": "Kitty Cat Merge",
       "slug": "kitty-cat-merge",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/kitty-cat-merge_2.",
@@ -16853,6 +17501,7 @@
       "title": "Blocky Guns",
       "slug": "blocky-guns",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/blocky-guns_2.",
@@ -16965,7 +17614,9 @@
       "title": "Unboxing Brainrots",
       "slug": "unboxing-brainrots",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle",
+        "fighting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/unboxing-brainrots_2.",
       "iframe": "https://playgama.com/export/game/unboxing-brainrots?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17029,7 +17680,10 @@
       "title": "Mix Monsters: Fun Merge",
       "slug": "mix-monsters-fun-merge",
       "category": [
-        "puzzle"
+        "boys",
+        "hypercasual",
+        "puzzle",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mix-monsters-fun-merge_2.",
       "iframe": "https://playgama.com/export/game/mix-monsters-fun-merge?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17061,6 +17715,7 @@
       "title": "HexFall.io",
       "slug": "hexfall.io",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/hexfall-io_2.",
@@ -17109,6 +17764,8 @@
       "title": "Mega Car Stunts",
       "slug": "mega-car-stunts",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mega-car-stunts_2.",
@@ -17189,7 +17846,8 @@
       "title": "TRAFFIC JAM ESCAPE 3D",
       "slug": "traffic-jam-escape-3d",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/traffic-jam-escape-3d_2.",
       "iframe": "https://playgama.com/export/game/traffic-jam-escape-3d?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17269,6 +17927,7 @@
       "title": "Bubble Shooter Mega",
       "slug": "bubble-shooter-mega",
       "category": [
+        "shooting",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bubble-shooter-mega_2.",
@@ -17285,7 +17944,8 @@
       "title": "Brainrot Tower Defense",
       "slug": "brainrot-tower-defense",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brainrot-tower-defense_2.",
       "iframe": "https://playgama.com/export/game/brainrot-tower-defense?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17301,6 +17961,7 @@
       "title": "MergeMaster: Dragonets",
       "slug": "mergemaster-dragonets",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mergemaster-dragonets_2.",
@@ -17349,6 +18010,7 @@
       "title": "Super Frog Adventure",
       "slug": "super-frog-adventure",
       "category": [
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/super-frog-adventure_2.",
@@ -17397,6 +18059,7 @@
       "title": "Italian Brainrot: Animals Merge Puzzle",
       "slug": "italian-brainrot-animals-merge-puzzle",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/italian-brainrot-animals-merge-puzzle_2.",
@@ -17429,6 +18092,9 @@
       "title": "Racing: Destruction and Chase",
       "slug": "racing-destruction-and-chase",
       "category": [
+        "boys",
+        "racing",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/racing-destruction-and-chase_2.",
@@ -17461,6 +18127,7 @@
       "title": "Stickboy Epic Swordsman",
       "slug": "stickboy-epic-swordsman",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/stickboy-epic-swordsman_2.",
@@ -17493,6 +18160,8 @@
       "title": "Weapons Merge Hero",
       "slug": "weapons-merge-hero",
       "category": [
+        "clicker",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/weapons-merge-hero_2.",
@@ -17541,7 +18210,8 @@
       "title": "Sudoku - Number Games",
       "slug": "sudoku-number-games",
       "category": [
-        "puzzle"
+        "puzzle",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sudoku-number-games_2.",
       "iframe": "https://playgama.com/export/game/sudoku-number-games?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17637,7 +18307,8 @@
       "title": "Makeup Fruits",
       "slug": "makeup-fruits",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/makeup-fruits_2.",
       "iframe": "https://playgama.com/export/game/makeup-fruits?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17669,6 +18340,7 @@
       "title": "Halloween Merge Mania",
       "slug": "halloween-merge-mania",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/halloween-merge-mania_2.",
@@ -17749,6 +18421,7 @@
       "title": "Gravity Shift Sky Racers GT",
       "slug": "gravity-shift-sky-racers-gt",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gravity-shift-sky-racers-gt_2.",
@@ -17813,6 +18486,9 @@
       "title": "Car Collision Master",
       "slug": "car-collision-master",
       "category": [
+        "boys",
+        "racing",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-collision-master_2.",
@@ -17829,7 +18505,9 @@
       "title": "Merge Furry Monsters",
       "slug": "merge-furry-monsters",
       "category": [
-        "puzzle"
+        "boys",
+        "puzzle",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-furry-monsters_2.",
       "iframe": "https://playgama.com/export/game/merge-furry-monsters?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17909,6 +18587,7 @@
       "title": "Crazy Merge Room",
       "slug": "crazy-merge-room",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/crazy-merge-room_2.",
@@ -17925,7 +18604,8 @@
       "title": "Mahjong Pirate Plunder Quest",
       "slug": "mahjong-pirate-plunder-quest",
       "category": [
-        "puzzle"
+        "puzzle",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mahjong-pirate-plunder-quest_2.",
       "iframe": "https://playgama.com/export/game/mahjong-pirate-plunder-quest?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -17941,6 +18621,7 @@
       "title": "Tap, Think, Save the Kitten!",
       "slug": "tap-think-save-the-kitten",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tap-think-save-the-kitten_2.",
@@ -18005,6 +18686,7 @@
       "title": "Robot Unicorn Dash",
       "slug": "robot-unicorn-dash",
       "category": [
+        "boys",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/robot-unicorn-dash_2.",
@@ -18021,6 +18703,8 @@
       "title": "Cars Vs Blocks",
       "slug": "cars-vs-blocks",
       "category": [
+        "boys",
+        "racing",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cars-vs-blocks_2.",
@@ -18117,6 +18801,7 @@
       "title": "Far Orion: New worlds",
       "slug": "far-orion-new-worlds",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/far-orion-new-worlds_2.",
@@ -18133,6 +18818,7 @@
       "title": "Balls: Pixel Art",
       "slug": "balls-pixel-art",
       "category": [
+        "arcade",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/balls-pixel-art_2.",
@@ -18149,7 +18835,8 @@
       "title": "Object 73: Survival Clicker",
       "slug": "object-73-survival-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/object-73-survival-clicker_2.",
       "iframe": "https://playgama.com/export/game/object-73-survival-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -18165,6 +18852,7 @@
       "title": "Mushroom Runners",
       "slug": "mushroom-runners",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mushroom-runners_2.",
@@ -18181,6 +18869,8 @@
       "title": "4 Color Card Game",
       "slug": "4-color-card-game",
       "category": [
+        "boys",
+        "racing",
         "driving"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/4-color-card-game_2.",
@@ -18213,6 +18903,8 @@
       "title": "Shoot & Sprint: Warfare",
       "slug": "shoot-and-sprint-warfare",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/shoot-sprint-warfare_2.",
@@ -18245,6 +18937,7 @@
       "title": "Air Warfare",
       "slug": "air-warfare",
       "category": [
+        "boys",
         "shooting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/air-warfare_2.",
@@ -18373,6 +19066,8 @@
       "title": "Gravity Speed Run",
       "slug": "gravity-speed-run",
       "category": [
+        "arcade",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gravity-speed-run_2.",
@@ -18437,6 +19132,7 @@
       "title": "Mr Shooter",
       "slug": "mr-shooter",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mr-shooter_2.",
@@ -18453,7 +19149,8 @@
       "title": "Home Decor Clicker",
       "slug": "home-decor-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/home-decor-clicker_2.",
       "iframe": "https://playgama.com/export/game/home-decor-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -18469,7 +19166,8 @@
       "title": "Millionaire Factory",
       "slug": "millionaire-factory",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/millionaire-factory_2.",
       "iframe": "https://playgama.com/export/game/millionaire-factory?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -18517,7 +19215,8 @@
       "title": "Crocodile Online - Draw and Guess",
       "slug": "crocodile-online-draw-and-guess",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/crocodile-online-draw-and-guess_2.",
       "iframe": "https://playgama.com/export/game/crocodile-online-draw-and-guess?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -18597,6 +19296,7 @@
       "title": "TANK ARENA MULTIPLAYER",
       "slug": "tank-arena-multiplayer",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tank-arena-multiplayer_2.",
@@ -18629,7 +19329,8 @@
       "title": "Fun Toy Pals",
       "slug": "fun-toy-pals",
       "category": [
-        "arcade"
+        "arcade",
+        "hypercasual"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fun-toy-pals_2.",
       "iframe": "https://playgama.com/export/game/fun-toy-pals?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -18645,6 +19346,7 @@
       "title": "Wasteland Hunter: puzzle RPG",
       "slug": "wasteland-hunter-puzzle-rpg",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/wasteland-hunter-puzzle-rpg_2.",
@@ -18661,6 +19363,7 @@
       "title": "Animal Merge",
       "slug": "animal-merge",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/animal-merge_2.",
@@ -18693,7 +19396,8 @@
       "title": "Grand Escape!",
       "slug": "grand-escape",
       "category": [
-        "arcade"
+        "arcade",
+        "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/grand-escape_2.",
       "iframe": "https://playgama.com/export/game/grand-escape?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -18885,6 +19589,7 @@
       "title": "Blocky Set - 3d brick constructions",
       "slug": "blocky-set-3d-brick-constructions",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/blocky-set-3d-brick-constructions_2.",
@@ -18933,6 +19638,7 @@
       "title": "Color Dash - Chameleon Runner",
       "slug": "color-dash-chameleon-runner",
       "category": [
+        "arcade",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/color-dash-chameleon-runner_2.",
@@ -18981,6 +19687,8 @@
       "title": "Car Parking Order",
       "slug": "car-parking-order",
       "category": [
+        "boys",
+        "racing",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-parking-order_2.",
@@ -19045,6 +19753,7 @@
       "title": "Blockadventure io",
       "slug": "blockadventure-io",
       "category": [
+        "multiplayer",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/blockadventure-io_2.",
@@ -19109,6 +19818,8 @@
       "title": "Cargo Path Puzzle",
       "slug": "cargo-path-puzzle",
       "category": [
+        "boys",
+        "racing",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cargo-path-puzzle_2.",
@@ -19221,6 +19932,7 @@
       "title": "Cube shooter",
       "slug": "cube-shooter",
       "category": [
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cube-shooter_2.",
@@ -19237,7 +19949,8 @@
       "title": "Labubu Unboxing & Match 3D",
       "slug": "labubu-unboxing-and-match-3d",
       "category": [
-        "puzzle"
+        "puzzle",
+        "fighting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/labubu-unboxing-match-3d_2.",
       "iframe": "https://playgama.com/export/game/labubu-unboxing--match-3d?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -19333,6 +20046,7 @@
       "title": "Merge 13",
       "slug": "merge-13",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-13_2.",
@@ -19349,6 +20063,8 @@
       "title": "Cars",
       "slug": "cars",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cars_2.",
@@ -19365,6 +20081,7 @@
       "title": "Obby Royal races in flight",
       "slug": "obby-royal-races-in-flight",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-royal-races-in-flight_2.",
@@ -19461,7 +20178,8 @@
       "title": "Brainrot Mixup",
       "slug": "brainrot-mixup",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/brainrot-mixup_2.",
       "iframe": "https://playgama.com/export/game/brainrot-mixup?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -19589,6 +20307,7 @@
       "title": "Knock and Run. 100 Doors Escape",
       "slug": "knock-and-run.-100-doors-escape",
       "category": [
+        "arcade",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/knock-and-run-100-doors-escape_2.",
@@ -19621,6 +20340,7 @@
       "title": "Ultimate Brainrot Battle",
       "slug": "ultimate-brainrot-battle",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ultimate-brainrot-battle_2.",
@@ -19637,6 +20357,9 @@
       "title": "Warrior Bee Apocalypse",
       "slug": "warrior-bee-apocalypse",
       "category": [
+        "boys",
+        "shooting",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/warrior-bee-apocalypse_2.",
@@ -19653,7 +20376,9 @@
       "title": "Jurassic Digging - Tycoon",
       "slug": "jurassic-digging-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/jurassic-digging-tycoon_2.",
       "iframe": "https://playgama.com/export/game/jurassic-digging--tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -19669,6 +20394,7 @@
       "title": "Merge Combo",
       "slug": "merge-combo",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/merge-combo_2.",
@@ -19717,6 +20443,7 @@
       "title": "Piece of Cake: Merge & Bake",
       "slug": "piece-of-cake-merge-and-bake",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/piece-of-cake-merge-bake_2.",
@@ -19765,6 +20492,7 @@
       "title": "Man Runner 2048",
       "slug": "man-runner-2048",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/man-runner-2048_2.",
@@ -19781,6 +20509,10 @@
       "title": "Blocks Shooter 3D! Run, Shoot, Merge Weapons!",
       "slug": "blocks-shooter-3d-run-shoot-merge-weapons",
       "category": [
+        "shooting",
+        "puzzle",
+        "arcade",
+        "clicker",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/blocks-shooter-3d-run-shoot-merge-weapons_2.",
@@ -19813,6 +20545,7 @@
       "title": "Bubble Shooter: Tap & Pop",
       "slug": "bubble-shooter-tap-and-pop",
       "category": [
+        "clicker",
         "shooting"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bubble-shooter-tap-pop_2.",
@@ -19861,7 +20594,8 @@
       "title": "Anna's Story: Dress Up DIY",
       "slug": "annas-story-dress-up-diy",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/anna-s-story-dress-up-diy_2.",
       "iframe": "https://playgama.com/export/game/annas-story-dress-up-diy?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -19893,6 +20627,7 @@
       "title": "Tall io",
       "slug": "tall-io",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tall-io_2.",
@@ -19909,6 +20644,7 @@
       "title": "Collect Brainrot Egg",
       "slug": "collect-brainrot-egg",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/collect-brainrot-egg_2.",
@@ -19973,6 +20709,7 @@
       "title": "Sprunki Craft - Sandbox 3D",
       "slug": "sprunki-craft-sandbox-3d",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/sprunki-craft-sandbox-3d_2.",
@@ -19989,7 +20726,8 @@
       "title": "Build and Fly Obby",
       "slug": "build-and-fly-obby",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/build-and-fly-obby_2.",
       "iframe": "https://playgama.com/export/game/build-and-fly-obby?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20021,7 +20759,8 @@
       "title": "Christmas Girls Dress Up",
       "slug": "christmas-girls-dress-up",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/christmas-girls-dress-up_2.",
       "iframe": "https://playgama.com/export/game/christmas-girls-dress-up?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20053,6 +20792,7 @@
       "title": "Rolling Balls Sea Race",
       "slug": "rolling-balls-sea-race",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/rolling-balls-sea-race_2.",
@@ -20133,7 +20873,8 @@
       "title": "Domino Online Multiplayer",
       "slug": "domino-online-multiplayer",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/domino-online-multiplayer_2.",
       "iframe": "https://playgama.com/export/game/domino-online-multiplayer?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20149,6 +20890,8 @@
       "title": "Car Crash Test: Abandoned City",
       "slug": "car-crash-test-abandoned-city",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-crash-test-abandoned-city_2.",
@@ -20165,6 +20908,8 @@
       "title": "Poppy 4! Cut Monsters with Sword in Arena!",
       "slug": "poppy-4-cut-monsters-with-sword-in-arena",
       "category": [
+        "boys",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/poppy-4-cut-monsters-with-sword-in-arena_2.",
@@ -20197,7 +20942,8 @@
       "title": "Funny Finds hidden object game",
       "slug": "funny-finds-hidden-object-game",
       "category": [
-        "arcade"
+        "arcade",
+        "hypercasual"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/funny-finds-hidden-object-game_2.",
       "iframe": "https://playgama.com/export/game/funny-finds-hidden-object-game?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20229,7 +20975,8 @@
       "title": "Pop Culture Halloween Makeup",
       "slug": "pop-culture-halloween-makeup",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pop-culture-halloween-makeup_2.",
       "iframe": "https://playgama.com/export/game/pop-culture-halloween-makeup?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20245,6 +20992,7 @@
       "title": "Robbie: Draw your Sword",
       "slug": "robbie-draw-your-sword",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/robbie-draw-your-sword_2.",
@@ -20277,7 +21025,10 @@
       "title": "Drago Warrior Tower Defense",
       "slug": "drago-warrior-tower-defense",
       "category": [
-        "arcade"
+        "arcade",
+        "boys",
+        "shooting",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/drago-warrior-tower-defense_2.",
       "iframe": "https://playgama.com/export/game/drago-warrior-tower-defense?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20309,7 +21060,10 @@
       "title": "Car Sales Empire Simulator",
       "slug": "car-sales-empire-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "boys",
+        "racing",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/car-sales-empire-simulator_2.",
       "iframe": "https://playgama.com/export/game/car-sales-empire-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20325,7 +21079,10 @@
       "title": "Cooking Shawarma Idle Game",
       "slug": "cooking-shawarma-idle-game",
       "category": [
-        "arcade"
+        "arcade",
+        "boys",
+        "shooting",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/cooking-shawarma-idle-game_2.",
       "iframe": "https://playgama.com/export/game/cooking-shawarma-idle-game?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20341,6 +21098,8 @@
       "title": "Stickman Miners Wars",
       "slug": "stickman-miners-wars",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/stickman-miners-wars_2.",
@@ -20357,6 +21116,7 @@
       "title": "Nullify - Merge Math",
       "slug": "nullify-merge-math",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/nullify-merge-math_2.",
@@ -20373,6 +21133,8 @@
       "title": "Destruction Simulator",
       "slug": "destruction-simulator",
       "category": [
+        "simulation",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/destruction-simulator_2.",
@@ -20389,6 +21151,7 @@
       "title": "Nubik in the Monster World!",
       "slug": "nubik-in-the-monster-world",
       "category": [
+        "boys",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/nubik-in-the-monster-world_2.",
@@ -20421,7 +21184,8 @@
       "title": "Spider Evolution",
       "slug": "spider-evolution",
       "category": [
-        "arcade"
+        "arcade",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/spider-evolution_2.",
       "iframe": "https://playgama.com/export/game/spider-evolution?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20437,7 +21201,8 @@
       "title": "Miner Builder",
       "slug": "miner-builder",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/miner-builder_2.",
       "iframe": "https://playgama.com/export/game/miner-builder?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20517,7 +21282,9 @@
       "title": "Idle Zoo Tycoon",
       "slug": "idle-zoo-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/idle-zoo-tycoon_2.",
       "iframe": "https://playgama.com/export/game/idle-zoo-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20533,6 +21300,7 @@
       "title": "Tile Matcher Triple Fun",
       "slug": "tile-matcher-triple-fun",
       "category": [
+        "hypercasual",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tile-matcher-triple-fun_2.",
@@ -20565,6 +21333,7 @@
       "title": "Tap Away Block Puzzle 3D",
       "slug": "tap-away-block-puzzle-3d",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/tap-away-block-puzzle-3d_2.",
@@ -20581,6 +21350,7 @@
       "title": "Ragdoll Battle Royale! Throw Down the Enemy!",
       "slug": "ragdoll-battle-royale-throw-down-the-enemy",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/ragdoll-battle-royale-throw-down-the-enemy_2.",
@@ -20597,7 +21367,8 @@
       "title": "Poker Clicker",
       "slug": "poker-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/poker-clicker_2.",
       "iframe": "https://playgama.com/export/game/poker-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20629,6 +21400,8 @@
       "title": "Wave Run: Brainrot Escape!",
       "slug": "wave-run-brainrot-escape",
       "category": [
+        "arcade",
+        "puzzle",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/wave-run-brainrot-escape_2.",
@@ -20645,7 +21418,9 @@
       "title": "Gas Station - Stick Simulator",
       "slug": "gas-station-stick-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/gas-station-stick-simulator_2.",
       "iframe": "https://playgama.com/export/game/gas-station-stick-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20693,6 +21468,7 @@
       "title": "Evolution: Survival",
       "slug": "evolution-survival",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/evolution-survival_2.",
@@ -20725,6 +21501,7 @@
       "title": "Pixel Differences",
       "slug": "pixel-differences",
       "category": [
+        "arcade",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pixel-differences_2.",
@@ -20757,7 +21534,11 @@
       "title": "Highway Car Shooting 3D  Action Game 2025",
       "slug": "highway-car-shooting-3d-action-game-2025",
       "category": [
-        "action"
+        "boys",
+        "shooting",
+        "action",
+        "racing",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/highway-car-shooting-3d-action-game-2025_2.",
       "iframe": "https://playgama.com/export/game/highway-car-shooting-3d-action-game-2025?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20773,7 +21554,9 @@
       "title": "Monster Makeup 3D",
       "slug": "monster-makeup-3d",
       "category": [
-        "arcade"
+        "arcade",
+        "girls",
+        "boys"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/monster-makeup-3d_2.",
       "iframe": "https://playgama.com/export/game/monster-makeup-3d?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -20821,6 +21604,8 @@
       "title": "Pet Card Sort",
       "slug": "pet-card-sort",
       "category": [
+        "boys",
+        "racing",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/pet-card-sort_2.",
@@ -20949,6 +21734,7 @@
       "title": "PopCats: Merge the cats!",
       "slug": "popcats-merge-the-cats",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/popcats-merge-the-cats_2.",
@@ -20965,7 +21751,8 @@
       "title": "Magic Princess",
       "slug": "magic-princess",
       "category": [
-        "arcade"
+        "arcade",
+        "girls"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/magic-princess_2.",
       "iframe": "https://playgama.com/export/game/magic-princess?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -21045,7 +21832,8 @@
       "title": "Your Majesty - Build & Conquer",
       "slug": "your-majesty-build-and-conquer",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/your-majesty-build-conquer_2.",
       "iframe": "https://playgama.com/export/game/your-majesty-build-conquer?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -21093,7 +21881,9 @@
       "title": "Fashionista Christmas Eve Party",
       "slug": "fashionista-christmas-eve-party",
       "category": [
-        "arcade"
+        "arcade",
+        "girls",
+        "multiplayer"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/fashionista-christmas-eve-party_2.",
       "iframe": "https://playgama.com/export/game/fashionista-christmas-eve-party?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -21109,6 +21899,7 @@
       "title": "Dinosaur Shifting Run",
       "slug": "dinosaur-shifting-run",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/dinosaur-shifting-run_2.",
@@ -21157,6 +21948,7 @@
       "title": "Epic Battle Simulator",
       "slug": "epic-battle-simulator",
       "category": [
+        "simulation",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/epic-battle-simulator_2.",
@@ -21205,6 +21997,7 @@
       "title": "Clicker Knights Vs Dragons",
       "slug": "clicker-knights-vs-dragons",
       "category": [
+        "clicker",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/clicker-knights-vs-dragons_2.",
@@ -21221,6 +22014,7 @@
       "title": "Prisoners Run",
       "slug": "prisoners-run",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/prisoners-run_2.",
@@ -21237,7 +22031,10 @@
       "title": "Destructive Car Crash Simulator",
       "slug": "destructive-car-crash-simulator",
       "category": [
-        "action"
+        "boys",
+        "racing",
+        "action",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/destructive-car-crash-simulator_2.",
       "iframe": "https://playgama.com/export/game/destructive-car-crash-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -21317,7 +22114,8 @@
       "title": "Bird Game Clicker",
       "slug": "bird-game-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bird-game-clicker_2.",
       "iframe": "https://playgama.com/export/game/bird-game-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -21349,7 +22147,8 @@
       "title": "Shopping Simulator",
       "slug": "shopping-simulator",
       "category": [
-        "arcade"
+        "arcade",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/shopping-simulator_2.",
       "iframe": "https://playgama.com/export/game/Shopping-simulator?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -21429,6 +22228,8 @@
       "title": "Mini Car Racing Master 3D",
       "slug": "mini-car-racing-master-3d",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mini-car-racing-master-3d_2.",
@@ -21477,6 +22278,7 @@
       "title": "Monsters' Wheels Special",
       "slug": "monsters-wheels-special",
       "category": [
+        "boys",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/monsters-wheels-special_2.",
@@ -21525,6 +22327,7 @@
       "title": "Turbo Racer Extreme",
       "slug": "turbo-racer-extreme",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/turbo-racer-extreme_2.",
@@ -21557,6 +22360,7 @@
       "title": "Wednesday\u2019s Battle: Monster Symphony",
       "slug": "wednesday\u2019s-battle-monster-symphony",
       "category": [
+        "boys",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/wednesday-s-battle-monster-symphony_2.",
@@ -21589,6 +22393,7 @@
       "title": "Stickman Jump",
       "slug": "stickman-jump",
       "category": [
+        "arcade",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/stickman-jump_2.",
@@ -21717,6 +22522,7 @@
       "title": "JUMPER",
       "slug": "jumper",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/jumper_2.",
@@ -21813,6 +22619,8 @@
       "title": "We Are In A Simulation Simulator",
       "slug": "we-are-in-a-simulation-simulator",
       "category": [
+        "simulation",
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/we-are-in-a-simulation-simulator_2.",
@@ -21845,7 +22653,8 @@
       "title": "Logo Quiz Master",
       "slug": "logo-quiz-master",
       "category": [
-        "arcade"
+        "arcade",
+        "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/logo-quiz-master_2.",
       "iframe": "https://playgama.com/export/game/logo-quiz-master?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -21861,6 +22670,7 @@
       "title": "Mine Jump",
       "slug": "mine-jump",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mine-jump_2.",
@@ -21909,7 +22719,8 @@
       "title": "Zombie Monster Survivors",
       "slug": "zombie-monster-survivors",
       "category": [
-        "arcade"
+        "arcade",
+        "boys"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/zombie-monster-survivors_2.",
       "iframe": "https://playgama.com/export/game/zombie-monster-survivors?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -22085,7 +22896,8 @@
       "title": "Logic Islands",
       "slug": "logic-islands",
       "category": [
-        "puzzle"
+        "puzzle",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/logic-islands_2.",
       "iframe": "https://playgama.com/export/game/logic-islands?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -22133,6 +22945,7 @@
       "title": "Only Jump RPG",
       "slug": "only-jump-rpg",
       "category": [
+        "arcade",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/only-jump-rpg_2.",
@@ -22261,6 +23074,7 @@
       "title": "99 Nights in the Forest. Horror Multiplayer",
       "slug": "99-nights-in-the-forest.-horror-multiplayer",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/99-nights-in-the-forest-horror-multiplayer_2.",
@@ -22341,7 +23155,8 @@
       "title": "Stickman Clicker",
       "slug": "stickman-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/stickman-clicker_2.",
       "iframe": "https://playgama.com/export/game/stickman-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -22357,6 +23172,8 @@
       "title": "Turbo Stunt Racing",
       "slug": "turbo-stunt-racing",
       "category": [
+        "boys",
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/turbo-stunt-racing_2.",
@@ -22421,7 +23238,8 @@
       "title": "Queens Royal: Sudoku Puzzle",
       "slug": "queens-royal-sudoku-puzzle",
       "category": [
-        "puzzle"
+        "puzzle",
+        "logic"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/queens-royal-sudoku-puzzle_2.",
       "iframe": "https://playgama.com/export/game/queens-royal-sudoku-puzzle?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -22565,6 +23383,7 @@
       "title": "Money Factory - Earn a Billion",
       "slug": "money-factory-earn-a-billion",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/money-factory-earn-a-billion_2.",
@@ -22629,6 +23448,7 @@
       "title": "Space Rolling Balls Race",
       "slug": "space-rolling-balls-race",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/space-rolling-balls-race_2.",
@@ -22645,6 +23465,8 @@
       "title": "OrbaDrone - Robot Escape",
       "slug": "orbadrone-robot-escape",
       "category": [
+        "boys",
+        "adventure",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/orbadrone-robot-escape_2.",
@@ -22677,6 +23499,7 @@
       "title": "Drift Master 3D",
       "slug": "drift-master-3d",
       "category": [
+        "racing",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/drift-master-3d_2.",
@@ -22693,6 +23516,7 @@
       "title": "Wednesday Addams Merge Drop Puzzle",
       "slug": "wednesday-addams-merge-drop-puzzle",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/wednesday-addams-merge-drop-puzzle_2.",
@@ -22741,6 +23565,8 @@
       "title": "Madness: Ward number 6",
       "slug": "madness-ward-number-6",
       "category": [
+        "boys",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/madness-ward-number-6_2.",
@@ -22773,7 +23599,8 @@
       "title": "Insect Clicker",
       "slug": "insect-clicker",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/insect-clicker_2.",
       "iframe": "https://playgama.com/export/game/insect-clicker?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -22837,6 +23664,7 @@
       "title": "Obby Saves Brainrots from Tsunami",
       "slug": "obby-saves-brainrots-from-tsunami",
       "category": [
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/obby-saves-brainrots-from-tsunami_2.",
@@ -22853,6 +23681,7 @@
       "title": "Dice Merge",
       "slug": "dice-merge",
       "category": [
+        "clicker",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/dice-merge_2.",
@@ -22949,6 +23778,7 @@
       "title": "Bomb Royale Online",
       "slug": "bomb-royale-online",
       "category": [
+        "multiplayer",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/bomb-royale-online_2.",
@@ -22965,6 +23795,8 @@
       "title": "Retro Sniper",
       "slug": "retro-sniper",
       "category": [
+        "arcade",
+        "shooting",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/retro-sniper_2.",
@@ -22981,6 +23813,7 @@
       "title": "Mega Jump",
       "slug": "mega-jump",
       "category": [
+        "arcade",
         "adventure"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/mega-jump_2.",
@@ -23077,7 +23910,9 @@
       "title": "PolyBounce Tycoon",
       "slug": "polybounce-tycoon",
       "category": [
-        "arcade"
+        "arcade",
+        "clicker",
+        "simulation"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/polybounce-tycoon_2.",
       "iframe": "https://playgama.com/export/game/polybounce-tycoon?clid=p_ac6d9de9-2ee4-433b-90e9-ebfa9707def4",
@@ -23093,6 +23928,7 @@
       "title": "Word Associations Solitaire",
       "slug": "word-associations-solitaire",
       "category": [
+        "multiplayer",
         "puzzle"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/word-associations-solitaire_2.",
@@ -23125,6 +23961,8 @@
       "title": "Zombie Rage: Merge 3D",
       "slug": "zombie-rage-merge-3d",
       "category": [
+        "clicker",
+        "puzzle",
         "action"
       ],
       "thumbnail": "https://b.tubhai.com/thumbs/zombie-rage-merge-3d_2.",
