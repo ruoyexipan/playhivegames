@@ -3,12 +3,12 @@ import { Suspense } from 'react'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'PlayHive Games - Free Online Games | Play 1500+ HTML5 Games No Download',
-  description: 'Play 1500+ free online games at PlayHive! No download, no signup. Enjoy action, puzzle, racing, arcade, shooting, sports & HTML5 games instantly on mobile & desktop. Best free gaming site 2026.',
-  keywords: 'free online games, play games online, html5 games, browser games, no download games, free games for kids, action games online, puzzle games free, racing games browser, arcade games html5, shooting games online, multiplayer browser games, online games without download, play free games now, best free games 2026, web games online, instant play games, playhive games, free gaming platform, browser game collection',
+  title: 'PlayHive Games - Free Online Games Platform | Play 1500+ HTML5 Games Instantly',
+  description: 'PlayHive Games is a free online gaming platform offering 1500+ HTML5 games playable instantly in any browser. No downloads, no signups required. Categories include action, puzzle, racing, arcade, shooting, sports, and more. Trusted by thousands of daily players worldwide.',
+  keywords: 'PlayHive Games, free online games, play games online, html5 games, browser games, no download games, free games for kids, action games online, puzzle games free, racing games browser, arcade games html5, shooting games online, multiplayer browser games, online games without download, best free games 2026, web games online, instant play games, free gaming platform',
   openGraph: {
     title: 'PlayHive Games - Play 1500+ Free Online Games',
-    description: 'No download required. Play action, puzzle, racing, arcade games instantly.',
+    description: 'PlayHive Games is a free online gaming platform with 1500+ HTML5 games. No download required.',
     url: 'https://playhivegames.com',
     siteName: 'PlayHive Games',
     type: 'website',
@@ -17,39 +17,97 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PlayHive Games - Free Online Games',
-    description: 'Play 1500+ free online games. No download required.',
+    description: 'Play 1500+ free online games at PlayHive Games. No download required.',
   },
   alternates: {
     canonical: 'https://playhivegames.com',
   },
 }
 
-const jsonLd = {
+const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'PlayHive Games',
   url: 'https://playhivegames.com',
-  description: 'Play 1500+ free online games. No download required.',
+  description: 'PlayHive Games is a free online gaming platform offering 1500+ HTML5 games playable instantly in any browser.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'PlayHive Games',
+    url: 'https://playhivegames.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://playhivegames.com/favicon-64x64.png'
+    }
+  },
   potentialAction: {
     '@type': 'SearchAction',
     target: 'https://playhivegames.com/?search={search_term_string}',
     'query-input': 'required name=search_term_string'
-  },
-  publisher: {
-    '@type': 'Organization',
-    name: 'PlayHive Games',
-    url: 'https://playhivegames.com'
   }
 }
 
-const orgJsonLd = {
+const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'PlayHive Games',
   url: 'https://playhivegames.com',
+  logo: 'https://playhivegames.com/favicon-64x64.png',
+  description: 'PlayHive Games is a free online gaming platform providing instant access to 1500+ HTML5 browser games across 22 categories.',
+  foundingDate: '2026',
   sameAs: [
-    'https://twitter.com/playhivegames',
-    'https://facebook.com/playhivegames'
+    'https://github.com/ruoyexipan/playhivegames'
+  ],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer service',
+    url: 'https://playhivegames.com/contact'
+  }
+}
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is PlayHive Games?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'PlayHive Games is a free online gaming platform that offers over 1500 HTML5 games playable instantly in any web browser without downloads or registration.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Do I need to download anything to play games on PlayHive Games?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No, all games on PlayHive Games run directly in your browser using HTML5 technology. No downloads, plugins, or installations are required.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What types of games are available on PlayHive Games?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'PlayHive Games offers games across 22 categories including action, puzzle, racing, arcade, shooting, sports, adventure, strategy, simulation, and more.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Is PlayHive Games free to use?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, PlayHive Games is completely free to use. All 1500+ games are free to play with no hidden fees or premium tiers.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I play PlayHive Games on mobile devices?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, PlayHive Games works on all devices including desktops, laptops, tablets, and smartphones. The platform is fully responsive and mobile-friendly.'
+      }
+    }
   ]
 }
 
@@ -61,7 +119,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
         <meta name="googlebot" content="index, follow" />
         <link rel="canonical" href="https://playhivegames.com" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -72,11 +130,15 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon-64x64.png" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       </head>
       <body>

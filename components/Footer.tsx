@@ -12,7 +12,8 @@ export default function Footer() {
               <span className="text-lg font-bold">PlayHive Games</span>
             </div>
             <p className="text-slate-400 text-sm">
-              Play free online games without download. Action, puzzle, racing, and more HTML5 games.
+              PlayHive Games is a free online gaming platform with 1500+ HTML5 games. 
+              No download required. Play instantly on any device.
             </p>
           </div>
 
@@ -27,6 +28,16 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Company */}
+          <div>
+            <h3 className="font-semibold mb-4">Company</h3>
+            <ul className="space-y-2 text-sm text-slate-400">
+              <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
+              <li><a href="https://github.com/ruoyexipan/playhivegames" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
+            </ul>
+          </div>
+
           {/* Legal */}
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
@@ -37,20 +48,11 @@ export default function Footer() {
               <li><Link href="/cookie-policy" className="hover:text-white transition-colors">Cookie Policy</Link></li>
             </ul>
           </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="font-semibold mb-4">Contact</h3>
-            <ul className="space-y-2 text-sm text-slate-400">
-              <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
-              <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-sm text-slate-400">
-          <p>Play Free Online Games © 2026. All rights reserved.</p>
-          <p className="mt-2">PlayHive Games - V-2.1.5</p>
+          <p>PlayHive Games © 2026. All rights reserved.</p>
+          <p className="mt-2">Free Online Gaming Platform - 1500+ HTML5 Games</p>
         </div>
       </div>
     </footer>
