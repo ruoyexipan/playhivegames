@@ -78,7 +78,8 @@ export default function GameCard({ game, featured = false }: GameCardProps) {
             loading="lazy"
             onError={(e) => {
               const target = e.target as HTMLImageElement
-              target.src = `https://via.placeholder.com/400x300/1e293b/6366f1?text=${encodeURIComponent(game.title)}`
+              // 使用 placehold.co 作为备用（国内可访问）
+              target.src = `https://placehold.co/400x300/1e293b/6366f1?text=${encodeURIComponent(game.title.substring(0, 20))}`
             }}
           />
         </div>

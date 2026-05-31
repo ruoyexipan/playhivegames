@@ -262,7 +262,7 @@ export default function GamePage() {
                 {relatedGames.map((g) => (
                   <Link key={g.id} href={`/game?slug=${g.slug}`} className="group">
                     <div className="aspect-square rounded overflow-hidden bg-slate-700">
-                      <img src={g.thumbnail} alt={g.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform" onError={(e) => { const target = e.target as HTMLImageElement; target.src = `https://via.placeholder.com/100/1e293b/6366f1?text=${encodeURIComponent(g.title.charAt(0))}`; }} />
+                      <img src={g.thumbnail} alt={g.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform" onError={(e) => { const target = e.target as HTMLImageElement; target.src = `https://placehold.co/100x100/1e293b/6366f1?text=${encodeURIComponent(g.title.charAt(0))}`; }} />
                     </div>
                   </Link>
                 ))}
