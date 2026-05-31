@@ -1,4 +1,19 @@
+# robots.txt for PlayHive Games
 User-agent: *
 Allow: /
 
-Sitemap: https://playhivegames.com/sitemap.xml
+# Allow all crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemaps
+Sitemap: https://playhivegames.com/sitemap-index.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1

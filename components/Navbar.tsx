@@ -63,7 +63,7 @@ export default function Navbar() {
               {visibleCategories.map((cat) => (
                 <Link
                   key={cat.id}
-                  href={`/category?slug=${cat.id}`}
+                  href={`/category/${cat.id}`}
                   className="flex items-center gap-1 px-2.5 h-8 bg-slate-700/60 hover:bg-slate-600 rounded-lg text-xs whitespace-nowrap transition-colors flex-shrink-0"
                 >
                   <span>{cat.icon}</span>
@@ -122,7 +122,7 @@ export default function Navbar() {
               {moreCategories.map((cat) => (
                 <Link
                   key={cat.id}
-                  href={`/category?slug=${cat.id}`}
+                  href={`/category/${cat.id}`}
                   className="flex items-center gap-3 px-4 py-2.5 rounded-lg hover:bg-slate-700 transition-colors"
                   onClick={() => setShowMore(false)}
                 >

@@ -22,9 +22,9 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-slate-400">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <li><Link href="/category?slug=action" className="hover:text-white transition-colors">Action Games</Link></li>
-              <li><Link href="/category?slug=puzzle" className="hover:text-white transition-colors">Puzzle Games</Link></li>
-              <li><Link href="/category?slug=racing" className="hover:text-white transition-colors">Racing Games</Link></li>
+              <li><Link href="/category/action" className="hover:text-white transition-colors">Action Games</Link></li>
+              <li><Link href="/category/puzzle" className="hover:text-white transition-colors">Puzzle Games</Link></li>
+              <li><Link href="/category/racing" className="hover:text-white transition-colors">Racing Games</Link></li>
             </ul>
           </div>
 
@@ -34,7 +34,6 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-slate-400">
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
-              <li><a href="https://github.com/ruoyexipan/playhivegames" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
             </ul>
           </div>
 

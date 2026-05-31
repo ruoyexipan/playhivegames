@@ -31,9 +31,22 @@ export default function Home() {
       })
     : []
 
-  const trendingGames = [...games].sort((a, b) => (b.played_times || 0) - (a.played_times || 0))
-  const newGames = games.filter((g) => g.new)
-  const popularGames = games.filter((g) => g.popular)
+  const trendingGames = [...games].sort((a, b) => (b.views || 0) - (a.views || 0))
+  
+  // POPULAR GAMES: 点赞最高的前50个游戏
+  const popularGames = [...games]
+    .sort((a, b) => (b.upvote || 0) - (a.upvote || 0))
+    .slice(0, 50)
+  
+  // NEW GAMES: 最新添加的游戏（按创建日期升序，旧的在前）
+  const newGames = [...games]
+    .sort((a, b) => {
+      const dateA = a.created_date || ''
+      const dateB = b.created_date || ''
+      return dateA.localeCompare(dateB)
+    })
+    .slice(0, 50)
+  
   const recommendedGames = games.filter((g) => !g.new && !g.popular)
 
   const isFeatured = (index: number) => {
@@ -88,32 +101,26 @@ export default function Home() {
               <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
                 PlayHive Games - Free Online Games Platform
               </h1>
-              <p className="text-lg text-white/90 max-w-3xl mx-auto mb-4">
-                PlayHive Games is a free online gaming platform that provides instant access to over 1,500 HTML5 games. 
-                Players can browse and play games directly in their web browser without downloads, registrations, or plugins. 
-                The platform covers 22 game categories including action, puzzle, racing, arcade, shooting, and sports.
-              </p>
-              <p className="text-white/80 max-w-2xl mx-auto mb-6">
-                Founded in 2026, PlayHive Games serves thousands of daily active users across desktop and mobile devices. 
-                All games are sourced from licensed HTML5 game providers and run on modern web standards.
+              <p className="text-lg text-white/90 max-w-3xl mx-auto mb-6">
+                PlayHive Games is a free online gaming platform that provides instant access to over 1,500 HTML5 games.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
-                <Link href="/category?slug=action" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
+                <Link href="/category/action" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
                   Action Games
                 </Link>
-                <Link href="/category?slug=puzzle" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
+                <Link href="/category/puzzle" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
                   Puzzle Games
                 </Link>
-                <Link href="/category?slug=racing" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
+                <Link href="/category/racing" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
                   Racing Games
                 </Link>
-                <Link href="/category?slug=arcade" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
+                <Link href="/category/arcade" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
                   Arcade Games
                 </Link>
-                <Link href="/category?slug=shooting" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
+                <Link href="/category/shooting" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
                   Shooting Games
                 </Link>
-                <Link href="/category?slug=girls" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
+                <Link href="/category/girls" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
                   Games for Girls
                 </Link>
               </div>
@@ -156,7 +163,7 @@ export default function Home() {
                 ].map((cat) => (
                   <Link
                     key={cat.id}
-                    href={`/category?slug=${cat.id}`}
+                    href={`/category/${cat.id}`}
                     className="flex items-center gap-3 p-4 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors"
                   >
                     <span className="text-2xl">{cat.icon}</span>

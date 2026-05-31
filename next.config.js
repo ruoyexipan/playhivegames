@@ -9,6 +9,7 @@ const nextConfig = {
   // Optimize images
   images: {
     unoptimized: true,
+    domains: ['img.playhivegames.com', 'tubhai.com', 'playgama.com', 'playhop.com'],
   },
   
   // Enable React strict mode

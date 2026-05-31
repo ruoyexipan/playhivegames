@@ -15,17 +15,25 @@ export default function GamePage() {
   const [game, setGame] = useState<any>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [hasError, setHasError] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
   const [liked, setLiked] = useState(false)
   const [disliked, setDisliked] = useState(false)
   const [likeCount, setLikeCount] = useState(0)
   const [dislikeCount, setDislikeCount] = useState(0)
-  const [visibleRelated, setVisibleRelated] = useState(15)
   const [pageUrl, setPageUrl] = useState('')
   const [reportOpen, setReportOpen] = useState(false)
   const [reportSubmitted, setReportSubmitted] = useState(false)
 
   useEffect(() => {
     setPageUrl(window.location.href)
+    
+    // 检测是否是移动设备
+    const checkMobile = () => {
+      const userAgent = navigator.userAgent || ''
+      const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent)
+      setIsMobile(mobile)
+    }
+    checkMobile()
     
     if (slug) {
       const foundGame = gamesData.games.find((g) => g.slug === slug)
@@ -53,28 +61,57 @@ export default function GamePage() {
     )
   }
 
-  const trendingGames = gamesData.games.filter((g) => g.trending === true).slice(0, 15)
+  // 按浏览量排序的热门游戏
+  const trendingGames = [...gamesData.games]
+    .sort((a, b) => (b.views || 0) - (a.views || 0))
+    .slice(0, 50)
+  
+  // Related Games: 同分类下的10个游戏（排除当前游戏）
+  const relatedGames = game
+    ? gamesData.games
+        .filter((g) => g.id !== game.id && g.category.some((cat: string) => game.category.includes(cat)))
+        .slice(0, 10)
+    : []
 
-  const handleFacebookShare = () => {
-    const url = encodeURIComponent(pageUrl)
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400')
+  // 生成分享链接
+  const getShareUrl = () => {
+    const url = pageUrl || `https://playhivegames.com/game?slug=${slug}`
+    return encodeURIComponent(url)
   }
-
-  const handleTwitterShare = () => {
-    const url = encodeURIComponent(pageUrl)
-    window.open(`https://twitter.com/intent/tweet?url=${url}`, '_blank', 'width=600,height=400')
+  
+  const getShareText = () => {
+    return encodeURIComponent(`Play ${game.title} online for free on PlayHive Games!`)
+  }
+  
+  // 复制链接
+  const copyLink = () => {
+    const url = pageUrl || `https://playhivegames.com/game?slug=${slug}`
+    navigator.clipboard.writeText(url).then(() => {
+      alert('Link copied!')
+    })
+  }
+  
+  // 原生分享（移动端）
+  const nativeShare = () => {
+    if (navigator.share) {
+      navigator.share({
+        title: game.title,
+        text: `Play ${game.title} online for free!`,
+        url: pageUrl || `https://playhivegames.com/game?slug=${slug}`
+      })
+    }
   }
 
   return (
     <main className="min-h-screen bg-slate-900">
       <Navbar />
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        <div className="flex flex-col lg:flex-row gap-6">
+      <div className="max-w-[1400px] mx-auto px-4 py-6">
+        <div className="flex flex-col lg:flex-row gap-4">
           {/* Main Content */}
           <div className="flex-1 min-w-0">
             {/* Game Container */}
             <div className="bg-black rounded-lg overflow-hidden mb-4">
-              <div className="relative" style={{ paddingBottom: '56.25%' }}>
+              <div className="relative" style={{ paddingBottom: isMobile ? '120%' : '62.5%' }}>
                 {isLoading && !hasError && (
                   <div className="absolute inset-0 flex items-center justify-center bg-slate-900 z-10">
                     <div className="text-center">
@@ -95,12 +132,14 @@ export default function GamePage() {
                   <iframe
                     src={game.iframe}
                     className="absolute inset-0 w-full h-full border-0"
+                    width={isMobile ? "720" : "1280"}
+                    height={isMobile ? "1080" : "720"}
+                    frameBorder="0"
                     allowFullScreen
-                    allow="autoplay; fullscreen; gamepad; keyboard-while-not-occupied; accelerometer; gyroscope"
                     title={game.title}
                     onLoad={() => setIsLoading(false)}
                     onError={() => { setIsLoading(false); setHasError(true); }}
-                    sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-modals"
+                    {...(!isMobile && { sandbox: "allow-scripts allow-same-origin allow-popups allow-forms allow-modals" })}
                   />
                 )}
               </div>
@@ -108,8 +147,8 @@ export default function GamePage() {
 
             {/* Game Info */}
             <div className="bg-slate-800 rounded-lg p-4 mb-4">
-              <div className="flex items-center justify-between mb-3">
-                <h1 className="text-xl font-bold">{game.title}</h1>
+              <h1 className="text-xl font-bold mb-3">{game.title}</h1>
+              <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3 text-sm">
                   <span className="text-slate-400 hidden sm:inline">Played {((game.id * 1234) % 100000).toLocaleString()} times</span>
                   <div className="flex items-center gap-1">
@@ -124,11 +163,14 @@ export default function GamePage() {
                 <a href={game.iframe} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-700 rounded-lg text-sm hover:bg-slate-600 transition-colors">🔗 Open in new window</a>
                 <button onClick={() => { const iframe = document.querySelector('iframe'); if (iframe?.requestFullscreen) { iframe.requestFullscreen(); } }} className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-700 rounded-lg text-sm hover:bg-slate-600 transition-colors">⛶ Fullscreen</button>
                 <button onClick={() => setReportOpen(true)} className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-700 rounded-lg text-sm hover:bg-slate-600 transition-colors">🐛 Report</button>
-                <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-blue-600 rounded hover:bg-blue-500 transition-colors" title="Share on Facebook">
+                <a href={`https://www.facebook.com/sharer/sharer.php?u=${getShareUrl()}&quote=${getShareText()}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-blue-600 rounded hover:bg-blue-500 transition-colors" title="Share on Facebook">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                 </a>
-                <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-sky-500 rounded hover:bg-sky-400 transition-colors" title="Share on Twitter">
+                <a href={`https://twitter.com/intent/tweet?url=${getShareUrl()}&text=${getShareText()}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-sky-500 rounded hover:bg-sky-400 transition-colors" title="Share on Twitter">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a href={`https://api.whatsapp.com/send?text=${getShareText()}%20${getShareUrl()}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-green-600 rounded hover:bg-green-500 transition-colors" title="Share on WhatsApp">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                 </a>
               </div>
             </div>
@@ -153,24 +195,19 @@ export default function GamePage() {
             <div className="bg-slate-800 rounded-lg p-4">
               <h3 className="font-bold mb-4">💡 YOU MAY LIKE</h3>
               <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
-                {trendingGames.slice(0, visibleRelated).map((g) => (
+                {trendingGames.slice(0, 24).map((g) => (
                   <GameCard key={g.id} game={g} />
                 ))}
               </div>
-              {visibleRelated < trendingGames.length && (
-                <div className="flex justify-center mt-4">
-                  <button onClick={() => setVisibleRelated(prev => Math.min(prev + 15, trendingGames.length))} className="px-6 py-2 bg-indigo-600 rounded-full hover:bg-indigo-500 transition-colors text-sm">Load more games</button>
-                </div>
-              )}
             </div>
           </div>
 
           {/* Sidebar */}
-          <div className="w-full lg:w-72 flex-shrink-0">
+          <div className="w-full lg:w-64 flex-shrink-0">
             <div className="bg-slate-800 rounded-lg p-4 sticky top-16">
               <h3 className="font-bold mb-4">Related Games</h3>
-              <div className="grid grid-cols-3 gap-2">
-                {trendingGames.map((g) => (
+              <div className="grid grid-cols-2 gap-2">
+                {relatedGames.map((g) => (
                   <Link key={g.id} href={`/game?slug=${g.slug}`} className="group">
                     <div className="aspect-square rounded overflow-hidden bg-slate-700">
                       <img src={g.thumbnail} alt={g.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform" onError={(e) => { const target = e.target as HTMLImageElement; target.src = `https://via.placeholder.com/100/1e293b/6366f1?text=${encodeURIComponent(g.title.charAt(0))}`; }} />
