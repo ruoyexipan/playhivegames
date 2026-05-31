@@ -177,13 +177,65 @@ export default function GamePage() {
 
             {/* Description */}
             <div className="bg-slate-800 rounded-lg p-4 mb-4">
-              <h3 className="font-bold mb-2">Description</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">{game.description}</p>
+              <h2 className="font-bold mb-2">About {game.title}</h2>
+              <p className="text-slate-300 text-sm leading-relaxed mb-4">{game.description}</p>
+              
+              {/* Game Info */}
+              <div className="grid grid-cols-2 gap-4 mt-4">
+                <div className="bg-slate-700 rounded-lg p-3">
+                  <h3 className="text-xs text-slate-400 mb-1">Category</h3>
+                  <p className="text-sm font-medium capitalize">{game.category.join(', ')}</p>
+                </div>
+                <div className="bg-slate-700 rounded-lg p-3">
+                  <h3 className="text-xs text-slate-400 mb-1">Platform</h3>
+                  <p className="text-sm font-medium">Web Browser</p>
+                </div>
+                <div className="bg-slate-700 rounded-lg p-3">
+                  <h3 className="text-xs text-slate-400 mb-1">Technology</h3>
+                  <p className="text-sm font-medium">HTML5</p>
+                </div>
+                <div className="bg-slate-700 rounded-lg p-3">
+                  <h3 className="text-xs text-slate-400 mb-1">Price</h3>
+                  <p className="text-sm font-medium">Free</p>
+                </div>
+              </div>
+              
+              {/* How to Play */}
+              <div className="mt-4">
+                <h3 className="font-bold mb-2">How to Play {game.title}</h3>
+                <p className="text-slate-300 text-sm leading-relaxed">
+                  {game.title} is a free online {game.category[0] || 'browser'} game that you can play directly in your web browser. 
+                  No download or installation required. Simply click the play button and enjoy the game. 
+                  This HTML5 game works on both desktop and mobile devices.
+                </p>
+              </div>
+              
+              {/* External Links */}
+              <div className="mt-4 pt-4 border-t border-slate-700">
+                <h3 className="font-bold mb-2">More Resources</h3>
+                <ul className="space-y-2 text-sm">
+                  <li>
+                    <a href="https://www.crazygames.com" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">
+                      More free online games at CrazyGames
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.poki.com" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">
+                      Play more games at Poki
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html5test.com" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">
+                      Check your browser HTML5 support
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             {/* Categories */}
             <div className="bg-slate-800 rounded-lg p-4 mb-4">
-              <h3 className="font-bold mb-2">Categories</h3>
+              <h2 className="font-bold mb-2">Categories</h2>
               <div className="flex flex-wrap gap-2">
                 {game.category.map((cat: string) => (
                   <Link key={cat} href={`/category/${cat}`} className="px-3 py-1 bg-slate-700 rounded-full text-xs hover:bg-slate-600 transition-colors capitalize">{cat}</Link>

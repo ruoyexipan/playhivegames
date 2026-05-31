@@ -141,20 +141,25 @@ def generate_seo_tags(game, keywords):
     
     primary_category = categories[0] if categories else "game"
     
-    # Meta title (50-60 chars)
-    meta_title = f"Play {title} Online Free - HTML5 Game | PlayHive Games"
+    # Meta title (30-60 chars)
+    meta_title = f"{title} - Play Free Online | PlayHive"
     if len(meta_title) > 60:
-        meta_title = f"Play {title} Free Online | PlayHive Games"
+        meta_title = f"{title} | PlayHive Games"
+    if len(meta_title) > 60:
+        meta_title = title[:50] + "..."
     
-    # Meta description (150-160 chars)
+    # Meta description (120-155 chars)
     if description:
-        desc_short = description[:120].rsplit(' ', 1)[0]
-        meta_description = f"{desc_short} Play {title} online for free on PlayHive Games. No download required!"
+        desc_short = description[:100].rsplit(' ', 1)[0]
+        meta_description = f"Play {title} online for free! {desc_short} No download required on PlayHive Games."
     else:
-        meta_description = f"Play {title} online for free! Enjoy this {primary_category} game directly in your browser. No download or registration needed."
+        meta_description = f"Play {title} online for free! Enjoy this {primary_category} game in your browser. No download required."
     
-    if len(meta_description) > 160:
-        meta_description = f"Play {title} online for free! Enjoy this {primary_category} game in your browser. No download required on PlayHive Games."
+    if len(meta_description) > 155:
+        meta_description = f"Play {title} online for free! Enjoy this {primary_category} game in your browser. No download on PlayHive."
+    
+    if len(meta_description) > 155:
+        meta_description = f"Play {title} online for free! No download required on PlayHive Games."
     
     return {
         "game_id": game.get("id"),
@@ -169,7 +174,7 @@ def generate_seo_tags(game, keywords):
             "@context": "https://schema.org",
             "@type": "VideoGame",
             "name": title,
-            "description": description[:500] if description else f"Play {title} online for free",
+            "description": description[:300] if description else f"Play {title} online for free",
             "url": f"https://playhivegames.com/game?slug={slug}",
             "genre": primary_category,
             "gamePlatform": "Web Browser",
