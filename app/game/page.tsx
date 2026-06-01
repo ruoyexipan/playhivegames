@@ -210,6 +210,37 @@ export default function GamePage() {
                 </p>
               </div>
               
+              {/* Game Features */}
+              <div className="mt-4">
+                <h3 className="font-bold mb-2">Game Features</h3>
+                <ul className="text-slate-300 text-sm space-y-1">
+                  <li>• Free to play - no registration required</li>
+                  <li>• Works on desktop and mobile browsers</li>
+                  <li>• HTML5 technology - no plugins needed</li>
+                  <li>• Instant loading - play immediately</li>
+                  <li>• Regular updates and new content</li>
+                </ul>
+              </div>
+              
+              {/* FAQ Section */}
+              <div className="mt-6 pt-4 border-t border-slate-700">
+                <h3 className="font-bold mb-4">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-sm font-semibold mb-1">Is {game.title} free to play?</h4>
+                    <p className="text-slate-300 text-sm">Yes, {game.title} is completely free to play on PlayHive Games. No payment or registration required.</p>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold mb-1">Can I play {game.title} on mobile?</h4>
+                    <p className="text-slate-300 text-sm">Yes, {game.title} works on mobile browsers. The game is built with HTML5 technology, making it compatible with smartphones and tablets.</p>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold mb-1">Do I need to download {game.title}?</h4>
+                    <p className="text-slate-300 text-sm">No, you don't need to download anything. {game.title} runs directly in your web browser.</p>
+                  </div>
+                </div>
+              </div>
+              
               {/* External Links */}
               <div className="mt-4 pt-4 border-t border-slate-700">
                 <h3 className="font-bold mb-2">More Resources</h3>
