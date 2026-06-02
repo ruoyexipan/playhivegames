@@ -92,7 +92,7 @@ def main():
             slug = game.get('slug', '')
             if slug:
                 chunk_sitemap += f'''  <url>
-    <loc>https://playhivegames.com/game?slug={slug}</loc>
+    <loc>https://playhivegames.com/game/{slug}</loc>
     <lastmod>{current_date}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

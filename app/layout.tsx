@@ -3,12 +3,12 @@ import { Suspense } from 'react'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'PlayHive Games - Free Online Games Platform | Play 1500+ HTML5 Games Instantly',
-  description: 'PlayHive Games is a free online gaming platform offering 1500+ HTML5 games playable instantly in any browser. No downloads, no signups required. Categories include action, puzzle, racing, arcade, shooting, sports, and more. Trusted by thousands of daily players worldwide.',
-  keywords: 'PlayHive Games, free online games, play games online, html5 games, browser games, no download games, free games for kids, action games online, puzzle games free, racing games browser, arcade games html5, shooting games online, multiplayer browser games, online games without download, best free games 2026, web games online, instant play games, free gaming platform',
+  title: 'PlayHive Games - Free Online Games | 2000+ HTML5 Games',
+  description: 'Play 2000+ free online HTML5 games instantly. No download required. Action, puzzle, racing, arcade games and more. Play now on PlayHive Games!',
+  keywords: 'PlayHive Games, free online games, html5 games, browser games, no download games, action games, puzzle games, racing games, arcade games',
   openGraph: {
-    title: 'PlayHive Games - Play 1500+ Free Online Games',
-    description: 'PlayHive Games is a free online gaming platform with 1500+ HTML5 games. No download required.',
+    title: 'PlayHive Games - Free Online Games',
+    description: 'Play 2000+ free online HTML5 games instantly. No download required.',
     url: 'https://playhivegames.com',
     siteName: 'PlayHive Games',
     type: 'website',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PlayHive Games - Free Online Games',
-    description: 'Play 1500+ free online games at PlayHive Games. No download required.',
+    description: 'Play 2000+ free online HTML5 games instantly. No download required.',
   },
   alternates: {
     canonical: 'https://playhivegames.com',

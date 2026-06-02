@@ -63,7 +63,7 @@ export default function GameCard({ game, featured = false }: GameCardProps) {
   
   return (
     <Link 
-      href={`/game?slug=${game.slug}`} 
+      href={`/game/${game.slug}`} 
       className={`block group ${featured ? 'col-span-2 row-span-2' : ''}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}

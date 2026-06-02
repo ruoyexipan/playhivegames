@@ -49,14 +49,11 @@ export default function GameHead({ slug }: GameHeadProps) {
     updateMeta('twitter:description', seoTag.meta_description)
     updateMeta('twitter:url', seoTag.url)
 
-    // Canonical link
-    let canonical = document.querySelector('link[rel="canonical"]')
-    if (!canonical) {
-      canonical = document.createElement('link')
-      canonical.setAttribute('rel', 'canonical')
-      document.head.appendChild(canonical)
+    // Update canonical link (already exists from layout)
+    const canonical = document.querySelector('link[rel="canonical"]')
+    if (canonical) {
+      canonical.setAttribute('href', seoTag.canonical)
     }
-    canonical.setAttribute('href', seoTag.canonical)
 
     // JSON-LD Schema
     let jsonLdScript = document.getElementById('game-json-ld') as HTMLScriptElement | null
@@ -70,15 +67,20 @@ export default function GameHead({ slug }: GameHeadProps) {
 
     // Cleanup function to restore default meta tags
     return () => {
-      document.title = 'PlayHive Games - Free Online Games Platform | Play 1500+ HTML5 Games Instantly'
+      document.title = 'PlayHive Games - Free Online Games | 2000+ HTML5 Games'
       
       const defaultMeta = {
-        description: 'PlayHive Games is a free online gaming platform offering 1500+ HTML5 games playable instantly in any browser. No downloads, no signups required.',
-        keywords: 'PlayHive Games, free online games, play games online, html5 games, browser games, no download games'
+        description: 'Play 2000+ free online HTML5 games instantly. No download required. Action, puzzle, racing, arcade games and more.',
+        keywords: 'PlayHive Games, free online games, html5 games, browser games, no download games'
       }
       
       updateMeta('description', defaultMeta.description)
       updateMeta('keywords', defaultMeta.keywords)
+      
+      // Restore default canonical
+      if (canonical) {
+        canonical.setAttribute('href', 'https://playhivegames.com')
+      }
       
       // Remove game-specific JSON-LD
       const script = document.getElementById('game-json-ld')
