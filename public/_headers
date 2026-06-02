@@ -1,30 +1,45 @@
 # Cloudflare Pages 自定义响应头
 
-# 所有页面添加 CORS 头
+# 所有页面
 /*
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
   Access-Control-Allow-Headers: *
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
 
-# 静态资源
-/assets/*
-  Access-Control-Allow-Origin: *
+# 静态资源 - 长期缓存
+/_next/static/*
   Cache-Control: public, max-age=31536000, immutable
-
-/js/*
   Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000, immutable
 
-/css/*
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000, immutable
-
-# 图片资源
+# 图片资源 - 7天缓存
 /images/*
+  Cache-Control: public, max-age=604800, s-maxage=604800
   Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=604800
 
-# Service Worker
+# 游戏页面 - 1小时缓存
+/game/*
+  Cache-Control: public, max-age=3600, s-maxage=3600
+  Vary: Accept-Encoding
+
+# 分类页面 - 1小时缓存
+/category/*
+  Cache-Control: public, max-age=3600, s-maxage=3600
+  Vary: Accept-Encoding
+
+# 首页 - 30分钟缓存
+/
+  Cache-Control: public, max-age=1800, s-maxage=1800
+  Vary: Accept-Encoding
+
+# Sitemap - 1天缓存
+/sitemap*.xml
+  Cache-Control: public, max-age=86400
+  Content-Type: application/xml
+
+# Service Worker - 不缓存
 /sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
   Access-Control-Allow-Origin: *
-  Cache-Control: no-cache
