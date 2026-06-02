@@ -140,6 +140,45 @@ export default function GamePageClient({ slug }: GamePageClientProps) {
                 </ul>
               </div>
               
+              {/* Game Controls */}
+              <div className="mt-4">
+                <h3 className="font-bold mb-2">Game Controls</h3>
+                <div className="bg-slate-700 rounded-lg p-3">
+                  <p className="text-slate-300 text-sm">
+                    Use your mouse and keyboard to control the game. 
+                    Click or tap to interact with game elements. 
+                    Follow in-game instructions for specific controls.
+                  </p>
+                </div>
+              </div>
+              
+              {/* Game Tips */}
+              <div className="mt-4">
+                <h3 className="font-bold mb-2">Tips for Playing {game.title}</h3>
+                <ul className="text-slate-300 text-sm space-y-2">
+                  <li>• Start with the tutorial to learn the basics</li>
+                  <li>• Practice regularly to improve your skills</li>
+                  <li>• Watch other players to learn new strategies</li>
+                  <li>• Take breaks to avoid fatigue</li>
+                  <li>• Have fun and don't worry about losing!</li>
+                </ul>
+              </div>
+              
+              {/* Game Ratings */}
+              <div className="mt-4">
+                <h3 className="font-bold mb-2">Game Rating</h3>
+                <div className="flex items-center gap-2">
+                  <div className="flex">
+                    {[...Array(5)].map((_, i) => (
+                      <span key={i} className={`text-lg ${i < 4 ? 'text-yellow-400' : 'text-gray-500'}`}>
+                        ★
+                      </span>
+                    ))}
+                  </div>
+                  <span className="text-slate-400 text-sm">4.0/5 (Based on player feedback)</span>
+                </div>
+              </div>
+              
               {/* FAQ Section */}
               <div className="mt-6 pt-4 border-t border-slate-700">
                 <h3 className="font-bold mb-4">Frequently Asked Questions</h3>

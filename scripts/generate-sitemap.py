@@ -35,6 +35,7 @@ def main():
     static_pages = [
         ('about', 'monthly', '0.5'),
         ('contact', 'monthly', '0.5'),
+        ('faq', 'monthly', '0.6'),
         ('privacy', 'monthly', '0.3'),
         ('terms', 'monthly', '0.3'),
         ('disclaimer', 'monthly', '0.3'),
