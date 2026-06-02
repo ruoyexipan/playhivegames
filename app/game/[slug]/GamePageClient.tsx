@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -14,6 +14,14 @@ interface GamePageClientProps {
 
 export default function GamePageClient({ slug }: GamePageClientProps) {
   const [isMobile, setIsMobile] = useState(false)
+  const [liked, setLiked] = useState(false)
+  const [disliked, setDisliked] = useState(false)
+  const [likeCount, setLikeCount] = useState(0)
+  const [dislikeCount, setDislikeCount] = useState(0)
+  const [reportOpen, setReportOpen] = useState(false)
+  const [reportSubmitted, setReportSubmitted] = useState(false)
+  const [reportMessage, setReportMessage] = useState('')
+  const iframeRef = useRef<HTMLIFrameElement>(null)
   
   const game = gamesData.games.find((g) => g.slug === slug)
   
@@ -24,7 +32,69 @@ export default function GamePageClient({ slug }: GamePageClientProps) {
       setIsMobile(mobile)
     }
     checkMobile()
-  }, [])
+    
+    // 初始化点赞数（模拟数据）
+    if (game) {
+      setLikeCount(((game.id * 123 + 456) % 1000))
+      setDislikeCount(((game.id * 456 + 789) % 300))
+    }
+  }, [game])
+  
+  // 全屏功能
+  const handleFullscreen = () => {
+    if (iframeRef.current) {
+      if (iframeRef.current.requestFullscreen) {
+        iframeRef.current.requestFullscreen()
+      } else if ((iframeRef.current as any).webkitRequestFullscreen) {
+        (iframeRef.current as any).webkitRequestFullscreen()
+      } else if ((iframeRef.current as any).msRequestFullscreen) {
+        (iframeRef.current as any).msRequestFullscreen()
+      }
+    }
+  }
+  
+  // 点赞
+  const handleLike = () => {
+    if (!liked) {
+      setLikeCount(prev => prev + 1)
+      if (disliked) {
+        setDislikeCount(prev => prev - 1)
+        setDisliked(false)
+      }
+    } else {
+      setLikeCount(prev => prev - 1)
+    }
+    setLiked(!liked)
+  }
+  
+  // 踩
+  const handleDislike = () => {
+    if (!disliked) {
+      setDislikeCount(prev => prev + 1)
+      if (liked) {
+        setLikeCount(prev => prev - 1)
+        setLiked(false)
+      }
+    } else {
+      setDislikeCount(prev => prev - 1)
+    }
+    setDisliked(!disliked)
+  }
+  
+  // 举报
+  const handleReport = () => {
+    const subject = encodeURIComponent(`Report Issue: ${game?.title || 'Unknown Game'}`)
+    const body = encodeURIComponent(
+      `Game: ${game?.title || 'Unknown'}\nURL: https://playhivegames.com/game/${slug}\n\nIssue Description:\n${reportMessage}`
+    )
+    window.open(`mailto:zhaolinhao6@gmail.com?subject=${subject}&body=${body}`, '_blank')
+    setReportSubmitted(true)
+    setTimeout(() => {
+      setReportOpen(false)
+      setReportSubmitted(false)
+      setReportMessage('')
+    }, 2000)
+  }
   
   if (!game) {
     return (
@@ -64,6 +134,7 @@ export default function GamePageClient({ slug }: GamePageClientProps) {
             <div className="bg-black rounded-lg overflow-hidden mb-4">
               <div className="relative" style={{ paddingBottom: isMobile ? '120%' : '62.5%' }}>
                 <iframe
+                  ref={iframeRef}
                   src={game.iframe}
                   className="absolute inset-0 w-full h-full border-0"
                   width={isMobile ? "720" : "1280"}
@@ -79,19 +150,90 @@ export default function GamePageClient({ slug }: GamePageClientProps) {
             {/* Game Info */}
             <div className="bg-slate-800 rounded-lg p-4 mb-4">
               <h1 className="text-xl font-bold mb-3">{game.title}</h1>
-              <div className="flex flex-wrap items-center gap-2">
-                <a href={game.iframe} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-700 rounded-lg text-sm hover:bg-slate-600 transition-colors">🔗 Open in new window</a>
-                <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://playhivegames.com/game/${slug}`)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-blue-600 rounded hover:bg-blue-500 transition-colors" title="Share on Facebook">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              
+              {/* Action Buttons */}
+              <div className="flex flex-wrap items-center gap-2 mb-3">
+                {/* Open in new window */}
+                <a href={game.iframe} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-700 rounded-lg text-sm hover:bg-slate-600 transition-colors">
+                  🔗 Open in new window
                 </a>
-                <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(`https://playhivegames.com/game/${slug}`)}&text=${encodeURIComponent(`Play ${game.title} online for free!`)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-sky-500 rounded hover:bg-sky-400 transition-colors" title="Share on Twitter">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                </a>
-                <a href={`https://reddit.com/submit?url=${encodeURIComponent(`https://playhivegames.com/game/${slug}`)}&title=${encodeURIComponent(`Play ${game.title} online for free!`)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-orange-600 rounded hover:bg-orange-500 transition-colors" title="Share on Reddit">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
-                </a>
+                
+                {/* Fullscreen */}
+                <button onClick={handleFullscreen} className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-700 rounded-lg text-sm hover:bg-slate-600 transition-colors">
+                  ⛶ Fullscreen
+                </button>
+                
+                {/* Report */}
+                <button onClick={() => setReportOpen(true)} className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-700 rounded-lg text-sm hover:bg-slate-600 transition-colors">
+                  🐛 Report
+                </button>
+              </div>
+              
+              {/* Like/Dislike & Share */}
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                {/* Like/Dislike */}
+                <div className="flex items-center gap-4">
+                  <button onClick={handleLike} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm transition-colors ${liked ? 'bg-green-600 text-white' : 'bg-slate-700 hover:bg-slate-600 text-slate-300'}`}>
+                    👍 {likeCount}
+                  </button>
+                  <button onClick={handleDislike} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm transition-colors ${disliked ? 'bg-red-600 text-white' : 'bg-slate-700 hover:bg-slate-600 text-slate-300'}`}>
+                    👎 {dislikeCount}
+                  </button>
+                  <div className="flex items-center gap-1 text-sm text-slate-400">
+                    <span className="text-green-500 font-bold">{Math.round(likeCount / (likeCount + dislikeCount) * 100)}%</span>
+                    <span>positive</span>
+                  </div>
+                </div>
+                
+                {/* Share Buttons */}
+                <div className="flex items-center gap-2">
+                  <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://playhivegames.com/game/${slug}`)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-blue-600 rounded hover:bg-blue-500 transition-colors" title="Share on Facebook">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  </a>
+                  <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(`https://playhivegames.com/game/${slug}`)}&text=${encodeURIComponent(`Play ${game.title} online for free!`)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-sky-500 rounded hover:bg-sky-400 transition-colors" title="Share on Twitter">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  </a>
+                  <a href={`https://reddit.com/submit?url=${encodeURIComponent(`https://playhivegames.com/game/${slug}`)}&title=${encodeURIComponent(`Play ${game.title} online for free!`)}`} target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center bg-orange-600 rounded hover:bg-orange-500 transition-colors" title="Share on Reddit">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+                  </a>
+                </div>
               </div>
             </div>
+
+            {/* Report Modal */}
+            {reportOpen && (
+              <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setReportOpen(false)}>
+                <div className="bg-slate-800 rounded-lg p-6 max-w-md w-full mx-4" onClick={(e) => e.stopPropagation()}>
+                  <h3 className="text-lg font-bold mb-4">Report an Issue</h3>
+                  {reportSubmitted ? (
+                    <div className="text-center py-4">
+                      <p className="text-green-400 mb-2">✓ Report submitted!</p>
+                      <p className="text-slate-400 text-sm">Opening email client...</p>
+                    </div>
+                  ) : (
+                    <>
+                      <p className="text-slate-400 text-sm mb-4">
+                        Describe the issue with <strong>{game.title}</strong> and we'll look into it.
+                      </p>
+                      <textarea
+                        value={reportMessage}
+                        onChange={(e) => setReportMessage(e.target.value)}
+                        placeholder="Describe the issue..."
+                        className="w-full bg-slate-700 rounded-lg p-3 text-sm text-white placeholder-slate-400 resize-none h-24 mb-4"
+                      />
+                      <div className="flex gap-2">
+                        <button onClick={handleReport} className="flex-1 px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-500 transition-colors text-sm font-medium">
+                          Submit Report
+                        </button>
+                        <button onClick={() => setReportOpen(false)} className="px-4 py-2 bg-slate-700 rounded-lg hover:bg-slate-600 transition-colors text-sm">
+                          Cancel
+                        </button>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* Description */}
             <div className="bg-slate-800 rounded-lg p-4 mb-4">
