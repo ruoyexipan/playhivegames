@@ -67,6 +67,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/hungry-plant</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/super-slime-notebook</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -109,7 +115,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/hungry-plant</loc>
+    <loc>https://playhivegames.com/game/monster-trucks-jigsaw</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -146,12 +152,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/word-tangle</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/monster-trucks-jigsaw</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -229,6 +229,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/something-below-the-sea</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/volleyball-fun-coloring</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -278,12 +284,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/ball-cup-boom</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/something-below-the-sea</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -409,6 +409,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/smithing-master</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/safe-circle-space</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -421,13 +427,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/tung-tung-sahur-supermarket</loc>
+    <loc>https://playhivegames.com/game/stickman-airplane</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/smithing-master</loc>
+    <loc>https://playhivegames.com/game/lol-presidential-face</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/tung-tung-sahur-supermarket</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -445,19 +457,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/stickman-airplane</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/charge-everything</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/lol-presidential-face</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -625,6 +625,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/crimson-dacha</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/fruit-samurai</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/summer-beach-parking</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -668,18 +680,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/paint-sponges</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/crimson-dacha</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/fruit-samurai</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1249,6 +1249,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/data-breach</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/truck-driving-simulator-offroad</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1262,12 +1268,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/lost-adventure</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/data-breach</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1633,6 +1633,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/pga5</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/flightbird</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1681,6 +1687,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/strike-blocky-fun</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/boxing-legend-simulator-2077</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1700,12 +1712,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/evolve-numbers</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/pga5</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1735,13 +1741,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/strike-blocky-fun</loc>
+    <loc>https://playhivegames.com/game/alex-and-steve-miner-two-player</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/alex-and-steve-miner-two-player</loc>
+    <loc>https://playhivegames.com/game/chromatch</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1783,12 +1789,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/chromatch</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/throwing-knife</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1820,6 +1820,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/labubu-gokart</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/redball-avengers</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1873,12 +1879,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/redball-avengers</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/american-trucks-coloring</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1910,6 +1910,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/jump-hero</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/galaxy-brick-breaker</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1988,12 +1994,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/escape-from-snakes</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/galaxy-brick-breaker</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2101,6 +2101,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/riding-horses</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/route-digger-3</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2150,12 +2156,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/woody-hexa</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/riding-horses</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2227,6 +2227,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/toilet-paper-please</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/hero-rescue-pull-the-pin</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/maths-for-standard-v</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2258,12 +2270,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/location-of-united-states-countries-quiz</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/toilet-paper-please</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2347,12 +2353,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/hero-rescue-pull-the-pin</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/quick-cards</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2407,6 +2407,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/helptheduck</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/animalrush</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2456,12 +2462,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/dual-car</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/helptheduck</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2791,6 +2791,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/shape-connect</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/hoppyrushy</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2803,13 +2809,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/the-last-light-of-lyra</loc>
+    <loc>https://playhivegames.com/game/rotate-to-escape</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/rotate-to-escape</loc>
+    <loc>https://playhivegames.com/game/the-last-light-of-lyra</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2845,12 +2851,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/shape-connect</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/dashvalley</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2858,6 +2858,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/car-dealer-idle</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/brainrot-sahuuur</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2918,12 +2924,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/foxytruck</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/brainrot-sahuuur</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3025,6 +3025,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/cyberpunk-mad-andreas-sci-fi-world</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/stock-boxes</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3073,12 +3079,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/cyberpunk-mad-andreas-sci-fi-world</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/zombie-smash</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3098,6 +3098,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/snakegamepro</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/toca-avatar-my-house</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3164,12 +3170,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/tap-cute-animals</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/toca-avatar-my-house</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3289,7 +3289,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/lava-cre</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/crazy-bouncer</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/tea-maker</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3313,19 +3325,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/drops</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/orbit-escape</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/3d-isometric-puzzle</loc>
+    <loc>https://playhivegames.com/game/puzzlebot</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/lava-cre</loc>
+    <loc>https://playhivegames.com/game/3d-isometric-puzzle</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3355,12 +3373,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/tea-maker</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/explode-ballz</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3368,18 +3380,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/noob-vs-pro-snowman</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/drops</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/puzzlebot</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3559,13 +3559,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/nest-quest</loc>
+    <loc>https://playhivegames.com/game/merge-fellas-italian-brainrot</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/merge-fellas-italian-brainrot</loc>
+    <loc>https://playhivegames.com/game/nest-quest</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3667,6 +3667,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/falling-blocks-2048-2d</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/awareness-test-the-room</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3715,19 +3721,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/lowercase-loops</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/build-a-snowman</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/falling-blocks-2048-2d</loc>
+    <loc>https://playhivegames.com/game/get-11-puzzle</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/get-11-puzzle</loc>
+    <loc>https://playhivegames.com/game/runner-izvolgar</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3793,12 +3805,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/runner-izvolgar</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/ball-slide</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3835,12 +3841,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/lowercase-loops</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/rebel-martian-base-crazy-car-stunts</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3848,6 +3848,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/slinky-sort-puzzle</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/leap</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3913,12 +3919,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/leap</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/fireegg</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3956,6 +3956,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/covid-destroyer</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/halloween-night-jigsaw</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -4021,12 +4027,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/halloween-night-jigsaw</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/barbie-puppy-rescue</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -4046,6 +4046,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/idle-bathroom-empire-tycoon</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/flappy-sprunki-adventure</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -4094,12 +4100,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/bob-the-builder-coloring</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/flappy-sprunki-adventure</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -4255,6 +4255,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/can-you-catch</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/green-and-yellow-run</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -4304,12 +4310,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/geo-champs</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/can-you-catch</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -4675,6 +4675,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/adventure-island</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/numberless</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -4807,6 +4813,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/red-and-green-candy-forest</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/ungravity</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -4831,12 +4843,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/adventure-island</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/warping-bat</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -4856,12 +4862,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/mergefrisbee</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/red-and-green-candy-forest</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4898,6 +4898,12 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/hidden-totals</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/firewar</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4958,12 +4964,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/turbo-tables</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/firewar</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5287,6 +5287,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/tao-tao</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://playhivegames.com/game/click_crates</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/in-circle</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -5317,12 +5329,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://playhivegames.com/game/tao-tao</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://playhivegames.com/game/dream-castle-match-3</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -5330,12 +5336,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/alien-bouncing</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/click_crates</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5947,6 +5947,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://playhivegames.com/game/pixel-heroes-runner</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://playhivegames.com/game/squirrel-hero-robots</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -5954,12 +5960,6 @@
   </url>
   <url>
     <loc>https://playhivegames.com/game/revenge-of-the-pixelman</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://playhivegames.com/game/pixel-heroes-runner</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
