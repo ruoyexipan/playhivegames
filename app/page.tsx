@@ -96,15 +96,16 @@ export default function Home() {
 
         {!searchQuery && (
           <>
-            {/* Hero Section with SEO Content */}
+            {/* Hero Section - SEO Optimized */}
             <section className="mb-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-center">
               <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-                Play Free Online Games - Instant Browser Games
+                Play Free Online Games - Best Browser Games Collection
               </h1>
               <p className="text-lg text-white/90 max-w-3xl mx-auto mb-6">
-                Discover 2,000+ free online games you can play instantly in your browser. 
-                No downloads, no signups, no plugins required. From action-packed adventures to brain-teasing puzzles, 
-                our HTML5 games load in seconds and work on any device.
+                Welcome to PlayHive Games, your ultimate destination for <strong>free online games</strong>. 
+                We've handpicked 2,000+ <strong>browser games</strong> that load instantly—no downloads, no signups, no plugins. 
+                Whether you're into action, puzzles, racing, or arcade classics, our collection of <strong>online games</strong> 
+                has something for everyone. Start playing in seconds!
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 <Link href="/category/action" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
@@ -125,6 +126,37 @@ export default function Home() {
                 <Link href="/category/girls" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
                   Games for Girls
                 </Link>
+              </div>
+            </section>
+
+            {/* Why Choose PlayHive - SEO Content */}
+            <section className="mb-10 bg-slate-800 rounded-xl p-6">
+              <h2 className="text-xl font-bold mb-4">Why Play Free Online Games on PlayHive?</h2>
+              <div className="grid md:grid-cols-3 gap-6 text-sm text-slate-300">
+                <div>
+                  <h3 className="font-semibold text-white mb-2">Instant Play, No Downloads</h3>
+                  <p>
+                    Our <strong>browser games</strong> run directly in your web browser using HTML5 technology. 
+                    No waiting for downloads, no installation wizards, no storage space needed. 
+                    Just click and play—it's that simple.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-white mb-2">2,000+ Free Games</h3>
+                  <p>
+                    From brain-teasing puzzles to adrenaline-pumping action, our library of 
+                    <strong> free online games</strong> covers every genre. New titles are added weekly, 
+                    so there's always something fresh to discover.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-white mb-2">Play Anywhere, Anytime</h3>
+                  <p>
+                    Whether you're on a lunch break, commuting, or relaxing at home, our 
+                    <strong> online games</strong> work on any device. Phones, tablets, laptops—
+                    if it has a browser, it can run our games.
+                  </p>
+                </div>
               </div>
             </section>
 
@@ -154,6 +186,11 @@ export default function Home() {
             {/* Category Quick Links */}
             <section className="mb-10">
               <h2 className="text-xl font-bold mb-4">Browse Games by Category</h2>
+              <p className="text-slate-400 text-sm mb-4">
+                Explore our massive collection of <strong>free online games</strong> organized by category. 
+                Whether you're looking for quick <strong>browser games</strong> for a break or deep 
+                <strong>online games</strong> for a long session, we've got you covered.
+              </p>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
                 {[
                   { id: 'action', name: 'Action Games', icon: '⚔️', count: '439' },
