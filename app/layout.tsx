@@ -4,11 +4,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'PlayHive Games - Free Online Games | 2000+ HTML5 Games',
-  description: 'Play 2000+ free online HTML5 games instantly. No download required. Action, puzzle, racing, arcade games and more. Play now on PlayHive Games!',
+  description: 'Play free online games instantly in your browser. 2000+ HTML5 games including action, puzzle, racing & arcade. No download, no signup. PlayHive Games - your go-to browser games platform.',
   keywords: 'PlayHive Games, free online games, html5 games, browser games, no download games, action games, puzzle games, racing games, arcade games',
   openGraph: {
     title: 'PlayHive Games - Free Online Games',
-    description: 'Play 2000+ free online HTML5 games instantly. No download required.',
+    description: 'Play free online games instantly in your browser. 2000+ HTML5 games, no download required.',
     url: 'https://playhivegames.com',
     siteName: 'PlayHive Games',
     type: 'website',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PlayHive Games - Free Online Games',
-    description: 'Play 2000+ free online HTML5 games instantly. No download required.',
+    description: 'Play free online games instantly in your browser. 2000+ HTML5 games, no download required.',
   },
   alternates: {
     canonical: 'https://playhivegames.com',
