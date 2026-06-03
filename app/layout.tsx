@@ -3,7 +3,7 @@ import { Suspense } from 'react'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'PlayHive Games - Free Online Games | 2000+ HTML5 Games',
+  title: 'PlayHive Games | Free Online Games & Browser Games',
   description: 'Play free online games instantly in your browser. 2000+ HTML5 games including action, puzzle, racing & arcade. No download, no signup. PlayHive Games - your go-to browser games platform.',
   keywords: 'PlayHive Games, free online games, html5 games, browser games, no download games, action games, puzzle games, racing games, arcade games',
   openGraph: {
