@@ -166,6 +166,36 @@ export default function RootLayout({
         />
       </head>
       <body>
+        {/* SEO Content for crawlers - visible when JS disabled */}
+        <noscript>
+          <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
+            <h1>PlayHive Games - Free Online Games Platform</h1>
+            <p>
+              Welcome to PlayHive Games, your ultimate destination for free online games. 
+              We offer 2,000+ browser games that you can play instantly without downloads or registration. 
+              Our collection of online games includes action, puzzle, racing, arcade, shooting, and more.
+            </p>
+            <h2>Why Choose Our Free Online Games?</h2>
+            <ul>
+              <li>No downloads required - play browser games instantly</li>
+              <li>2,000+ free online games across 22 categories</li>
+              <li>Works on desktop, tablet, and mobile devices</li>
+              <li>New online games added weekly</li>
+            </ul>
+            <h2>Popular Game Categories</h2>
+            <ul>
+              <li><a href="/category/action">Action Games</a> - Fast-paced browser games</li>
+              <li><a href="/category/puzzle">Puzzle Games</a> - Brain-teasing online games</li>
+              <li><a href="/category/racing">Racing Games</a> - Speed and excitement</li>
+              <li><a href="/category/arcade">Arcade Games</a> - Classic free online games</li>
+            </ul>
+            <p>
+              Please enable JavaScript to enjoy the full PlayHive Games experience with 
+              instant game loading and interactive features.
+            </p>
+          </div>
+        </noscript>
+        
         <Suspense fallback={<div>Loading...</div>}>
           {children}
         </Suspense>
