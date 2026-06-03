@@ -99,7 +99,7 @@ export default function Home() {
             {/* Hero Section - SEO Optimized */}
             <section className="mb-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-center">
               <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-                Play Free Online Games - Best Browser Games Collection
+                Play Free Online Games and Browser Games Instantly
               </h1>
               <p className="text-lg text-white/90 max-w-3xl mx-auto mb-6">
                 Welcome to PlayHive Games, your ultimate destination for <strong>free online games</strong>. 
@@ -131,10 +131,10 @@ export default function Home() {
 
             {/* Why Choose PlayHive - SEO Content */}
             <section className="mb-10 bg-slate-800 rounded-xl p-6">
-              <h2 className="text-xl font-bold mb-4">Why Play Free Online Games on PlayHive?</h2>
+              <h2 className="text-xl font-bold mb-4">An Unparalleled Selection of Free Online Games</h2>
               <div className="grid md:grid-cols-3 gap-6 text-sm text-slate-300">
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Instant Play, No Downloads</h3>
+                  <h3 className="font-semibold text-white mb-2">Instant Access with No Downloads</h3>
                   <p>
                     Our <strong>browser games</strong> run directly in your web browser using HTML5 technology. 
                     No waiting for downloads, no installation wizards, no storage space needed. 
@@ -142,7 +142,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2">2,000+ Free Games</h3>
+                  <h3 className="font-semibold text-white mb-2">Discover an Extensive Library of Online Games</h3>
                   <p>
                     From brain-teasing puzzles to adrenaline-pumping action, our library of 
                     <strong> free online games</strong> covers every genre. New titles are added weekly, 
@@ -150,7 +150,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2">Play Anywhere, Anytime</h3>
+                  <h3 className="font-semibold text-white mb-2">Play Online Games Across All Devices</h3>
                   <p>
                     Whether you're on a lunch break, commuting, or relaxing at home, our 
                     <strong> online games</strong> work on any device. Phones, tablets, laptops—
@@ -164,7 +164,7 @@ export default function Home() {
             <section className="mb-10">
               <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
                 <span>🔥</span>
-                <span>Play Trending Games</span>
+                <span>Play Trending Browser Games</span>
               </h2>
               <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
                 {trendingGames.slice(0, visibleTrending).map((game, index) => (
@@ -185,7 +185,7 @@ export default function Home() {
 
             {/* Category Quick Links */}
             <section className="mb-10">
-              <h2 className="text-xl font-bold mb-4">Browse Games by Category</h2>
+              <h2 className="text-xl font-bold mb-4">The Advantages of Our Browser Games Platform</h2>
               <p className="text-slate-400 text-sm mb-4">
                 Explore our massive collection of <strong>free online games</strong> organized by category. 
                 Whether you're looking for quick <strong>browser games</strong> for a break or deep 
@@ -219,7 +219,7 @@ export default function Home() {
             <section className="mb-10">
               <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
                 <span>🆕</span>
-                <span>NEW GAMES</span>
+                <span>Fresh Titles Added to Our Online Games Weekly</span>
               </h2>
               <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
                 {newGames.slice(0, visibleNew).map((game) => (
@@ -242,7 +242,7 @@ export default function Home() {
             <section className="mb-10">
               <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
                 <span>⭐</span>
-                <span>POPULAR GAMES</span>
+                <span>Most Popular Free Online Games</span>
               </h2>
               <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
                 {popularGames.slice(0, visiblePopular).map((game) => (
