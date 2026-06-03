@@ -96,13 +96,15 @@ export default function Home() {
 
         {!searchQuery && (
           <>
-            {/* BLUF Intro - Direct answer for AI engines */}
+            {/* Hero Section with SEO Content */}
             <section className="mb-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-center">
               <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-                PlayHive Games - Free Online Games Platform
+                Play Free Online Games - Instant Browser Games
               </h1>
               <p className="text-lg text-white/90 max-w-3xl mx-auto mb-6">
-                PlayHive Games is a free online gaming platform that provides instant access to over 1,500 HTML5 games.
+                Discover 2,000+ free online games you can play instantly in your browser. 
+                No downloads, no signups, no plugins required. From action-packed adventures to brain-teasing puzzles, 
+                our HTML5 games load in seconds and work on any device.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 <Link href="/category/action" className="px-4 py-2 bg-white/20 rounded-full text-white hover:bg-white/30 transition">
@@ -245,74 +247,83 @@ export default function Home() {
               )}
             </section>
 
-            {/* FAQ Section */}
+            {/* FAQ Section with Keywords */}
             <section className="mb-10 bg-slate-800 rounded-xl p-6">
               <h2 className="text-xl font-bold mb-6">Frequently Asked Questions</h2>
               <div className="space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2">What is PlayHive Games?</h3>
                   <p className="text-slate-300 text-sm">
-                    PlayHive Games is a free online gaming platform that provides instant access to over 1,500 HTML5 games. 
-                    Players can browse and play games directly in their web browser without downloads, registrations, or plugins.
+                    PlayHive Games is your go-to destination for free online games. We offer over 2,000 browser games 
+                    that load instantly—no downloads, no signups, no plugins. Whether you're into action, puzzles, racing, 
+                    or arcade classics, you'll find something to play in seconds.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Do I need to download anything to play?</h3>
                   <p className="text-slate-300 text-sm">
-                    No, all games on PlayHive Games run directly in your browser using HTML5 technology. 
-                    No downloads, plugins, or installations are required. Simply click and play.
+                    Nope! All our games run on HTML5 technology, which means they play directly in your web browser. 
+                    Just click and start playing—no installs, no waiting, no storage space needed.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">What types of games are available?</h3>
+                  <h3 className="font-semibold mb-2">What types of online games are available?</h3>
                   <p className="text-slate-300 text-sm">
-                    PlayHive Games offers games across 22 categories including action, puzzle, racing, arcade, 
-                    shooting, sports, adventure, strategy, simulation, and more. New games are added regularly.
+                    We've got 22 categories covering everything from fast-paced action games and mind-bending puzzles 
+                    to retro arcade titles and competitive multiplayer experiences. New games are added weekly.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Is PlayHive Games really free?</h3>
                   <p className="text-slate-300 text-sm">
-                    Yes, PlayHive Games is completely free to use. All 1,500+ games are free to play with no hidden fees, 
-                    premium tiers, or required registrations.
+                    100% free. No hidden fees, no premium tiers, no paywalls. Every game on our platform is 
+                    completely free to play as much as you want.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Can I play on mobile devices?</h3>
                   <p className="text-slate-300 text-sm">
-                    Yes, PlayHive Games is fully responsive and works on all devices including desktops, laptops, 
-                    tablets, and smartphones running modern web browsers.
+                    Absolutely! Our games work on phones, tablets, laptops, and desktops. The platform adapts 
+                    to your screen size, so you can play wherever you are.
                   </p>
                 </div>
               </div>
             </section>
 
-            {/* About Section with Data Points */}
+            {/* About Section - SEO Optimized */}
             <section className="mb-10 bg-slate-800 rounded-xl p-6">
-              <h2 className="text-xl font-bold mb-4">About PlayHive Games</h2>
+              <h2 className="text-xl font-bold mb-4">Why PlayHive Games?</h2>
               <p className="text-slate-300 mb-4">
-                PlayHive Games launched in 2026 as a free online gaming platform. As of May 2026, 
-                the platform hosts over 1,500 HTML5 games across 22 categories, serving thousands of 
-                daily active users worldwide.
+                We built PlayHive Games for people who want to play games without the hassle. 
+                No account creation, no payment walls, no 500MB downloads. Just pick a game and play.
               </p>
               <p className="text-slate-300 mb-4">
-                The platform is built using Next.js 14 and deployed on Cloudflare Pages for optimal performance. 
-                All games are sourced from licensed HTML5 game providers including Playgama, ensuring legal compliance 
-                and consistent quality.
+                Our library includes 2,000+ HTML5 games across 22 categories. Whether you have 5 minutes 
+                between meetings or a whole afternoon to kill, we've got you covered. Every game loads in 
+                under 3 seconds and works on any modern browser.
               </p>
-              <p className="text-slate-300 mb-4">
-                Key statistics:
-              </p>
-              <ul className="list-disc list-inside text-slate-300 mb-4 space-y-1">
-                <li>1,500+ HTML5 games available</li>
-                <li>22 game categories</li>
-                <li>24 language translations</li>
-                <li>Average page load time under 2 seconds</li>
-                <li>99.9% uptime via Cloudflare CDN</li>
-              </ul>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                <div className="text-center p-3 bg-slate-700 rounded-lg">
+                  <div className="text-2xl font-bold text-indigo-400">2,000+</div>
+                  <div className="text-xs text-slate-400">Free Games</div>
+                </div>
+                <div className="text-center p-3 bg-slate-700 rounded-lg">
+                  <div className="text-2xl font-bold text-indigo-400">22</div>
+                  <div className="text-xs text-slate-400">Categories</div>
+                </div>
+                <div className="text-center p-3 bg-slate-700 rounded-lg">
+                  <div className="text-2xl font-bold text-indigo-400">&lt;3s</div>
+                  <div className="text-xs text-slate-400">Load Time</div>
+                </div>
+                <div className="text-center p-3 bg-slate-700 rounded-lg">
+                  <div className="text-2xl font-bold text-indigo-400">0</div>
+                  <div className="text-xs text-slate-400">Downloads</div>
+                </div>
+              </div>
               <p className="text-slate-300">
-                For more information, visit our <Link href="/about" className="text-indigo-400 hover:underline">About page</Link> or 
-                <Link href="/contact" className="text-indigo-400 hover:underline"> contact us</Link> directly.
+                Ready to play? Browse our <Link href="/category/action" className="text-indigo-400 hover:underline">action games</Link>, 
+                try some <Link href="/category/puzzle" className="text-indigo-400 hover:underline">puzzles</Link>, or check out 
+                what's <Link href="/category/racing" className="text-indigo-400 hover:underline">racing</Link> up the charts.
               </p>
             </section>
 
