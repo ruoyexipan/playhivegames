@@ -121,6 +121,7 @@ export default function RootLayout({
       <head>
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
         <meta name="googlebot" content="index, follow" />
+        <meta name="msvalidate.01" content="54DAD8E047F0F6B817C080ABDAE52903" />
         <link rel="canonical" href="https://playhivegames.com" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png" />
