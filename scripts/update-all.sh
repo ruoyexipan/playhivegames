@@ -20,31 +20,25 @@ echo "========================================" | tee -a "$LOG_FILE"
 
 # 1. 拉取游戏数据
 echo "" | tee -a "$LOG_FILE"
-echo "步骤 1/3: 拉取游戏数据" | tee -a "$LOG_FILE"
+echo "步骤 1/4: 拉取游戏数据" | tee -a "$LOG_FILE"
 echo "----------------------------------------" | tee -a "$LOG_FILE"
 python3 "$SCRIPT_DIR/fetch-games.py" 2>&1 | tee -a "$LOG_FILE" || echo "警告: 拉取游戏数据失败" | tee -a "$LOG_FILE"
 
-# 2. 优化关键词
+# 2. 检查分类
 echo "" | tee -a "$LOG_FILE"
-echo "步骤 2/3: 优化关键词" | tee -a "$LOG_FILE"
-echo "----------------------------------------" | tee -a "$LOG_FILE"
-python3 "$SCRIPT_DIR/optimize-keywords.py" 2>&1 | tee -a "$LOG_FILE" || echo "警告: 优化关键词失败" | tee -a "$LOG_FILE"
-
-# 3. 检查分类
-echo "" | tee -a "$LOG_FILE"
-echo "步骤 3/3: 检查分类标签" | tee -a "$LOG_FILE"
+echo "步骤 2/4: 检查分类标签" | tee -a "$LOG_FILE"
 echo "----------------------------------------" | tee -a "$LOG_FILE"
 python3 "$SCRIPT_DIR/check-categories.py" 2>&1 | tee -a "$LOG_FILE" || echo "警告: 检查分类失败" | tee -a "$LOG_FILE"
 
-# 4. 生成 sitemap
+# 3. 生成 sitemap
 echo "" | tee -a "$LOG_FILE"
-echo "步骤 4: 生成 Sitemap" | tee -a "$LOG_FILE"
+echo "步骤 3/4: 生成 Sitemap" | tee -a "$LOG_FILE"
 echo "----------------------------------------" | tee -a "$LOG_FILE"
 python3 "$SCRIPT_DIR/generate-sitemap.py" 2>&1 | tee -a "$LOG_FILE" || echo "警告: 生成 Sitemap 失败" | tee -a "$LOG_FILE"
 
-# 5. 构建项目
+# 4. 构建项目
 echo "" | tee -a "$LOG_FILE"
-echo "步骤 5: 构建项目" | tee -a "$LOG_FILE"
+echo "步骤 4/4: 构建项目" | tee -a "$LOG_FILE"
 echo "----------------------------------------" | tee -a "$LOG_FILE"
 cd "$PROJECT_DIR"
 rm -rf .next out
