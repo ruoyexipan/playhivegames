@@ -578,3 +578,39 @@ Top 10 games by views:
   ▲ Next.js 14.2.35
 
    Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/2077) ...
+   Generating static pages (519/2077) 
+   Generating static pages (1038/2077) 
+   Generating static pages (1557/2077) 
+ ✓ Generating static pages (2077/2077)
+
+> Build error occurred
+Error: ENOENT: no such file or directory, open '/home/zlh/playhivegames/.next/server/pages-manifest.json'
+    at readFileSync (node:fs:440:20)
+    at loadManifest (/home/zlh/playhivegames/node_modules/next/dist/server/load-manifest.js:36:52)
+    at getMaybePagePath (/home/zlh/playhivegames/node_modules/next/dist/server/require.js:59:58)
+    at getPagePath (/home/zlh/playhivegames/node_modules/next/dist/server/require.js:92:22)
+    at /home/zlh/playhivegames/node_modules/next/dist/build/index.js:1855:71
+    at Span.traceAsyncFn (/home/zlh/playhivegames/node_modules/next/dist/trace/trace.js:154:26)
+    at moveExportedPage (/home/zlh/playhivegames/node_modules/next/dist/build/index.js:1852:86)
+    at /home/zlh/playhivegames/node_modules/next/dist/build/index.js:1924:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Span.traceAsyncFn (/home/zlh/playhivegames/node_modules/next/dist/trace/trace.js:154:20) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/zlh/playhivegames/.next/server/pages-manifest.json'
+}
+
+步骤 6: 部署到 Cloudflare Pages
+----------------------------------------
+/home/zlh/playhivegames/scripts/update-all.sh: 行 55: wrangler：未找到命令
+
+========================================
+更新完成!
+完成时间: 2026-06-03 12:03:10
+日志文件: /home/zlh/playhivegames/logs/update-20260603-120001.log
+========================================
