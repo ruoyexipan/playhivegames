@@ -17,7 +17,7 @@ self.addEventListener('install', (event) => {
       return cache.addAll(PRECACHE_URLS);
     })
   );
-  self.skipWaiting();
+  // 不使用 skipWaiting，避免页面刷新
 });
 
 // 激活事件 - 清理旧缓存
@@ -33,7 +33,7 @@ self.addEventListener('activate', (event) => {
       );
     })
   );
-  self.clients.claim();
+  // 不使用 clients.claim()，避免页面重新加载
 });
 
 // 判断资源类型
@@ -141,10 +141,6 @@ self.addEventListener('fetch', (event) => {
 
 // 监听消息
 self.addEventListener('message', (event) => {
-  if (event.data === 'skipWaiting') {
-    self.skipWaiting();
-  }
-  
   if (event.data === 'clearCaches') {
     caches.keys().then((names) => {
       names.forEach((name) => caches.delete(name));
