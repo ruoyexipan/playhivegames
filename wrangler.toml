@@ -1,6 +1,9 @@
 name = "playhivegames"
-account_id = "3a3e162cd308d160363e99e0118534fc"
 compatibility_date = "2024-01-01"
 
 [pages]
 build_output_dir = "out"
+command = "npm run build"
+
+[env.production]
+name = "playhivegames"
