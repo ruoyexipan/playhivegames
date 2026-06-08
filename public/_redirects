@@ -1,0 +1,32 @@
+# PlayHive Games - 301 Redirects
+# 旧URL格式 -> 新URL格式
+
+# 旧的游戏URL格式
+/game?slug=deadly-descent-3d /game/deadly-descent-3d 301
+/game?slug=realdrive-feel-the-real-drive /game/realdrive-feel-the-real-drive 301
+/game?slug=crowdgate /game/crowdgate 301
+
+# 旧的分类URL格式
+/category?slug=action /category/action 301
+/category?slug=puzzle /category/puzzle 301
+/category?slug=racing /category/racing 301
+/category?slug=arcade /category/arcade 301
+/category?slug=shooting /category/shooting 301
+/category?slug=girls /category/girls 301
+/category?slug=boys /category/boys 301
+/category?slug=adventure /category/adventure 301
+/category?slug=3d /category/3d 301
+/category?slug=driving /category/driving 301
+/category?slug=sports /category/sports 301
+/category?slug=strategy /category/strategy 301
+/category?slug=simulation /category/simulation 301
+/category?slug=clicker /category/clicker 301
+/category?slug=hypercasual /category/hypercasual 301
+/category?slug=logic /category/logic 301
+/category?slug=multiplayer /category/multiplayer 301
+/category?slug=stunt /category/stunt 301
+/category?slug=desktop /category/desktop 301
+/category?slug=html5 /category/html5 301
+/category?slug=bubble-shooter /category/bubble-shooter 301
+/category?slug=fighting /category/fighting 301
+/category?slug=archery /category/archery 301

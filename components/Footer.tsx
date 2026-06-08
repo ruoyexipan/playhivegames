@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-lg font-bold">PlayHive Games</span>
             </div>
             <p className="text-slate-400 text-sm">
-              PlayHive Games is a free online gaming platform with 1500+ HTML5 games. 
+              PlayHive Games is a free online gaming platform with 2000+ HTML5 games. 
               No download required. Play instantly on any device.
             </p>
           </div>
@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-sm text-slate-400">
           <p>PlayHive Games © 2026. All rights reserved.</p>
-          <p className="mt-2">Free Online Gaming Platform - 1500+ HTML5 Games</p>
+          <p className="mt-2">Free Online Gaming Platform - 2000+ HTML5 Games</p>
         </div>
       </div>
     </footer>

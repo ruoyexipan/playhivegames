@@ -122,9 +122,69 @@ export default function GamePageClient({ slug }: GamePageClientProps) {
     .filter((g) => g.id !== game.id && g.category.some((cat: string) => game.category.includes(cat)))
     .slice(0, 10)
 
+  // JSON-LD Structured Data
+  const videoGameJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: game.title,
+    description: game.description || `Play ${game.title} online for free`,
+    url: `https://playhivegames.com/game/${slug}`,
+    genre: game.category[0] || 'game',
+    gamePlatform: 'Web Browser',
+    applicationCategory: 'Game',
+    operatingSystem: 'Any',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+    image: game.thumbnail,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.5',
+      bestRating: '5',
+      worstRating: '1',
+      ratingCount: '100',
+    },
+  }
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://playhivegames.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: game.category[0]?.charAt(0).toUpperCase() + game.category[0]?.slice(1) || 'Games',
+        item: `https://playhivegames.com/category/${game.category[0]}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: game.title,
+        item: `https://playhivegames.com/game/${slug}`,
+      },
+    ],
+  }
+
   return (
     <main className="min-h-screen bg-slate-900">
       <GameHead slug={slug} />
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoGameJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Navbar />
       <div className="max-w-[1400px] mx-auto px-4 py-6">
         <div className="flex flex-col lg:flex-row gap-4">

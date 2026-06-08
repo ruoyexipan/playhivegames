@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import GameCard from '@/components/GameCard'
+import CategoryGames from '@/components/CategoryGames'
 import gamesData from '@/data/games.json'
 
 // 所有分类
@@ -107,18 +106,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
           </p>
         )}
         
-        <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2">
-          {filteredGames.map((game) => (
-            <GameCard key={game.id} game={game} />
-          ))}
-        </div>
-        
-        {filteredGames.length === 0 && (
-          <div className="text-center py-12 text-slate-400">
-            <p className="text-4xl mb-4">🎮</p>
-            <p>No games found in this category.</p>
-          </div>
-        )}
+        <CategoryGames games={filteredGames} initialCount={16} loadMoreCount={16} />
         
         {/* SEO Content */}
         {filteredGames.length > 0 && (

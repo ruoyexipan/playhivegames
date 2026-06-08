@@ -4,11 +4,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'PlayHive Games | Free Online Games & Browser Games',
-  description: 'Play free online games instantly at PlayHive Games. 1500+ browser games including action, puzzle, racing & arcade. No download required. Start playing now!',
+  description: 'Play free online games instantly at PlayHive Games. 2000+ browser games including action, puzzle, racing & arcade. No download required. Start playing now!',
   keywords: 'PlayHive Games, free online games, play games online, html5 games, browser games, no download games, free games for kids, action games online, puzzle games free, racing games browser, arcade games html5, shooting games online, multiplayer browser games, online games without download, best free games 2026, web games online, instant play games, free gaming platform',
   openGraph: {
-    title: 'PlayHive Games - Play 1500+ Free Online Games',
-    description: 'PlayHive Games is a free online gaming platform with 1500+ HTML5 games. No download required.',
+    title: 'PlayHive Games - Play 2000+ Free Online Games',
+    description: 'PlayHive Games is a free online gaming platform with 2000+ HTML5 games. No download required.',
     url: 'https://playhivegames.com',
     siteName: 'PlayHive Games',
     type: 'website',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PlayHive Games - Free Online Games',
-    description: 'Play 1500+ free online games at PlayHive Games. No download required.',
+    description: 'Play 2000+ free online games at PlayHive Games. No download required.',
   },
   alternates: {
     canonical: 'https://playhivegames.com',
@@ -29,7 +29,7 @@ const websiteJsonLd = {
   '@type': 'WebSite',
   name: 'PlayHive Games',
   url: 'https://playhivegames.com',
-  description: 'PlayHive Games is a free online gaming platform offering 1500+ HTML5 games playable instantly in any browser.',
+  description: 'PlayHive Games is a free online gaming platform offering 2000+ HTML5 games playable instantly in any browser.',
   publisher: {
     '@type': 'Organization',
     name: 'PlayHive Games',
@@ -52,7 +52,7 @@ const organizationJsonLd = {
   name: 'PlayHive Games',
   url: 'https://playhivegames.com',
   logo: 'https://playhivegames.com/favicon-64x64.png',
-  description: 'PlayHive Games is a free online gaming platform providing instant access to 1500+ HTML5 browser games across 22 categories.',
+  description: 'PlayHive Games is a free online gaming platform providing instant access to 2000+ HTML5 browser games across 22 categories.',
   foundingDate: '2026',
   sameAs: [
     'https://github.com/ruoyexipan/playhivegames'
@@ -62,53 +62,6 @@ const organizationJsonLd = {
     contactType: 'customer service',
     url: 'https://playhivegames.com/contact'
   }
-}
-
-const faqJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'What is PlayHive Games?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'PlayHive Games is a free online gaming platform that offers over 1500 HTML5 games playable instantly in any web browser without downloads or registration.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Do I need to download anything to play games on PlayHive Games?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'No, all games on PlayHive Games run directly in your browser using HTML5 technology. No downloads, plugins, or installations are required.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What types of games are available on PlayHive Games?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'PlayHive Games offers games across 22 categories including action, puzzle, racing, arcade, shooting, sports, adventure, strategy, simulation, and more.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Is PlayHive Games free to use?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes, PlayHive Games is completely free to use. All 1500+ games are free to play with no hidden fees or premium tiers.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Can I play PlayHive Games on mobile devices?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes, PlayHive Games works on all devices including desktops, laptops, tablets, and smartphones. The platform is fully responsive and mobile-friendly.'
-      }
-    }
-  ]
 }
 
 export default function RootLayout({
@@ -161,15 +114,10 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
       </head>
       <body>
         {/* SEO Content for crawlers */}
         <noscript>
-          <h1>PlayHive Games - Free Online Games</h1>
           <p>Play 2000+ free online games and browser games instantly. No download required. Action, puzzle, racing, arcade games and more.</p>
           <p>Our online games work on all devices. Start playing now!</p>
         </noscript>

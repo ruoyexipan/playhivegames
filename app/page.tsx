@@ -5,11 +5,11 @@ import HomeClient from './HomeClient'
 
 export const metadata = {
   title: 'PlayHive Games | Free Online Games & Browser Games',
-  description: 'Play free online games instantly at PlayHive Games. 1500+ browser games including action, puzzle, racing & arcade. No download required.',
+  description: 'Play free online games instantly at PlayHive Games. 2000+ browser games including action, puzzle, racing & arcade. No download required.',
   keywords: 'PlayHive Games, free online games, play games online, html5 games, browser games, no download games, action games online, puzzle games free, racing games browser, arcade games html5, shooting games online',
   openGraph: {
-    title: 'PlayHive Games - Play 1500+ Free Online Games',
-    description: 'PlayHive Games is a free online gaming platform with 1500+ HTML5 games. No download required.',
+    title: 'PlayHive Games - Play 2000+ Free Online Games',
+    description: 'PlayHive Games is a free online gaming platform with 2000+ HTML5 games. No download required.',
     url: 'https://playhivegames.com',
     siteName: 'PlayHive Games',
     type: 'website',
@@ -18,7 +18,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PlayHive Games - Free Online Games',
-    description: 'Play 1500+ free online games at PlayHive Games. No download required.',
+    description: 'Play 2000+ free online games at PlayHive Games. No download required.',
   },
   alternates: {
     canonical: 'https://playhivegames.com',
