@@ -375,6 +375,7 @@ def replace_playhop_with_playgama(games):
             replaced += 1
             print(f"  ✓ 替换: {game['title']}")
         else:
+            # 没有替代链接，直接删除
             deleted += 1
             print(f"  ✗ 删除: {game['title']} (无替代链接)")
     
