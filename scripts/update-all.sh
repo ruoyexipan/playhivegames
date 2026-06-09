@@ -3,7 +3,7 @@
 # 功能：拉取游戏数据 + 优化关键词 + 检查分类
 
 # 设置 PATH（cron 环境可能缺少路径）
-export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/.local/bin:$PATH"
+export PATH="/home/zlh/.npm-global/bin:/usr/local/bin:/usr/bin:/bin:$HOME/.local/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"

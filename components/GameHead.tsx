@@ -2,7 +2,6 @@
 
 import { useEffect } from 'react'
 import gamesData from '@/data/games.json'
-import seoTagsData from '@/data/game-seo-tags.json'
 
 interface GameHeadProps {
   slug: string
@@ -15,11 +14,14 @@ export default function GameHead({ slug }: GameHeadProps) {
     const game = gamesData.games.find((g) => g.slug === slug)
     if (!game) return
 
-    const seoTag = seoTagsData.find((tag) => tag.slug === slug)
-    if (!seoTag) return
+    // Generate SEO data from game
+    const primaryCategory = game.category[0] || 'game'
+    const metaTitle = `${game.title} - Play Free Online | PlayHive`
+    const metaDescription = `Play ${game.title} online for free! ${game.description?.substring(0, 100) || `Enjoy this ${primaryCategory} game`}... No download required on PlayHive Games.`
+    const canonical = `https://playhivegames.com/game/${slug}`
 
     // Update title
-    document.title = seoTag.meta_title
+    document.title = metaTitle
 
     // Update meta tags
     const updateMeta = (name: string, content: string, attribute: string = 'name') => {
@@ -33,29 +35,46 @@ export default function GameHead({ slug }: GameHeadProps) {
     }
 
     // Basic meta tags
-    updateMeta('description', seoTag.meta_description)
-    updateMeta('keywords', seoTag.keywords.join(', '))
+    updateMeta('description', metaDescription)
+    updateMeta('keywords', `${game.title}, free online games, ${primaryCategory} games, browser games`)
 
     // Open Graph tags
-    updateMeta('og:title', seoTag.meta_title, 'property')
-    updateMeta('og:description', seoTag.meta_description, 'property')
-    updateMeta('og:url', seoTag.url, 'property')
+    updateMeta('og:title', metaTitle, 'property')
+    updateMeta('og:description', metaDescription, 'property')
+    updateMeta('og:url', canonical, 'property')
     updateMeta('og:type', 'website', 'property')
     updateMeta('og:site_name', 'PlayHive Games', 'property')
 
     // Twitter tags
     updateMeta('twitter:card', 'summary_large_image')
-    updateMeta('twitter:title', seoTag.meta_title)
-    updateMeta('twitter:description', seoTag.meta_description)
-    updateMeta('twitter:url', seoTag.url)
+    updateMeta('twitter:title', metaTitle)
+    updateMeta('twitter:description', metaDescription)
+    updateMeta('twitter:url', canonical)
 
-    // Update canonical link (already exists from layout)
-    const canonical = document.querySelector('link[rel="canonical"]')
-    if (canonical) {
-      canonical.setAttribute('href', seoTag.canonical)
+    // Update canonical link
+    const canonicalLink = document.querySelector('link[rel="canonical"]')
+    if (canonicalLink) {
+      canonicalLink.setAttribute('href', canonical)
     }
 
     // JSON-LD Schema
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'VideoGame',
+      name: game.title,
+      description: game.description || `Play ${game.title} online for free`,
+      url: canonical,
+      genre: primaryCategory,
+      gamePlatform: 'Web Browser',
+      applicationCategory: 'Game',
+      operatingSystem: 'Any',
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD',
+      },
+    }
+
     let jsonLdScript = document.getElementById('game-json-ld') as HTMLScriptElement | null
     if (!jsonLdScript) {
       jsonLdScript = document.createElement('script') as HTMLScriptElement
@@ -63,26 +82,19 @@ export default function GameHead({ slug }: GameHeadProps) {
       jsonLdScript.type = 'application/ld+json'
       document.head.appendChild(jsonLdScript)
     }
-    jsonLdScript.textContent = JSON.stringify(seoTag.json_ld)
+    jsonLdScript.textContent = JSON.stringify(jsonLd)
 
-    // Cleanup function to restore default meta tags
+    // Cleanup
     return () => {
-      document.title = 'PlayHive Games - Free Online Games | 2000+ HTML5 Games'
+      document.title = 'PlayHive Games | Free Online Games & Browser Games'
       
-      const defaultMeta = {
-        description: 'Play 2000+ free online HTML5 games instantly. No download required. Action, puzzle, racing, arcade games and more.',
-        keywords: 'PlayHive Games, free online games, html5 games, browser games, no download games'
+      updateMeta('description', 'Play free online games instantly at PlayHive Games. 2000+ browser games including action, puzzle, racing & arcade. No download required.')
+      updateMeta('keywords', 'PlayHive Games, free online games, html5 games, browser games, no download games')
+      
+      if (canonicalLink) {
+        canonicalLink.setAttribute('href', 'https://playhivegames.com')
       }
       
-      updateMeta('description', defaultMeta.description)
-      updateMeta('keywords', defaultMeta.keywords)
-      
-      // Restore default canonical
-      if (canonical) {
-        canonical.setAttribute('href', 'https://playhivegames.com')
-      }
-      
-      // Remove game-specific JSON-LD
       const script = document.getElementById('game-json-ld')
       if (script) {
         script.remove()
