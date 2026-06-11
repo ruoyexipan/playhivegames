@@ -453,19 +453,35 @@ def main():
     merged_games = replace_playhop_with_playgama(merged_games)
     print(f"替换后游戏数: {len(merged_games)}")
     
-    # 5. 检查游戏可访问性，删除不可访问的游戏
+    # 5. 安全检查：如果新游戏数低于当前游戏数，不执行更新
+    current_game_count = len(existing_games)
+    new_game_count = len(merged_games)
+    
+    if new_game_count < current_game_count:
+        print("\n" + "=" * 60)
+        print("⚠️ 安全检查未通过！")
+        print(f"  当前游戏数: {current_game_count}")
+        print(f"  新游戏数: {new_game_count}")
+        print(f"  差异: {current_game_count - new_game_count} 个游戏")
+        print("  本次更新已取消，保留现有数据。")
+        print("=" * 60)
+        return
+    
+    print(f"✅ 安全检查通过: {current_game_count} -> {new_game_count}")
+    
+    # 6. 检查游戏可访问性，删除不可访问的游戏
     merged_games = filter_accessible_games(merged_games)
     print(f"过滤后游戏数: {len(merged_games)}")
     
-    # 6. 更新分类
+    # 7. 更新分类
     categories = update_categories(merged_games)
     print(f"分类数: {len(categories)}")
     
-    # 7. 保存数据
+    # 8. 保存数据
     saved_games = save_games(merged_games, categories)
     print(f"已保存 {len(saved_games)} 个游戏到 {GAMES_FILE}")
     
-    # 8. 统计信息
+    # 9. 统计信息
     print("\n" + "=" * 60)
     print("更新完成统计:")
     print(f"  新增游戏: {len(new_games) - len(existing_games)}")
