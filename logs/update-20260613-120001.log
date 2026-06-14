@@ -1,16 +1,16 @@
 ========================================
 PlayHive Games 自动更新
-执行时间: 2026-06-03 16:35:29
+执行时间: 2026-06-13 12:00:02
 ========================================
 
-步骤 1/3: 拉取游戏数据
+步骤 1/4: 拉取游戏数据
 ----------------------------------------
 ============================================================
 PlayHive Games 数据更新脚本
 ============================================================
-执行时间: 2026-06-03 16:35:30
+执行时间: 2026-06-13 12:00:03
 
-现有游戏数: 2042
+现有游戏数: 2034
 开始拉取游戏数据...
 拉取第 0 - 50 个游戏...
 拉取第 50 - 100 个游戏...
@@ -57,9 +57,9 @@ PlayHive Games 数据更新脚本
 共拉取 2066 个游戏
 合并后游戏数: 2066
 
-检查并替换 playhop.com 链接...
-发现 32 个 playhop.com 链接的游戏
-从 API 拉取最新数据以获取 playgama.com 链接...
+替换 playhop.com 链接为 playgama.com...
+发现 32 个 playhop.com 游戏
+从 API 拉取最新数据...
 开始拉取游戏数据...
 拉取第 0 - 50 个游戏...
 拉取第 50 - 100 个游戏...
@@ -105,43 +105,42 @@ PlayHive Games 数据更新脚本
 拉取第 2050 - 2100 个游戏...
 共拉取 2066 个游戏
 从 API 获取到 29 个 playgama.com 链接
-  ✗ 删除: Nut Sort Game (无 playgama.com 链接)
-  ✗ 删除: Bubble Story: 3D Shooter (无 playgama.com 链接)
-  ✗ 删除: 3D Subway Run Skate Hooligans (无 playgama.com 链接)
-  ✗ 删除: Bridge Builder 3D (无 playgama.com 链接)
-  ✗ 删除: Driver Theft Auto  3D (无 playgama.com 链接)
-  ✗ 删除: Hoby Tales (无 playgama.com 链接)
-  ✗ 删除: NSR Street Racing 3D (无 playgama.com 链接)
-  ✗ 删除: Draw Bridge: Brain Game 3D (无 playgama.com 链接)
-  ✗ 删除: Build a plane and fly 3D (无 playgama.com 链接)
-  ✗ 删除: Spider Hook 3D (无 playgama.com 链接)
-  ✗ 删除: Wild Hunt: Find Animals 3D (无 playgama.com 链接)
-  ✗ 删除: Police Man 3D (无 playgama.com 链接)
-  ✗ 删除: Archer Ragdoll Masters 3D (无 playgama.com 链接)
-  ✗ 删除: Ninja: Dark Force 3D (无 playgama.com 链接)
-  ✗ 删除: Fortzone Battle Royale (无 playgama.com 链接)
-  ✗ 删除: 3D Archers Random  (无 playgama.com 链接)
-  ✗ 删除: Words of Wonders: Crossword Words from Letters (无 playgama.com 链接)
-  ✗ 删除: Bubble Fall (无 playgama.com 链接)
-  ✗ 删除:  Two Ball 3D: Dark (无 playgama.com 链接)
-  ✗ 删除: Archers' Arena! (无 playgama.com 链接)
-  ✗ 删除: Pool Club: 8 Ball Billiards (无 playgama.com 链接)
-  ✗ 删除: Obby but You're on a Bike (无 playgama.com 链接)
-  ✗ 删除: Cool Cars Highway (无 playgama.com 链接)
-  ✗ 删除: Hazmob FPS (无 playgama.com 链接)
-  ✗ 删除: Mini Bike Stunt Race (无 playgama.com 链接)
-  ✗ 删除: Hill Climb Racing 2 (无 playgama.com 链接)
-  ✗ 删除: Bubble Shooter: Standart (无 playgama.com 链接)
-  ✗ 删除: Bubble Tower (无 playgama.com 链接)
-  ✗ 删除: The Mystery of Jewels: Adventure - Match 3 (无 playgama.com 链接)
-  ✗ 删除: Deadly Descent (无 playgama.com 链接)
-  ✗ 删除: Driving in the Stream 3D (无 playgama.com 链接)
-  ✗ 删除: Rope Puzzle Save Us! (无 playgama.com 链接)
+  ✗ 删除: Nut Sort Game (无替代链接)
+  ✗ 删除: Bubble Story: 3D Shooter (无替代链接)
+  ✗ 删除: 3D Subway Run Skate Hooligans (无替代链接)
+  ✗ 删除: Bridge Builder 3D (无替代链接)
+  ✗ 删除: Driver Theft Auto  3D (无替代链接)
+  ✗ 删除: Hoby Tales (无替代链接)
+  ✗ 删除: NSR Street Racing 3D (无替代链接)
+  ✗ 删除: Draw Bridge: Brain Game 3D (无替代链接)
+  ✗ 删除: Build a plane and fly 3D (无替代链接)
+  ✗ 删除: Spider Hook 3D (无替代链接)
+  ✗ 删除: Wild Hunt: Find Animals 3D (无替代链接)
+  ✗ 删除: Police Man 3D (无替代链接)
+  ✗ 删除: Archer Ragdoll Masters 3D (无替代链接)
+  ✗ 删除: Ninja: Dark Force 3D (无替代链接)
+  ✗ 删除: Fortzone Battle Royale (无替代链接)
+  ✗ 删除: 3D Archers Random  (无替代链接)
+  ✗ 删除: Words of Wonders: Crossword Words from Letters (无替代链接)
+  ✗ 删除: Bubble Fall (无替代链接)
+  ✗ 删除:  Two Ball 3D: Dark (无替代链接)
+  ✗ 删除: Archers' Arena! (无替代链接)
+  ✗ 删除: Pool Club: 8 Ball Billiards (无替代链接)
+  ✗ 删除: Obby but You're on a Bike (无替代链接)
+  ✗ 删除: Cool Cars Highway (无替代链接)
+  ✗ 删除: Hazmob FPS (无替代链接)
+  ✗ 删除: Mini Bike Stunt Race (无替代链接)
+  ✗ 删除: Hill Climb Racing 2 (无替代链接)
+  ✗ 删除: Bubble Shooter: Standart (无替代链接)
+  ✗ 删除: Bubble Tower (无替代链接)
+  ✗ 删除: The Mystery of Jewels: Adventure - Match 3 (无替代链接)
+  ✗ 删除: Deadly Descent (无替代链接)
+  ✗ 删除: Driving in the Stream 3D (无替代链接)
+  ✗ 删除: Rope Puzzle Save Us! (无替代链接)
 
-替换结果:
-  替换: 0 个游戏
-  删除: 32 个游戏
+结果: 替换 0 个, 删除 32 个
 替换后游戏数: 2034
+✅ 安全检查通过: 2034 -> 2034
 
 检查游戏可访问性 (共 2034 个)...
   已检查 100/2034 个游戏...
@@ -174,7 +173,7 @@ PlayHive Games 数据更新脚本
 
 ============================================================
 更新完成统计:
-  新增游戏: 24
+  新增游戏: 32
   总游戏数: 2034
   分类数: 22
 
@@ -209,48 +208,12 @@ PlayHive Games 数据更新脚本
 ============================================================
 脚本执行完成!
 
-步骤 2/3: 优化关键词
-----------------------------------------
-============================================================
-游戏关键词优化脚本
-============================================================
-加载 2034 个游戏
-已保存关键词到 /home/zlh/playhivegames/data/game-keywords.json
-已保存 SEO 标签到 /home/zlh/playhivegames/data/game-seo-tags.json
-已导出 CSV 到 /home/zlh/playhivegames/data/game-keywords.csv
-
-============================================================
-关键词优化统计:
-  总游戏数: 2034
-  总关键词数: 63313
-  每游戏平均关键词: 31.1
-
-示例（前3个游戏）:
-
-  Deadly Descent 3D:
-    分类: 3d, adventure, arcade, racing
-    关键词数: 44
-    示例: 3D browser games, 3D games, 3D online games, adventure games, arcade games
-
-  RealDrive - Feel the real drive:
-    分类: driving, desktop
-    关键词数: 31
-    示例: car simulator, cool math games realdrive - feel the real drive, crazy games realdrive - feel the real drive, driving games, how to play realdrive - feel the real drive
-
-  CrowdGate:
-    分类: 3d, adventure, arcade, boys
-    关键词数: 43
-    示例: 3D browser games, 3D games, 3D online games, adventure games, arcade games
-
-============================================================
-关键词优化完成!
-
-步骤 3/3: 检查分类标签
+步骤 2/4: 检查分类标签
 ----------------------------------------
 ============================================================
 分类标签检查脚本
 ============================================================
-执行时间: 2026-06-03 16:37:22
+执行时间: 2026-06-13 12:01:44
 
 现有游戏数: 2034
 
@@ -335,7 +298,7 @@ PlayHive Games 数据更新脚本
 ============================================================
 分类检查完成!
 
-步骤 4: 生成 Sitemap
+步骤 3/4: 生成 Sitemap
 ----------------------------------------
 Generating sitemap for 2042 games...
 Main sitemap generated with 31 URLs
@@ -347,20 +310,20 @@ Generated sitemap-games-3.xml with 42 games (hot games first)
 Generated sitemap index: /home/zlh/playhivegames/public/sitemap-index.xml
 Sitemap index contains 3 chunk sitemaps
 
-Hot games (views > 1000): 143
+Hot games (views > 1000): 145
 Top 10 games by views:
-  1. Deadly Descent 3D: 153402 views
-  2. RealDrive - Feel the real drive: 121460 views
-  3. CrowdGate: 72011 views
-  4. Bike Stunt Racing Legend: 66141 views
-  5. Block Blast Master: 52972 views
-  6. Grand Shift Auto: 51567 views
-  7. Battle SWAT vs Mercenary Zombie Survival: 44742 views
-  8. Bubble Shooter: Standart: 44244 views
-  9. Openworld Racing  : 43015 views
-  10. MR RACER - Car Racing: 40234 views
+  1. Deadly Descent 3D: 153746 views
+  2. RealDrive - Feel the real drive: 121518 views
+  3. CrowdGate: 72176 views
+  4. Bike Stunt Racing Legend: 66170 views
+  5. Block Blast Master: 53045 views
+  6. Grand Shift Auto: 51675 views
+  7. Battle SWAT vs Mercenary Zombie Survival: 44759 views
+  8. Bubble Shooter: Standart: 44256 views
+  9. Openworld Racing  : 43035 views
+  10. MR RACER - Car Racing: 40276 views
 
-步骤 5: 构建项目
+步骤 4/4: 构建项目
 ----------------------------------------
 
 > playhivegames@1.0.0 build
@@ -372,20 +335,20 @@ Top 10 games by views:
  ✓ Compiled successfully
    Linting and checking validity of types ...
    Collecting page data ...
-   Generating static pages (0/2078) ...
-   Generating static pages (519/2078) 
-   Generating static pages (1038/2078) 
-   Generating static pages (1558/2078) 
- ✓ Generating static pages (2078/2078)
+   Generating static pages (0/2079) ...
+   Generating static pages (519/2079) 
+   Generating static pages (1039/2079) 
+   Generating static pages (1559/2079) 
+ ✓ Generating static pages (2079/2079)
    Finalizing page optimization ...
    Collecting build traces ...
 
 Route (app)                                Size     First Load JS
-┌ ○ /                                      3.8 kB          643 kB
+┌ ○ /                                      1.24 kB         642 kB
 ├ ○ /_not-found                            185 B           173 kB
 ├ ○ /about                                 131 B           176 kB
 ├ ○ /category                              1.07 kB         641 kB
-├ ● /category/[slug]                       130 B           176 kB
+├ ● /category/[slug]                       295 B           176 kB
 ├   ├ /category/3d
 ├   ├ /category/action
 ├   ├ /category/adventure
@@ -394,8 +357,9 @@ Route (app)                                Size     First Load JS
 ├ ○ /cookie-policy                         131 B           176 kB
 ├ ○ /disclaimer                            131 B           176 kB
 ├ ○ /faq                                   131 B           176 kB
+├ ○ /free-games                            131 B           176 kB
 ├ ○ /game                                  416 B           176 kB
-├ ● /game/[slug]                           450 kB         1.09 MB
+├ ● /game/[slug]                           5.82 kB         646 kB
 ├   ├ /game/deadly-descent-3d
 ├   ├ /game/realdrive-feel-the-real-drive
 ├   ├ /game/crowdgate
@@ -404,7 +368,7 @@ Route (app)                                Size     First Load JS
 ├ ○ /privacy                               131 B           176 kB
 └ ○ /terms                                 131 B           176 kB
 + First Load JS shared by all              173 kB
-  └ chunks/vendors-6518c68739a77bf7.js     171 kB
+  └ chunks/vendors-8902f9d369a8d8ac.js     171 kB
   └ other shared chunks (total)            1.89 kB
 
 
@@ -424,23 +388,26 @@ Route (app)                                Size     First Load JS
   Ignoring configuration file for now, and proceeding with project deploy.
 
 
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mWarning: Your working directory is a git repo and has uncommitted changes[0m
 
-[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mA request to the Cloudflare API (/accounts/a1012f293d06bf5b59d5e16659002c01/pages/projects/playhivegames) failed.[0m
-
-  Authentication error [code: 10000]
-
-
-Getting User settings...
-
-[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mFailed to automatically retrieve account IDs for the logged in user.[0m
-
-  You may have incorrect permissions on your API token. You can skip this account check by adding an `account_id` in your Wrangler configuration file, or by setting the value of CLOUDFLARE_ACCOUNT_ID
+  To silence this warning, pass in --commit-dirty=true
 
 
-🪵  Logs were written to "/home/zlh/.config/.wrangler/logs/wrangler-2026-06-03_08-38-54_085.log"
+Uploading... (38/4197)
+Uploading... (674/4197)
+Uploading... (1293/4197)
+Uploading... (1932/4197)
+Uploading... (2197/4197)
+Uploading... (4197/4197)
+✨ Success! Uploaded 4159 files (38 already uploaded) (17.39 sec)
+
+✨ Uploading _headers
+✨ Uploading _redirects
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://faa9e9a9.playhivegamesmain.pages.dev
 
 ========================================
 更新完成!
-完成时间: 2026-06-03 16:38:58
-日志文件: /home/zlh/playhivegames/logs/update-20260603-163529.log
+完成时间: 2026-06-13 12:03:53
+日志文件: /home/zlh/playhivegames/logs/update-20260613-120001.log
 ========================================
