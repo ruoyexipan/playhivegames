@@ -309,78 +309,19 @@ def merge_games(existing_games, new_games):
     
     return merged
 
-def replace_playhop_with_playgama(games):
+def remove_playhop_games(games):
     """
-    替换 playhop.com 链接为 playgama.com 链接
-    规则：
-    1. 从 API 拉取最新数据，建立 slug -> playgama URL 映射
-    2. 如果游戏有 playhop.com 链接，尝试用 slug 或 title 匹配 playgama 链接
-    3. 匹配成功则替换，失败则删除
+    移除所有 playhop.com 来源的游戏（无条件删除）
     """
-    print("\n替换 playhop.com 链接为 playgama.com...")
-    
-    # 分离 playhop 和非 playhop 游戏
-    playhop_games = []
-    other_games = []
-    
-    for game in games:
-        iframe = game.get("iframe", "")
-        if "playhop.com" in iframe:
-            playhop_games.append(game)
-        else:
-            other_games.append(game)
-    
-    if not playhop_games:
-        print("没有 playhop.com 链接的游戏")
-        return games
-    
-    print(f"发现 {len(playhop_games)} 个 playhop.com 游戏")
-    
-    # 从 API 拉取最新数据
-    print("从 API 拉取最新数据...")
-    api_games = fetch_all_games()
-    
-    # 建立映射: slug -> playgama URL, title -> playgama URL
-    slug_map = {}
-    title_map = {}
-    
-    for api_game in api_games:
-        slug = api_game.get("slug", "")
-        title = api_game.get("title", "").lower()
-        iframe = api_game.get("iframe", "")
-        
-        if "playgama.com" in iframe:
-            if slug:
-                slug_map[slug] = iframe
-            if title:
-                title_map[title] = iframe
-    
-    print(f"从 API 获取到 {len(slug_map)} 个 playgama.com 链接")
-    
-    # 替换或删除
-    replaced = 0
-    deleted = 0
-    kept_games = []
-    
-    for game in playhop_games:
-        slug = game.get("slug", "")
-        title = game.get("title", "").lower()
-        
-        # 尝试匹配
-        new_url = slug_map.get(slug) or title_map.get(title)
-        
-        if new_url:
-            game["iframe"] = new_url
-            kept_games.append(game)
-            replaced += 1
-            print(f"  ✓ 替换: {game['title']}")
-        else:
-            # 没有替代链接，直接删除
-            deleted += 1
-            print(f"  ✗ 删除: {game['title']} (无替代链接)")
-    
-    print(f"\n结果: 替换 {replaced} 个, 删除 {deleted} 个")
-    return other_games + kept_games
+    print("\n移除 playhop.com 游戏...")
+    before = len(games)
+    games = [g for g in games if "playhop.com" not in g.get("iframe", "")]
+    removed = before - len(games)
+    if removed > 0:
+        print(f"  已移除 {removed} 个 playhop.com 游戏")
+    else:
+        print("  没有 playhop.com 游戏")
+    return games
 
 def update_categories(games):
     """更新分类列表"""
@@ -449,9 +390,9 @@ def main():
     merged_games = merge_games(existing_games, new_games)
     print(f"合并后游戏数: {len(merged_games)}")
     
-    # 4. 替换 playhop.com 链接为 playgama.com
-    merged_games = replace_playhop_with_playgama(merged_games)
-    print(f"替换后游戏数: {len(merged_games)}")
+    # 4. 移除 playhop.com 游戏（无条件）
+    merged_games = remove_playhop_games(merged_games)
+    print(f"移除 playhop 后: {len(merged_games)} 个游戏")
     
     # 5. 安全检查：如果新游戏数低于当前游戏数，不执行更新
     current_game_count = len(existing_games)
