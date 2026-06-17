@@ -29,7 +29,7 @@ export default function HomeClient() {
   const trendingGames = [...games].sort((a, b) => (b.views || 0) - (a.views || 0))
   const popularGames = [...games].sort((a, b) => (b.upvote || 0) - (a.upvote || 0)).slice(0, 50)
   const newGames = [...games].sort((a, b) => (a.created_date || '').localeCompare(b.created_date || '')).slice(0, 50)
-  const recommendedGames = games.filter((g) => !g.new && !g.popular)
+  const recommendedGames = games.slice(0, 50)
 
   const isFeatured = (index: number) => {
     return index === 0 || index === 8 || index === 18 || index === 28
